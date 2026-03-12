@@ -94,7 +94,7 @@ Found an error or want to suggest an improvement? Open an issue or PR.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+CC BY-NC 4.0. See [LICENSE](LICENSE).
 
 ---
 
