@@ -103,4 +103,4 @@ Compare this to brute force: O(n²) time, O(1) space. The hash map solution is s
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anthropics/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*

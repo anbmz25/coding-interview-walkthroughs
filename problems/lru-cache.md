@@ -175,4 +175,4 @@ A common follow-up: *"How would you make this thread-safe?"* Wrap each `get` and
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anthropics/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*

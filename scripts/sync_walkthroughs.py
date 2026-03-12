@@ -22,7 +22,7 @@ OUT_DIR = os.path.join(REPO_ROOT, "problems")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # GitHub repo URL placeholder — update after creating the repo
-GITHUB_REPO = "https://github.com/anthropics/coding-interview-walkthroughs"
+GITHUB_REPO = "https://github.com/anbmz25/coding-interview-walkthroughs"
 
 
 def parse_frontmatter(content: str) -> tuple[dict, str]:

@@ -101,4 +101,4 @@ The dominant cost is sorting. The merge pass itself is linear. This is optimal b
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anthropics/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
