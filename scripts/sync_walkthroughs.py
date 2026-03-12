@@ -43,16 +43,39 @@ def extract_section(body: str, heading: str) -> str:
     return m.group(1).strip() if m else ""
 
 
-def extract_difficulty(tags: list[str]) -> str:
-    """Infer difficulty from tags."""
+DIFFICULTY_MAP = {
+    "two-sum": "Easy",
+    "best-time-to-buy-and-sell-stock": "Easy",
+    "valid-parentheses": "Easy",
+    "merge-two-sorted-lists": "Easy",
+    "reverse-linked-list": "Easy",
+    "linked-list-cycle": "Easy",
+    "climbing-stairs": "Easy",
+    "binary-search": "Easy",
+    "invert-binary-tree": "Easy",
+    "maximum-subarray": "Medium",
+    "binary-tree-level-order-traversal": "Medium",
+    "longest-substring-without-repeating-characters": "Medium",
+    "merge-intervals": "Medium",
+    "number-of-islands": "Medium",
+    "coin-change": "Medium",
+    "three-sum": "Medium",
+    "course-schedule": "Medium",
+    "lru-cache": "Medium",
+    "trapping-rain-water": "Hard",
+}
+
+
+def extract_difficulty(slug: str, tags: list[str]) -> str:
+    """Look up difficulty from the canonical map, fall back to tags."""
+    if slug in DIFFICULTY_MAP:
+        return DIFFICULTY_MAP[slug]
     tag_set = set(t.lower() for t in tags)
     if "hard" in tag_set:
         return "Hard"
-    if "medium" in tag_set:
-        return "Medium"
     if "easy" in tag_set:
         return "Easy"
-    return "Medium"  # default
+    return "Medium"
 
 
 def extract_patterns(tags: list[str]) -> list[str]:
@@ -98,7 +121,7 @@ def generate_condensed(fm: dict, body: str, slug: str) -> str:
     blog_url = f"https://intervu.dev/blog/walkthroughs/{slug}-interview-walkthrough/"
     practice_url = f"https://intervu.dev/setup2?problem={slug}"
 
-    difficulty = extract_difficulty(tags)
+    difficulty = extract_difficulty(slug, tags)
     patterns = extract_patterns(tags)
     pattern_str = ", ".join(f"`{p}`" for p in patterns) if patterns else ""
 

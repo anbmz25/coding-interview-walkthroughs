@@ -4,7 +4,7 @@
 
 > A step-by-step walkthrough of Best Time to Buy and Sell Stock as it unfolds in a real coding interview. Learn the greedy O(n) approach, common mistakes, and how strong candidates communicate the solution.
 
-**Difficulty**: Medium
+**Difficulty**: Easy
 **Patterns**: `arrays`, `greedy`, `best-time-to-buy-and-sell-stock`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)**

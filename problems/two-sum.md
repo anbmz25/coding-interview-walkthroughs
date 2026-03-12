@@ -4,7 +4,7 @@
 
 > A step-by-step walkthrough of the Two Sum problem as it unfolds in a real coding interview. Learn the optimal hash map approach, common mistakes, and how strong candidates communicate their solution.
 
-**Difficulty**: Medium
+**Difficulty**: Easy
 **Patterns**: `arrays`, `hash-map`, `two-sum`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)**
