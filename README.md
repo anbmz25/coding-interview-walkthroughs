@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 18 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 19 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -25,6 +25,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Coin Change](problems/coin-change.md) | Medium | `dynamic-programming` | [Read →](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=coin-change) |
 | [3Sum](problems/three-sum.md) | Medium | `arrays`, `two-pointers`, `sorting` | [Read →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=three-sum) |
 | [LRU Cache](problems/lru-cache.md) | Medium | `data-structures`, `design`, `linked-list` | [Read →](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lru-cache) |
+| [Course Schedule](problems/course-schedule.md) | Medium | `graphs`, `dfs`, `topological-sort` | [Read →](https://intervu.dev/blog/walkthroughs/course-schedule-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=course-schedule) |
 | [Trapping Rain Water](problems/trapping-rain-water.md) | Hard | `two-pointers`, `arrays` | [Read →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=trapping-rain-water) |
 
 ## What's in Each Walkthrough
