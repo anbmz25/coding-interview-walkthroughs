@@ -44,12 +44,12 @@ def isValid(s: str) -> bool:
 
     for char in s:
         if char in matches:
-            # It's a closing bracket — check against the top of the stack
+            # It's a closing bracket: check against the top of the stack
             if not stack or stack[-1] != matches[char]:
                 return False  # Stack empty (no opener) or wrong type
             stack.pop()
         else:
-            # It's an opening bracket — push onto the stack
+            # It's an opening bracket: push onto the stack
             stack.append(char)
 
     # Valid only if all openers have been matched and popped
@@ -98,7 +98,7 @@ A common follow-up: *"Can you reduce space below O(n)?"* For the general case wi
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Valid Parentheses — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Valid Parentheses: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Valid Parentheses](https://intervu.dev/setup2?problem=valid-parentheses)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -106,4 +106,4 @@ A common follow-up: *"Can you reduce space below O(n)?"* For the general case wi
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

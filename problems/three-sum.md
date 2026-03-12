@@ -117,7 +117,7 @@ Key implementation notes worth calling out in an interview:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [3Sum — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [3Sum: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for 3Sum](https://intervu.dev/setup2?problem=three-sum)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -125,4 +125,4 @@ Key implementation notes worth calling out in an interview:
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

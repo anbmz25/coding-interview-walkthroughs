@@ -34,7 +34,7 @@ The subarray `[4,-1,2,1]` has the largest sum of `6`. The array contains both po
 
 ```python
 def maxSubArray(nums: list[int]) -> int:
-    # Initialize both to the first element — handles all-negative arrays correctly
+    # Initialize both to the first element: handles all-negative arrays correctly
     current_sum = nums[0]
     max_sum = nums[0]
 
@@ -61,7 +61,7 @@ def maxSubArray(nums: list[int]) -> int:
 
     for i in range(1, len(nums)):
         if nums[i] > current_sum + nums[i]:
-            # Starting fresh — reset current subarray to just nums[i]
+            # Starting fresh: reset current subarray to just nums[i]
             current_sum = nums[i]
             temp_start = i
         else:
@@ -110,7 +110,7 @@ Key implementation notes worth calling out in an interview:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Maximum Subarray — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/maximum-subarray-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Maximum Subarray: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/maximum-subarray-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Maximum Subarray](https://intervu.dev/setup2?problem=maximum-subarray)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -118,4 +118,4 @@ Key implementation notes worth calling out in an interview:
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

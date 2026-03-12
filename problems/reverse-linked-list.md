@@ -30,7 +30,7 @@ The original list `1 → 2 → 3 → 4 → 5 → None` becomes `5 → 4 → 3 �
 
 ## Solution
 
-### Iterative — Three Pointers (Recommended)
+### Iterative: Three Pointers (Recommended)
 
 ```python
 class ListNode:
@@ -52,7 +52,7 @@ def reverseList(head: ListNode) -> ListNode:
     return prev  # prev is the new head (original tail)
 ```
 
-### Recursive — Elegant but O(n) Stack Space
+### Recursive: Elegant but O(n) Stack Space
 
 ```python
 def reverseList(head: ListNode) -> ListNode:
@@ -60,7 +60,7 @@ def reverseList(head: ListNode) -> ListNode:
     if head is None or head.next is None:
         return head
 
-    # Recurse to the end — new_head is the original last node
+    # Recurse to the end: new_head is the original last node
     new_head = reverseList(head.next)
 
     # On the way back: make head.next point back to head
@@ -113,7 +113,7 @@ Key implementation notes:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Reverse Linked List — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/reverse-linked-list-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Reverse Linked List: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/reverse-linked-list-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Reverse Linked List](https://intervu.dev/setup2?problem=reverse-linked-list)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -121,4 +121,4 @@ Key implementation notes:
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

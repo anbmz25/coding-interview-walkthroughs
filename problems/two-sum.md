@@ -69,7 +69,7 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 
 **Time:** We iterate through the array once. Each dictionary lookup and insertion is O(1) on average, giving us O(n) total.
 
-**Space:** In the worst case (no valid pair until the last two elements), we store every element in the dictionary — O(n) space.
+**Space:** In the worst case (no valid pair until the last two elements), we store every element in the dictionary: O(n) space.
 
 Compare this to brute force: O(n²) time, O(1) space. The hash map solution is strictly better when n is large and memory isn't the bottleneck, which is almost always the case.
 
@@ -95,7 +95,7 @@ Compare this to brute force: O(n²) time, O(1) space. The hash map solution is s
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Two Sum — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Two Sum: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Two Sum](https://intervu.dev/setup2?problem=two-sum)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -103,4 +103,4 @@ Compare this to brute force: O(n²) time, O(1) space. The hash map solution is s
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

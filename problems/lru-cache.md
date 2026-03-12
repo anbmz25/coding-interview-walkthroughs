@@ -14,8 +14,8 @@
 
 Design a data structure that implements a **Least Recently Used (LRU) cache** with a fixed capacity. It must support two operations, both in **O(1)** time: ([LeetCode #146](https://leetcode.com/problems/lru-cache/))
 
-- `get(key)` — Return the value associated with `key` if it exists in the cache. Otherwise return `-1`. Accessing a key counts as "using" it and moves it to the most recently used position.
-- `put(key, value)` — Insert or update the value for `key`. If inserting would exceed capacity, evict the **least recently used** key first.
+- `get(key)`, Return the value associated with `key` if it exists in the cache. Otherwise return `-1`. Accessing a key counts as "using" it and moves it to the most recently used position.
+- `put(key, value)`, Insert or update the value for `key`. If inserting would exceed capacity, evict the **least recently used** key first.
 
 ### Example
 
@@ -53,8 +53,8 @@ class LRUCache:
         self.cache = {}  # key -> Node
 
         # Sentinel nodes eliminate null-pointer edge cases at list boundaries
-        self.head = Node()  # Dummy head — most recently used side
-        self.tail = Node()  # Dummy tail — least recently used side
+        self.head = Node()  # Dummy head: most recently used side
+        self.tail = Node()  # Dummy tail: least recently used side
         self.head.next = self.tail
         self.tail.prev = self.head
 
@@ -91,7 +91,7 @@ class LRUCache:
             # Evict the least recently used node (just before dummy tail)
             lru_node = self.tail.prev
             self._remove(lru_node)
-            del self.cache[lru_node.key]  # Need the key — that's why Node stores it!
+            del self.cache[lru_node.key]  # Need the key: that's why Node stores it!
 
         # Create fresh node, insert at front, register in hash map
         new_node = Node(key, value)
@@ -167,7 +167,7 @@ A common follow-up: *"How would you make this thread-safe?"* Wrap each `get` and
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [LRU Cache — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [LRU Cache: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for LRU Cache](https://intervu.dev/setup2?problem=lru-cache)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -175,4 +175,4 @@ A common follow-up: *"How would you make this thread-safe?"* Wrap each `get` and
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

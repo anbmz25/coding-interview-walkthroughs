@@ -69,7 +69,7 @@ def maxProfit(prices: list[int]) -> int:
 
 **Time:** We iterate through the array exactly once. Each step involves a constant number of comparisons and assignments.
 
-**Space:** We use only two variables regardless of input size — this is optimal. Unlike the Two Sum hash map solution, there's no space tradeoff here. We get both O(n) time *and* O(1) space.
+**Space:** We use only two variables regardless of input size: this is optimal. Unlike the Two Sum hash map solution, there's no space tradeoff here. We get both O(n) time *and* O(1) space.
 
 This is worth emphasizing in an interview: *"This is about as efficient as it gets: linear time and constant space."*
 
@@ -95,7 +95,7 @@ This is worth emphasizing in an interview: *"This is about as efficient as it ge
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Best Time to Buy and Sell Stock — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Best Time to Buy and Sell Stock: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Best Time to Buy and Sell Stock](https://intervu.dev/setup2?problem=best-time-to-buy-and-sell-stock)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -103,4 +103,4 @@ This is worth emphasizing in an interview: *"This is about as efficient as it ge
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

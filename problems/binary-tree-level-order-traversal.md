@@ -111,7 +111,7 @@ For a perfectly balanced binary tree, the last level contains n/2 nodes, all of 
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Binary Tree Level Order Traversal — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Binary Tree Level Order Traversal: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Binary Tree Level Order Traversal](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -119,4 +119,4 @@ For a perfectly balanced binary tree, the last level contains n/2 nodes, all of 
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

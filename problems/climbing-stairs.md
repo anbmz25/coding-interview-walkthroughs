@@ -116,7 +116,7 @@ def climbStairs(n: int) -> int:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Climbing Stairs — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Climbing Stairs: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Climbing Stairs](https://intervu.dev/setup2?problem=climbing-stairs)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -124,4 +124,4 @@ def climbStairs(n: int) -> int:
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

@@ -30,7 +30,7 @@ The tree rooted at `4` has left child `2` (with children `1`, `3`) and right chi
 
 ## Solution
 
-### Recursive — Clean and Concise (Recommended)
+### Recursive: Clean and Concise (Recommended)
 
 ```python
 class TreeNode:
@@ -52,10 +52,10 @@ def invertTree(root: TreeNode) -> TreeNode:
     invertTree(root.left)
     invertTree(root.right)
 
-    return root  # Return the same root — tree is modified in place
+    return root  # Return the same root: tree is modified in place
 ```
 
-### Iterative BFS — Stack-Safe for Deep Trees
+### Iterative BFS: Stack-Safe for Deep Trees
 
 ```python
 from collections import deque
@@ -123,7 +123,7 @@ Key implementation notes:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Invert Binary Tree — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Invert Binary Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Invert Binary Tree](https://intervu.dev/setup2?problem=invert-binary-tree)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -131,4 +131,4 @@ Key implementation notes:
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

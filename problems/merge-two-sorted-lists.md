@@ -30,7 +30,7 @@ Both input lists are sorted in non-decreasing order. The merge compares front no
 
 ## Solution
 
-### Iterative — Dummy Node (Recommended for Interviews)
+### Iterative: Dummy Node (Recommended for Interviews)
 
 ```python
 class ListNode:
@@ -40,7 +40,7 @@ class ListNode:
 
 
 def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
-    # Dummy sentinel node — avoids special-casing the first insertion
+    # Dummy sentinel node: avoids special-casing the first insertion
     dummy = ListNode(0)
     current = dummy  # Tracks the tail of the merged list
 
@@ -53,13 +53,13 @@ def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
             list2 = list2.next
         current = current.next     # Advance the merged list's tail
 
-    # One list is exhausted — attach the remainder of the other
+    # One list is exhausted: attach the remainder of the other
     current.next = list1 if list1 else list2
 
     return dummy.next  # Skip the sentinel, return the real head
 ```
 
-### Recursive — Elegant Alternative
+### Recursive: Elegant Alternative
 
 ```python
 def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
@@ -120,7 +120,7 @@ For interviews, the iterative approach is generally preferred for production-gra
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Merge Two Sorted Lists — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Merge Two Sorted Lists: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Merge Two Sorted Lists](https://intervu.dev/setup2?problem=merge-two-sorted-lists)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -128,4 +128,4 @@ For interviews, the iterative approach is generally preferred for production-gra
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

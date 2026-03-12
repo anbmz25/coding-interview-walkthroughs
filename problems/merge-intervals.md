@@ -54,7 +54,7 @@ def merge(intervals: List[List[int]]) -> List[List[int]]:
             # Extend the last interval's end if needed
             last[1] = max(last[1], current[1])
         else:
-            # No overlap — start a new interval
+            # No overlap: start a new interval
             merged.append(current)
 
     return merged
@@ -93,7 +93,7 @@ The dominant cost is sorting. The merge pass itself is linear. This is optimal b
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Merge Intervals — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Merge Intervals: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Merge Intervals](https://intervu.dev/setup2?problem=merge-intervals)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -101,4 +101,4 @@ The dominant cost is sorting. The merge pass itself is linear. This is optimal b
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

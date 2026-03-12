@@ -59,7 +59,7 @@ def trap(height: list[int]) -> int:
     return total_water
 ```
 
-### Approach 2: Two Pointers (O(n) time, O(1) space) — Optimal
+### Approach 2: Two Pointers (O(n) time, O(1) space): Optimal
 
 ```python
 def trap(height: list[int]) -> int:
@@ -70,13 +70,13 @@ def trap(height: list[int]) -> int:
     while left < right:
         if height[left] <= height[right]:
             if height[left] >= max_left:
-                max_left = height[left]   # New left peak — no water here
+                max_left = height[left]   # New left peak: no water here
             else:
                 total_water += max_left - height[left]  # Trapped water
             left += 1
         else:
             if height[right] >= max_right:
-                max_right = height[right]  # New right peak — no water here
+                max_right = height[right]  # New right peak: no water here
             else:
                 total_water += max_right - height[right]  # Trapped water
             right -= 1
@@ -129,7 +129,7 @@ The two-pointer solution achieves the theoretical optimum: you must examine ever
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Trapping Rain Water — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Trapping Rain Water: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Trapping Rain Water](https://intervu.dev/setup2?problem=trapping-rain-water)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -137,4 +137,4 @@ The two-pointer solution achieves the theoretical optimum: you must examine ever
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

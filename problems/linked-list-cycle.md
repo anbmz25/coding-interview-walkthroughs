@@ -43,7 +43,7 @@ def hasCycle(head: ListNode) -> bool:
         visited.add(current)
         current = current.next
 
-    return False  # Reached None — no cycle
+    return False  # Reached None: no cycle
 ```
 
 ### Floyd's Tortoise and Hare (O(1) space, optimal)
@@ -61,9 +61,9 @@ def hasCycle(head: ListNode) -> bool:
         fast = fast.next.next     # Two steps
 
         if slow == fast:
-            return True   # Pointers met — cycle detected
+            return True   # Pointers met: cycle detected
 
-    return False  # fast hit None — list terminates
+    return False  # fast hit None: list terminates
 ```
 
 Key implementation notes:
@@ -104,7 +104,7 @@ Key implementation notes:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Linked List Cycle — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/linked-list-cycle-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Linked List Cycle: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/linked-list-cycle-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Linked List Cycle](https://intervu.dev/setup2?problem=linked-list-cycle)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -112,4 +112,4 @@ Key implementation notes:
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

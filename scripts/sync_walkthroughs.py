@@ -61,6 +61,33 @@ def extract_patterns(tags: list[str]) -> list[str]:
     return [t for t in tags if t.lower() not in skip]
 
 
+def cleanup_ai_patterns(text: str) -> str:
+    """Remove common AI writing patterns per the cleanup-ai-writing skill."""
+    # Rule 1: Replace em dashes with appropriate punctuation
+    # In code comments, use colons
+    text = re.sub(r'(#[^\n]*?) — ', r'\1: ', text)
+    # In link descriptions ("text — description"), use commas
+    text = re.sub(r'(\]\([^)]+\)) — ', r'\1, ', text)
+    # General prose: replace with comma, colon, or period depending on context
+    # Before a short phrase that completes the sentence, use a colon
+    text = re.sub(r' — (O\(|which |so |this |that |the )', r': \1', text)
+    # Before an independent clause or aside, use a comma
+    text = re.sub(r' — ', ', ', text)
+
+    # Rule 2: Remove filler phrases
+    filler_patterns = [
+        r"Here's why this matters[.:] *",
+        r"Here's the insight that unlocks the optimal solution[.:] *",
+        r"It's important to note that ",
+        r"Let's dive in[.!] *",
+        r"This is where things get interesting[.:] *",
+    ]
+    for pattern in filler_patterns:
+        text = re.sub(pattern, '', text, flags=re.IGNORECASE)
+
+    return text
+
+
 def generate_condensed(fm: dict, body: str, slug: str) -> str:
     """Build the condensed GitHub Markdown for one problem."""
     title = fm.get("title", slug)
@@ -138,7 +165,7 @@ def generate_condensed(fm: dict, body: str, slug: str) -> str:
         "",
         "## Resources",
         "",
-        f"- 📖 **Full Walkthrough**: [{problem_name} — Coding Interview Walkthrough]({blog_url})",
+        f"- 📖 **Full Walkthrough**: [{problem_name}: Coding Interview Walkthrough]({blog_url})",
         f"- 🎙️ **Practice**: [Mock interview for {problem_name}]({practice_url})",
         f"- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)",
         f"- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)",
@@ -146,7 +173,7 @@ def generate_condensed(fm: dict, body: str, slug: str) -> str:
         "",
         "---",
         "",
-        f"*Part of the [Coding Interview Walkthroughs]({GITHUB_REPO}) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*",
+        f"*Part of the [Coding Interview Walkthroughs]({GITHUB_REPO}) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*",
         "",
     ]
     return "\n".join(lines)
@@ -170,6 +197,7 @@ def main():
 
         fm, body = parse_frontmatter(content)
         condensed = generate_condensed(fm, body, slug)
+        condensed = cleanup_ai_patterns(condensed)
 
         out_path = os.path.join(OUT_DIR, f"{slug}.md")
         with open(out_path, "w") as f:

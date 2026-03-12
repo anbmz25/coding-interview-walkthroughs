@@ -48,11 +48,11 @@ def numIslands(grid: list[list[str]]) -> int:
     island_count = 0
 
     def dfs(r, c):
-        # Base case: out of bounds or not land — stop exploring
+        # Base case: out of bounds or not land: stop exploring
         if r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] != '1':
             return
 
-        grid[r][c] = '0'  # Sink the cell — mark as visited in-place
+        grid[r][c] = '0'  # Sink the cell: mark as visited in-place
 
         # Explore all 4 neighbors
         dfs(r + 1, c)
@@ -146,7 +146,7 @@ A common interviewer follow-up: *"Can you reduce space?"* The in-place marking a
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Number of Islands — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Number of Islands: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Number of Islands](https://intervu.dev/setup2?problem=number-of-islands)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -154,4 +154,4 @@ A common interviewer follow-up: *"Can you reduce space?"* The in-place marking a
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

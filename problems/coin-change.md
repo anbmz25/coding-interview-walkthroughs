@@ -111,7 +111,7 @@ A common follow-up: *"Can you do better than O(amount × len(coins))?"* The hone
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Coin Change — Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/)
+- 📖 **Full Walkthrough**: [Coin Change: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/)
 - 🎙️ **Practice**: [Mock interview for Coin Change](https://intervu.dev/setup2?problem=coin-change)
 - 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
@@ -119,4 +119,4 @@ A common follow-up: *"Can you do better than O(amount × len(coins))?"* The hone
 
 ---
 
-*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev) — AI-powered mock interviews with instant feedback.*
+*Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*
