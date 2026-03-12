@@ -2,7 +2,7 @@
 
 Step-by-step solutions to 19 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
-Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
+Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
 ## Problems
 
@@ -40,7 +40,7 @@ Every problem file includes:
 
 ## How to Use This Repo
 
-**Studying for interviews?** Read the condensed versions here for quick review, then click through to the [full walkthroughs](https://intervu.dev/blog/) for the complete interviewer perspective.
+**Studying for interviews?** Read the condensed versions here for quick review, then click through to the [full walkthroughs](https://intervu.dev/blog/walkthroughs/) for the complete interviewer perspective.
 
 **Want to practice live?** Each problem links to an [AI mock interview on Intervu](https://intervu.dev) where you solve the problem in a realistic interview environment with real-time feedback.
 
