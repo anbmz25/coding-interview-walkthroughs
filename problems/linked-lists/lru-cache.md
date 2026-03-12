@@ -177,4 +177,12 @@ A common follow-up: *"How would you make this thread-safe?"* Wrap each `get` and
 
 ---
 
+## Related Problems
+
+- [Linked List Cycle](linked-list-cycle.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/linked-list-cycle-interview-walkthrough/)
+- [Merge Two Sorted Lists](merge-two-sorted-lists.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)
+- [Reverse Linked List](reverse-linked-list.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/reverse-linked-list-interview-walkthrough/)
+
+---
+
 *Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

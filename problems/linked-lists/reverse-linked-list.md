@@ -123,4 +123,12 @@ Key implementation notes:
 
 ---
 
+## Related Problems
+
+- [Linked List Cycle](linked-list-cycle.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/linked-list-cycle-interview-walkthrough/)
+- [LRU Cache](lru-cache.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)
+- [Merge Two Sorted Lists](merge-two-sorted-lists.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)
+
+---
+
 *Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

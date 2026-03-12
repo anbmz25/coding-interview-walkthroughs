@@ -12,6 +12,7 @@ import re
 import glob
 import shutil
 import yaml
+from typing import Optional
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
@@ -143,7 +144,7 @@ def cleanup_ai_patterns(text: str) -> str:
     return text
 
 
-def generate_condensed(fm: dict, body: str, slug: str) -> str:
+def generate_condensed(fm: dict, body: str, slug: str, related: Optional[list] = None) -> str:
     """Build the condensed GitHub Markdown for one problem."""
     title = fm.get("title", slug)
     description = fm.get("description", "")
@@ -226,6 +227,22 @@ def generate_condensed(fm: dict, body: str, slug: str) -> str:
         f"- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)",
         f"- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)",
         f"- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)",
+    ]
+    # Related problems (same topic, excluding self)
+    if related:
+        lines += [
+            "",
+            "---",
+            "",
+            "## Related Problems",
+            "",
+        ]
+        for r in related:
+            r_blog = f"https://intervu.dev/blog/walkthroughs/{r['slug']}-interview-walkthrough/"
+            lines.append(
+                f"- [{r['name']}]({r['slug']}.md) ({r['difficulty']}) · [Full walkthrough →]({r_blog})"
+            )
+    lines += [
         "",
         "---",
         "",
@@ -343,11 +360,12 @@ def main():
     all_warnings: list[str] = []
     has_errors = False
 
+    # --- Pass 1: collect all problem metadata ---
+    problem_data: list[dict] = []
     for src in files:
         filename = os.path.basename(src)
         slug = filename.replace("-interview-walkthrough.md", "")
 
-        # Duplicate slug check
         if slug in seen_slugs:
             all_warnings.append(f"[{slug}] ERROR duplicate slug detected")
             has_errors = True
@@ -358,10 +376,41 @@ def main():
             content = f.read()
 
         fm, body = parse_frontmatter(content)
-        condensed = generate_condensed(fm, body, slug)
+        topic = TOPIC_MAP.get(slug, "other")
+        title = fm.get("title", slug)
+        problem_name = title.replace(" — Coding Interview Walkthrough", "")
+        difficulty = extract_difficulty(slug, fm.get("tags", []))
+
+        problem_data.append({
+            "src": src,
+            "slug": slug,
+            "fm": fm,
+            "body": body,
+            "topic": topic,
+            "name": problem_name,
+            "difficulty": difficulty,
+        })
+
+    # Build topic → problems index for cross-linking
+    topic_problems: dict[str, list[dict]] = {}
+    for p in problem_data:
+        topic_problems.setdefault(p["topic"], []).append({
+            "slug": p["slug"],
+            "name": p["name"],
+            "difficulty": p["difficulty"],
+        })
+
+    # --- Pass 2: generate files with cross-links ---
+    for p in problem_data:
+        slug = p["slug"]
+        topic = p["topic"]
+
+        # Related = same-topic siblings, excluding self
+        related = [r for r in topic_problems.get(topic, []) if r["slug"] != slug]
+
+        condensed = generate_condensed(p["fm"], p["body"], slug, related=related)
         condensed = cleanup_ai_patterns(condensed)
 
-        topic = TOPIC_MAP.get(slug, "other")
         topic_dir = os.path.join(OUT_DIR, topic)
         os.makedirs(topic_dir, exist_ok=True)
 
@@ -376,17 +425,6 @@ def main():
         out_path = os.path.join(topic_dir, f"{slug}.md")
         with open(out_path, "w") as f:
             f.write(condensed)
-
-        # Extract problem name for topic README
-        title = fm.get("title", slug)
-        problem_name = title.replace(" — Coding Interview Walkthrough", "")
-        difficulty = extract_difficulty(slug, fm.get("tags", []))
-
-        topic_problems.setdefault(topic, []).append({
-            "slug": slug,
-            "name": problem_name,
-            "difficulty": difficulty,
-        })
 
         count += 1
         print(f"✓ {topic}/{slug}")

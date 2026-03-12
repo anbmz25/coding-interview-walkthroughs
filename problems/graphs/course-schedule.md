@@ -126,4 +126,10 @@ Here, V = `numCourses` and E = `len(prerequisites)`. Each node is visited at mos
 
 ---
 
+## Related Problems
+
+- [Number of Islands](number-of-islands.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)
+
+---
+
 *Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*
