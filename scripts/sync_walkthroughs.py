@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Reads each walkthrough from the Intervu blog source and generates a condensed
-GitHub-friendly Markdown version in ../problems/.
+GitHub-friendly Markdown version in ../problems/<topic>/.
 
 Usage:
     python3 scripts/sync_walkthroughs.py
@@ -10,6 +10,7 @@ Usage:
 import os
 import re
 import glob
+import shutil
 import yaml
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -19,30 +20,48 @@ BLOG_DIR = os.environ.get(
     os.path.join(REPO_ROOT, "..", "intervu-blog", "src", "content", "blog", "walkthroughs"),
 )
 OUT_DIR = os.path.join(REPO_ROOT, "problems")
-os.makedirs(OUT_DIR, exist_ok=True)
 
-# GitHub repo URL placeholder — update after creating the repo
 GITHUB_REPO = "https://github.com/anbmz25/coding-interview-walkthroughs"
 
+# ---------------------------------------------------------------------------
+# Topic mapping: slug → subdirectory
+# ---------------------------------------------------------------------------
+TOPIC_MAP = {
+    "two-sum": "arrays",
+    "best-time-to-buy-and-sell-stock": "arrays",
+    "maximum-subarray": "arrays",
+    "merge-intervals": "arrays",
+    "three-sum": "arrays",
+    "trapping-rain-water": "arrays",
+    "merge-two-sorted-lists": "linked-lists",
+    "reverse-linked-list": "linked-lists",
+    "linked-list-cycle": "linked-lists",
+    "lru-cache": "linked-lists",
+    "invert-binary-tree": "trees",
+    "binary-tree-level-order-traversal": "trees",
+    "number-of-islands": "graphs",
+    "course-schedule": "graphs",
+    "climbing-stairs": "dynamic-programming",
+    "coin-change": "dynamic-programming",
+    "longest-substring-without-repeating-characters": "strings",
+    "valid-parentheses": "stacks",
+    "binary-search": "binary-search",
+}
 
-def parse_frontmatter(content: str) -> tuple[dict, str]:
-    """Split YAML frontmatter from Markdown body."""
-    if content.startswith("---"):
-        parts = content.split("---", 2)
-        if len(parts) >= 3:
-            fm = yaml.safe_load(parts[1])
-            body = parts[2].strip()
-            return fm, body
-    return {}, content
+TOPIC_DESCRIPTIONS = {
+    "arrays": "Array manipulation, hashing, sorting, and two-pointer techniques.",
+    "linked-lists": "Pointer manipulation, cycle detection, and node-level operations.",
+    "trees": "Tree traversals, recursion, and structural transformations.",
+    "graphs": "Graph traversal (BFS/DFS), cycle detection, and topological sorting.",
+    "dynamic-programming": "Overlapping subproblems, memoization, and bottom-up tabulation.",
+    "strings": "Sliding window, character frequency tracking, and substring problems.",
+    "stacks": "LIFO-based pattern matching, bracket validation, and expression parsing.",
+    "binary-search": "Divide-and-conquer search on sorted data.",
+}
 
-
-def extract_section(body: str, heading: str) -> str:
-    """Extract content under a ## heading, up to the next ## heading."""
-    pattern = rf"^## {re.escape(heading)}\s*\n(.*?)(?=^## |\Z)"
-    m = re.search(pattern, body, re.MULTILINE | re.DOTALL)
-    return m.group(1).strip() if m else ""
-
-
+# ---------------------------------------------------------------------------
+# Difficulty mapping: slug → LeetCode difficulty
+# ---------------------------------------------------------------------------
 DIFFICULTY_MAP = {
     "two-sum": "Easy",
     "best-time-to-buy-and-sell-stock": "Easy",
@@ -66,6 +85,24 @@ DIFFICULTY_MAP = {
 }
 
 
+def parse_frontmatter(content: str) -> tuple[dict, str]:
+    """Split YAML frontmatter from Markdown body."""
+    if content.startswith("---"):
+        parts = content.split("---", 2)
+        if len(parts) >= 3:
+            fm = yaml.safe_load(parts[1])
+            body = parts[2].strip()
+            return fm, body
+    return {}, content
+
+
+def extract_section(body: str, heading: str) -> str:
+    """Extract content under a ## heading, up to the next ## heading."""
+    pattern = rf"^## {re.escape(heading)}\s*\n(.*?)(?=^## |\Z)"
+    m = re.search(pattern, body, re.MULTILINE | re.DOTALL)
+    return m.group(1).strip() if m else ""
+
+
 def extract_difficulty(slug: str, tags: list[str]) -> str:
     """Look up difficulty from the canonical map, fall back to tags."""
     if slug in DIFFICULTY_MAP:
@@ -87,14 +124,9 @@ def extract_patterns(tags: list[str]) -> list[str]:
 def cleanup_ai_patterns(text: str) -> str:
     """Remove common AI writing patterns per the cleanup-ai-writing skill."""
     # Rule 1: Replace em dashes with appropriate punctuation
-    # In code comments, use colons
     text = re.sub(r'(#[^\n]*?) — ', r'\1: ', text)
-    # In link descriptions ("text — description"), use commas
     text = re.sub(r'(\]\([^)]+\)) — ', r'\1, ', text)
-    # General prose: replace with comma, colon, or period depending on context
-    # Before a short phrase that completes the sentence, use a colon
     text = re.sub(r' — (O\(|which |so |this |that |the )', r': \1', text)
-    # Before an independent clause or aside, use a comma
     text = re.sub(r' — ', ', ', text)
 
     # Rule 2: Remove filler phrases
@@ -155,7 +187,6 @@ def generate_condensed(fm: dict, body: str, slug: str) -> str:
         "",
     ]
     if problem_section:
-        # Strip any trailing --- from the extracted section to avoid duplicates
         lines.append(problem_section.rstrip().rstrip("-").rstrip())
     lines += [
         "",
@@ -204,6 +235,39 @@ def generate_condensed(fm: dict, body: str, slug: str) -> str:
     return "\n".join(lines)
 
 
+def generate_topic_readme(topic: str, problems: list[dict]) -> str:
+    """Generate a README.md for a topic subdirectory."""
+    title = topic.replace("-", " ").title()
+    desc = TOPIC_DESCRIPTIONS.get(topic, "")
+
+    lines = [
+        f"# {title}",
+        "",
+        desc,
+        "",
+        "| Problem | Difficulty | Full Walkthrough | Practice |",
+        "|---------|-----------|-----------------|----------|",
+    ]
+    for p in problems:
+        slug = p["slug"]
+        name = p["name"]
+        diff = p["difficulty"]
+        blog = f"https://intervu.dev/blog/walkthroughs/{slug}-interview-walkthrough/"
+        practice = f"https://intervu.dev/setup2?problem={slug}"
+        lines.append(
+            f"| [{name}]({slug}.md) | {diff} "
+            f"| [Read →]({blog}) | [Practice →]({practice}) |"
+        )
+    lines += [
+        "",
+        "---",
+        "",
+        f"*Part of the [Coding Interview Walkthroughs]({GITHUB_REPO}) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 def main():
     pattern = os.path.join(BLOG_DIR, "*-interview-walkthrough.md")
     files = sorted(glob.glob(pattern))
@@ -211,6 +275,13 @@ def main():
     if not files:
         print(f"No walkthrough files found in {BLOG_DIR}")
         return
+
+    # Clean out old flat files (but keep subdirectories that may already exist)
+    for f in glob.glob(os.path.join(OUT_DIR, "*.md")):
+        os.remove(f)
+
+    # Track problems per topic for README generation
+    topic_problems: dict[str, list[dict]] = {}
 
     count = 0
     for src in files:
@@ -224,12 +295,35 @@ def main():
         condensed = generate_condensed(fm, body, slug)
         condensed = cleanup_ai_patterns(condensed)
 
-        out_path = os.path.join(OUT_DIR, f"{slug}.md")
+        topic = TOPIC_MAP.get(slug, "other")
+        topic_dir = os.path.join(OUT_DIR, topic)
+        os.makedirs(topic_dir, exist_ok=True)
+
+        out_path = os.path.join(topic_dir, f"{slug}.md")
         with open(out_path, "w") as f:
             f.write(condensed)
 
+        # Extract problem name for topic README
+        title = fm.get("title", slug)
+        problem_name = title.replace(" — Coding Interview Walkthrough", "")
+        difficulty = extract_difficulty(slug, fm.get("tags", []))
+
+        topic_problems.setdefault(topic, []).append({
+            "slug": slug,
+            "name": problem_name,
+            "difficulty": difficulty,
+        })
+
         count += 1
-        print(f"✓ {slug}")
+        print(f"✓ {topic}/{slug}")
+
+    # Generate per-topic READMEs
+    for topic, problems in topic_problems.items():
+        readme_path = os.path.join(OUT_DIR, topic, "README.md")
+        readme_content = generate_topic_readme(topic, problems)
+        with open(readme_path, "w") as f:
+            f.write(readme_content)
+        print(f"📄 {topic}/README.md")
 
     print(f"\nSynced {count} walkthrough(s) to {OUT_DIR}")
 

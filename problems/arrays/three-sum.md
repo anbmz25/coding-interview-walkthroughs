@@ -35,7 +35,7 @@ After sorting, the array becomes `[-4, -1, -1, 0, 1, 2]`. Fixing `-1` at index 1
 ```python
 def threeSum(nums: list[int]) -> list[list[int]]:
     nums.sort()  # Sorting enables two pointers and easy duplicate skipping
-    result = []
+    result = [, "medium"]
 
     for i in range(len(nums) - 2):
         # Early exit: smallest remaining value is positive, no valid triplet possible
@@ -49,7 +49,7 @@ def threeSum(nums: list[int]) -> list[list[int]]:
         left, right = i + 1, len(nums) - 1
 
         while left < right:
-            total = nums[i] + nums[left] + nums[right]
+            total = nums[i] + nums[left] + nums[right, "medium"]
 
             if total == 0:
                 result.append([nums[i], nums[left], nums[right]])

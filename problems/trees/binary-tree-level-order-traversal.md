@@ -52,14 +52,14 @@ class TreeNode:
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root:
-            return []
+            return [, "medium"]
 
-        result = []
+        result = [, "medium"]
         queue = deque([root])
 
         while queue:
             level_size = len(queue)
-            current_level = []
+            current_level = [, "medium"]
 
             for _ in range(level_size):
                 node = queue.popleft()

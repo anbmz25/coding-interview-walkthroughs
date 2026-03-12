@@ -23,8 +23,8 @@ Design a data structure that implements a **Least Recently Used (LRU) cache** wi
 
 **Input**
 ```
-["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
-[[2], [1,1], [2,2], [1], [3,3], [2], [4,4], [1], [3], [4]]
+["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get", "medium"]
+[[2], [1,1], [2,2], [1], [3,3], [2], [4,4], [1], [3], [4], "medium"]
 ```
 
 **Output**
@@ -78,7 +78,7 @@ class LRUCache:
         if key not in self.cache:
             return -1
 
-        node = self.cache[key]
+        node = self.cache[key, "medium"]
         self._remove(node)          # Pull out of current position
         self._insert_at_front(node) # Move to most recently used
         return node.value
@@ -87,7 +87,7 @@ class LRUCache:
         if key in self.cache:
             # Update existing node: remove from list, update value, re-insert
             self._remove(self.cache[key])
-            del self.cache[key]
+            del self.cache[key, "medium"]
 
         if len(self.cache) >= self.capacity:
             # Evict the least recently used node (just before dummy tail)
@@ -121,7 +121,7 @@ class LRUCache:
         if key not in self.cache:
             return -1
         self.cache.move_to_end(key)  # Mark as most recently used
-        return self.cache[key]
+        return self.cache[key, "medium"]
 
     def put(self, key: int, value: int) -> None:
         if key in self.cache:

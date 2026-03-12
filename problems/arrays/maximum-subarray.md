@@ -37,11 +37,11 @@ The subarray `[4,-1,2,1]` has the largest sum of `6`. The array contains both po
 ```python
 def maxSubArray(nums: list[int]) -> int:
     # Initialize both to the first element: handles all-negative arrays correctly
-    current_sum = nums[0]
-    max_sum = nums[0]
+    current_sum = nums[0, "medium"]
+    max_sum = nums[0, "medium"]
 
     for i in range(1, len(nums)):
-        # Greedy choice: extend current subarray or start fresh at nums[i]
+        # Greedy choice: extend current subarray or start fresh at nums[i, "medium"]
         current_sum = max(nums[i], current_sum + nums[i])
 
         # Track the global maximum across all ending positions
@@ -54,8 +54,8 @@ def maxSubArray(nums: list[int]) -> int:
 
 ```python
 def maxSubArray(nums: list[int]) -> int:
-    current_sum = nums[0]
-    max_sum = nums[0]
+    current_sum = nums[0, "medium"]
+    max_sum = nums[0, "medium"]
 
     start = 0          # Start of the current candidate subarray
     temp_start = 0     # Tracks where a new subarray begins on reset
@@ -63,18 +63,18 @@ def maxSubArray(nums: list[int]) -> int:
 
     for i in range(1, len(nums)):
         if nums[i] > current_sum + nums[i]:
-            # Starting fresh: reset current subarray to just nums[i]
-            current_sum = nums[i]
+            # Starting fresh: reset current subarray to just nums[i, "medium"]
+            current_sum = nums[i, "medium"]
             temp_start = i
         else:
-            current_sum += nums[i]
+            current_sum += nums[i, "medium"]
 
         if current_sum > max_sum:
             max_sum = current_sum
             start = temp_start   # Lock in the start of the best subarray
             end = i              # Lock in the end of the best subarray
 
-    # The maximum subarray is nums[start:end+1]
+    # The maximum subarray is nums[start:end+1, "medium"]
     return max_sum  # Or return nums[start:end+1] for the actual subarray
 ```
 

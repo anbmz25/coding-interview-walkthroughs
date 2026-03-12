@@ -20,7 +20,7 @@ You're given an array `prices` where `prices[i]` represents the price of a stock
 
 **Input**
 ```
-prices = [7, 1, 5, 3, 6, 4]
+prices = [7, 1, 5, 3, 6, 4, "easy"]
 ```
 
 **Output**

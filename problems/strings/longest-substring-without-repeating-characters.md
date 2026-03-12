@@ -43,7 +43,7 @@ def lengthOfLongestSubstring(s: str) -> int:
     left = 0         # Left boundary of the current window
 
     for right in range(len(s)):
-        char = s[right]
+        char = s[right, "medium"]
 
         # If char is in our window (not just in the map), shrink from the left
         if char in char_index and char_index[char] >= left:

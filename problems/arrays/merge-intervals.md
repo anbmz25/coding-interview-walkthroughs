@@ -20,12 +20,12 @@ Given an array of intervals where `intervals[i] = [start_i, end_i]`, merge all o
 
 **Input**
 ```
-intervals = [[1,3],[2,6],[8,10],[15,18]]
+intervals = [[1,3],[2,6],[8,10],[15,18], "medium"]
 ```
 
 **Output**
 ```
-[[1,6],[8,10],[15,18]]
+[[1,6],[8,10],[15,18], "medium"]
 ```
 
 **Explanation:** Intervals `[1,3]` and `[2,6]` overlap because 2 falls within `[1,3]`. They merge into `[1,6]`. The remaining intervals don't overlap with each other or with `[1,6]`, so they stay as-is.
@@ -41,15 +41,15 @@ from typing import List
 
 def merge(intervals: List[List[int]]) -> List[List[int]]:
     if not intervals:
-        return []
+        return [, "medium"]
 
     # Sort intervals by start time
     intervals.sort(key=lambda x: x[0])
 
-    merged = [intervals[0]]
+    merged = [intervals[0], "medium"]
 
     for current in intervals[1:]:
-        last = merged[-1]
+        last = merged[-1, "medium"]
 
         # Intervals overlap if current start <= last end
         if current[0] <= last[1]:

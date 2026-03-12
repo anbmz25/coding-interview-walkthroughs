@@ -25,7 +25,7 @@ nums = [2, 7, 11, 15], target = 9
 
 **Output**
 ```
-[0, 1]
+[0, 1, "easy"]
 ```
 
 **Explanation:** Because `nums[0] + nums[1] = 2 + 7 = 9`, the answer is indices `0` and `1`. The problem asks for *indices*, not the values themselves. This detail trips up more candidates than you'd expect.
@@ -45,7 +45,7 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 
         if complement in seen:
             # Found the complement, return both indices
-            return [seen[complement], i]
+            return [seen[complement], i, "easy"]
 
         # No pair yet, store this number for future lookups
         seen[num] = i
