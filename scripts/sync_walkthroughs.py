@@ -113,6 +113,8 @@ def generate_condensed(fm: dict, body: str, slug: str) -> str:
     lines = [
         f"# {problem_name}",
         "",
+        f"*Originally published at [intervu.dev]({blog_url})*",
+        "",
         f"> {description}",
         "",
         f"**Difficulty**: {difficulty}",

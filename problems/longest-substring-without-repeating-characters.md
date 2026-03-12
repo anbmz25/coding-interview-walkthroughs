@@ -1,5 +1,7 @@
 # Longest Substring Without Repeating Characters
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/longest-substring-without-repeating-characters-interview-walkthrough/)*
+
 > A step-by-step walkthrough of LeetCode #3 as it unfolds in a real coding interview. Learn the sliding window approach, the critical index-tracking guard, and how strong candidates communicate their solution.
 
 **Difficulty**: Medium

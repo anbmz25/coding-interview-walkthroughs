@@ -1,5 +1,7 @@
 # Valid Parentheses
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)*
+
 > A step-by-step guide to solving Valid Parentheses in a coding interview: stack-based reasoning, bracket matching with hash maps, edge cases, and what strong candidates sound like.
 
 **Difficulty**: Easy

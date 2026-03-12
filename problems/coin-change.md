@@ -1,5 +1,7 @@
 # Coin Change
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/)*
+
 > A step-by-step guide to solving the Coin Change problem in a coding interview: from recursive brute force to optimal bottom-up DP with recurrence derivation and greedy failure analysis.
 
 **Difficulty**: Medium

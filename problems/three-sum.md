@@ -1,5 +1,7 @@
 # 3Sum
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)*
+
 > A step-by-step guide to solving the 3Sum problem in a coding interview: brute force to optimal O(n²) with sorting, two pointers, and duplicate handling explained clearly.
 
 **Difficulty**: Medium

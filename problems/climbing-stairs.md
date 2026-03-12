@@ -1,5 +1,7 @@
 # Climbing Stairs
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)*
+
 > A step-by-step walkthrough of the Climbing Stairs problem as it unfolds in a real coding interview. Learn the full recursion-to-DP progression, the Fibonacci connection, and how strong candidates communicate their optimization steps.
 
 **Difficulty**: Medium

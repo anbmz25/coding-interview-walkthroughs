@@ -1,5 +1,7 @@
 # Maximum Subarray
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/maximum-subarray-interview-walkthrough/)*
+
 > A step-by-step guide to solving Maximum Subarray in a coding interview: Kadane's algorithm, the greedy reset decision, the DP framing, all-negative edge cases, and the follow-up questions interviewers use to probe depth.
 
 **Difficulty**: Medium

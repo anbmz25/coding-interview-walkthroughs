@@ -1,5 +1,7 @@
 # Merge Intervals
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)*
+
 > A step-by-step walkthrough of the Merge Intervals problem as it unfolds in a real coding interview. Learn the optimal approach, common mistakes, and how strong candidates communicate their solution.
 
 **Difficulty**: Medium

@@ -1,5 +1,7 @@
 # Invert Binary Tree
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)*
+
 > A step-by-step guide to solving Invert Binary Tree in a coding interview: recursive and iterative approaches, tree traversal reasoning, edge cases, and what strong candidates sound like.
 
 **Difficulty**: Easy

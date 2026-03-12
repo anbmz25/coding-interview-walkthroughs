@@ -1,5 +1,7 @@
 # Two Sum
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)*
+
 > A step-by-step walkthrough of the Two Sum problem as it unfolds in a real coding interview. Learn the optimal hash map approach, common mistakes, and how strong candidates communicate their solution.
 
 **Difficulty**: Medium

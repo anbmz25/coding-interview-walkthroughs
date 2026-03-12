@@ -1,5 +1,7 @@
 # Trapping Rain Water
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)*
+
 > A step-by-step guide to solving Trapping Rain Water in a coding interview: the geometric insight, prefix/suffix arrays, and the two-pointer O(1) space technique explained clearly.
 
 **Difficulty**: Hard

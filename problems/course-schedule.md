@@ -1,5 +1,7 @@
 # Course Schedule
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/course-schedule-interview-walkthrough/)*
+
 > A step-by-step guide to solving Course Schedule in a coding interview. Learn DFS three-state cycle detection on directed graphs, common mistakes, and what interviewers actually score you on.
 
 **Difficulty**: Medium

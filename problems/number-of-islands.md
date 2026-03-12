@@ -1,5 +1,7 @@
 # Number of Islands
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)*
+
 > A step-by-step guide to solving Number of Islands in a coding interview: grid-as-graph modeling, DFS vs BFS tradeoffs, in-place marking, and complexity analysis explained clearly.
 
 **Difficulty**: Medium

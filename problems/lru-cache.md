@@ -1,5 +1,7 @@
 # LRU Cache
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)*
+
 > A step-by-step guide to solving LRU Cache in a coding interview: from naive lists to the optimal hash map + doubly linked list design, with pointer operations and sentinel nodes explained.
 
 **Difficulty**: Medium

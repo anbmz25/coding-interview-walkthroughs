@@ -1,5 +1,7 @@
 # Merge Two Sorted Lists
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)*
+
 > A step-by-step guide to solving Merge Two Sorted Lists in a coding interview: the dummy node pattern, iterative and recursive approaches, pointer mistakes to avoid, and what strong candidates sound like.
 
 **Difficulty**: Easy

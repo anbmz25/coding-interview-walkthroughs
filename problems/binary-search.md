@@ -1,5 +1,7 @@
 # Binary Search
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/)*
+
 > A step-by-step walkthrough of the Binary Search problem as it unfolds in a real coding interview. Learn the precise boundary logic, off-by-one traps, and how strong candidates communicate this deceptively simple algorithm.
 
 **Difficulty**: Medium

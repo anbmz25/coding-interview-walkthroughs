@@ -1,5 +1,7 @@
 # Binary Tree Level Order Traversal
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/)*
+
 > A step-by-step guide to solving Binary Tree Level Order Traversal in a coding interview. Learn the BFS queue-snapshot pattern, common mistakes, and what interviewers actually score you on.
 
 **Difficulty**: Medium

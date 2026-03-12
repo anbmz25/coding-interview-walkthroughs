@@ -1,5 +1,7 @@
 # Reverse Linked List
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/reverse-linked-list-interview-walkthrough/)*
+
 > A step-by-step guide to solving Reverse Linked List in a coding interview: the three-pointer iterative technique, the recursive approach, pointer mistakes to avoid, and what strong candidates sound like.
 
 **Difficulty**: Easy

@@ -1,5 +1,7 @@
 # Best Time to Buy and Sell Stock
 
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)*
+
 > A step-by-step walkthrough of Best Time to Buy and Sell Stock as it unfolds in a real coding interview. Learn the greedy O(n) approach, common mistakes, and how strong candidates communicate the solution.
 
 **Difficulty**: Medium
