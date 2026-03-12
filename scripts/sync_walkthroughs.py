@@ -268,6 +268,59 @@ def generate_topic_readme(topic: str, problems: list[dict]) -> str:
     return "\n".join(lines)
 
 
+MIN_CONTENT_LENGTH = 500  # minimum chars for a generated problem file
+
+REQUIRED_SECTIONS = ["## Problem", "## Solution", "## Complexity", "## Common Interview Mistakes"]
+
+EXPECTED_LINK_PATTERNS = [
+    r"https://intervu\.dev/blog/walkthroughs/[\w-]+-interview-walkthrough/",
+    r"https://intervu\.dev/setup2\?problem=[\w-]+",
+    r"https://intervu\.dev/blog/how-to-prepare-for-coding-interview/",
+    r"https://intervu\.dev/blog/grind-75-practice-pathway/",
+    r"https://intervu\.dev/blog/why-leetcode-is-not-enough/",
+]
+
+
+def validate_output(slug: str, content: str, topic: str) -> list[str]:
+    """Run QA checks on a generated problem file. Returns list of warnings."""
+    warnings = []
+
+    # 1. Missing topic mapping
+    if slug not in TOPIC_MAP:
+        warnings.append(f"WARN  slug '{slug}' not in TOPIC_MAP (landed in '{topic}/')")
+
+    # 2. Missing difficulty mapping
+    if slug not in DIFFICULTY_MAP:
+        warnings.append(f"WARN  slug '{slug}' not in DIFFICULTY_MAP (defaulted)")
+
+    # 3. Missing required sections
+    for section in REQUIRED_SECTIONS:
+        if section not in content:
+            warnings.append(f"ERROR missing section '{section}'")
+
+    # 4. Minimum content length
+    if len(content) < MIN_CONTENT_LENGTH:
+        warnings.append(
+            f"WARN  content too short ({len(content)} chars, min {MIN_CONTENT_LENGTH})"
+        )
+
+    # 5. Broken/missing intervu.dev links
+    for pattern in EXPECTED_LINK_PATTERNS:
+        if not re.search(pattern, content):
+            warnings.append(f"ERROR missing expected link pattern: {pattern}")
+
+    # 6. Em dashes still present (cleanup failure)
+    if "—" in content:
+        count = content.count("—")
+        warnings.append(f"WARN  {count} em dash(es) still present after cleanup")
+
+    # 7. Canonical attribution present
+    if "Originally published at" not in content:
+        warnings.append(f"ERROR missing canonical attribution line")
+
+    return warnings
+
+
 def main():
     pattern = os.path.join(BLOG_DIR, "*-interview-walkthrough.md")
     files = sorted(glob.glob(pattern))
@@ -283,10 +336,23 @@ def main():
     # Track problems per topic for README generation
     topic_problems: dict[str, list[dict]] = {}
 
+    # Duplicate slug detection
+    seen_slugs: set[str] = set()
+
     count = 0
+    all_warnings: list[str] = []
+    has_errors = False
+
     for src in files:
         filename = os.path.basename(src)
         slug = filename.replace("-interview-walkthrough.md", "")
+
+        # Duplicate slug check
+        if slug in seen_slugs:
+            all_warnings.append(f"[{slug}] ERROR duplicate slug detected")
+            has_errors = True
+            continue
+        seen_slugs.add(slug)
 
         with open(src) as f:
             content = f.read()
@@ -298,6 +364,14 @@ def main():
         topic = TOPIC_MAP.get(slug, "other")
         topic_dir = os.path.join(OUT_DIR, topic)
         os.makedirs(topic_dir, exist_ok=True)
+
+        # QA validation
+        warnings = validate_output(slug, condensed, topic)
+        for w in warnings:
+            tag = f"[{topic}/{slug}]"
+            all_warnings.append(f"  {tag} {w}")
+            if w.startswith("ERROR"):
+                has_errors = True
 
         out_path = os.path.join(topic_dir, f"{slug}.md")
         with open(out_path, "w") as f:
@@ -327,6 +401,22 @@ def main():
 
     print(f"\nSynced {count} walkthrough(s) to {OUT_DIR}")
 
+    # QA report
+    if all_warnings:
+        print(f"\n{'='*60}")
+        print(f"QA Report: {len(all_warnings)} issue(s) found")
+        print(f"{'='*60}")
+        for w in all_warnings:
+            print(w)
+        if has_errors:
+            print(f"\n❌ ERRORS found. Review before committing.")
+            raise SystemExit(1)
+        else:
+            print(f"\n⚠️  Warnings only. Safe to commit, but review recommended.")
+    else:
+        print(f"\n✅ QA passed: no issues found.")
+
 
 if __name__ == "__main__":
     main()
+
