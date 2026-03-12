@@ -5,8 +5,8 @@
 **Difficulty**: Medium
 **Patterns**: `arrays`, `hash-map`, `two-sum`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=two-sum)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=two-sum)**
 
 ---
 
@@ -95,11 +95,11 @@ Compare this to brute force: O(n²) time, O(1) space. The hash map solution is s
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Two Sum: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Two Sum](https://intervu.dev/setup2?problem=two-sum)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Two Sum: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)
+- **Practice**: [Mock interview for Two Sum](https://intervu.dev/setup2?problem=two-sum)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

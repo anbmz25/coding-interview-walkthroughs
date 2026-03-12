@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 18 popular coding interview problems — written from the interviewer's perspective, covering what they actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 18 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -34,7 +34,7 @@ Every problem file includes:
 - **Problem statement** with examples
 - **Optimal solution** in Python with implementation notes
 - **Time & space complexity** analysis
-- **Common interview mistakes** — the specific errors that cost candidates offers
+- **Common interview mistakes**, the specific errors that cost candidates offers
 - **Links to the full walkthrough** with interviewer dialogues, clarifying question strategies, and step-by-step derivations
 
 ## How to Use This Repo
@@ -45,10 +45,10 @@ Every problem file includes:
 
 ## Further Reading
 
-- 📖 [How to Prepare for a Coding Interview in 2026](https://intervu.dev/blog/how-to-prepare-for-coding-interview/) — the complete roadmap
-- 📋 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/) — a structured plan with practice links
-- 🔄 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/) — and what to practice instead
-- 🎯 [Practice Any LeetCode Problem](https://intervu.dev/blog/practice-any-leetcode-problem/) — as a live mock interview
+- [How to Prepare for a Coding Interview in 2026](https://intervu.dev/blog/how-to-prepare-for-coding-interview/), the complete roadmap
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/), a structured plan with practice links
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/), and what to practice instead
+- [Practice Any LeetCode Problem](https://intervu.dev/blog/practice-any-leetcode-problem/) as a live mock interview
 
 ## Contributing
 
@@ -56,8 +56,8 @@ Found an error or want to suggest an improvement? Open an issue or PR.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
 
 ---
 
-Built by [Intervu](https://intervu.dev) — AI-powered mock coding interviews with instant feedback.
+Built by [Intervu](https://intervu.dev), AI-powered mock coding interviews with instant feedback.

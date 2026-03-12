@@ -5,8 +5,8 @@
 **Difficulty**: Medium
 **Patterns**: `data-structures`, `design`, `linked-list`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=lru-cache)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=lru-cache)**
 
 ---
 
@@ -167,11 +167,11 @@ A common follow-up: *"How would you make this thread-safe?"* Wrap each `get` and
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [LRU Cache: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for LRU Cache](https://intervu.dev/setup2?problem=lru-cache)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [LRU Cache: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)
+- **Practice**: [Mock interview for LRU Cache](https://intervu.dev/setup2?problem=lru-cache)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

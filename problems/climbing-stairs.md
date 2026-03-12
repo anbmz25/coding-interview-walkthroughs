@@ -5,8 +5,8 @@
 **Difficulty**: Medium
 **Patterns**: `dynamic-programming`, `climbing-stairs`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=climbing-stairs)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=climbing-stairs)**
 
 ---
 
@@ -116,11 +116,11 @@ def climbStairs(n: int) -> int:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Climbing Stairs: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Climbing Stairs](https://intervu.dev/setup2?problem=climbing-stairs)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Climbing Stairs: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)
+- **Practice**: [Mock interview for Climbing Stairs](https://intervu.dev/setup2?problem=climbing-stairs)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

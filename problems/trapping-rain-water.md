@@ -5,8 +5,8 @@
 **Difficulty**: Hard
 **Patterns**: `two-pointers`, `arrays`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=trapping-rain-water)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=trapping-rain-water)**
 
 ---
 
@@ -129,11 +129,11 @@ The two-pointer solution achieves the theoretical optimum: you must examine ever
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Trapping Rain Water: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Trapping Rain Water](https://intervu.dev/setup2?problem=trapping-rain-water)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Trapping Rain Water: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)
+- **Practice**: [Mock interview for Trapping Rain Water](https://intervu.dev/setup2?problem=trapping-rain-water)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

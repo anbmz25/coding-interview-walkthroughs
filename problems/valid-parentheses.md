@@ -5,8 +5,8 @@
 **Difficulty**: Easy
 **Patterns**: `stacks`, `strings`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=valid-parentheses)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=valid-parentheses)**
 
 ---
 
@@ -98,11 +98,11 @@ A common follow-up: *"Can you reduce space below O(n)?"* For the general case wi
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Valid Parentheses: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Valid Parentheses](https://intervu.dev/setup2?problem=valid-parentheses)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Valid Parentheses: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)
+- **Practice**: [Mock interview for Valid Parentheses](https://intervu.dev/setup2?problem=valid-parentheses)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

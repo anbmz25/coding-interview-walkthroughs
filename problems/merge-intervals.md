@@ -5,8 +5,8 @@
 **Difficulty**: Medium
 **Patterns**: `arrays`, `sorting`, `merge-intervals`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=merge-intervals)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=merge-intervals)**
 
 ---
 
@@ -93,11 +93,11 @@ The dominant cost is sorting. The merge pass itself is linear. This is optimal b
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Merge Intervals: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Merge Intervals](https://intervu.dev/setup2?problem=merge-intervals)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Merge Intervals: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
+- **Practice**: [Mock interview for Merge Intervals](https://intervu.dev/setup2?problem=merge-intervals)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

@@ -5,8 +5,8 @@
 **Difficulty**: Medium
 **Patterns**: `arrays`, `greedy`, `best-time-to-buy-and-sell-stock`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=best-time-to-buy-and-sell-stock)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=best-time-to-buy-and-sell-stock)**
 
 ---
 
@@ -95,11 +95,11 @@ This is worth emphasizing in an interview: *"This is about as efficient as it ge
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Best Time to Buy and Sell Stock: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Best Time to Buy and Sell Stock](https://intervu.dev/setup2?problem=best-time-to-buy-and-sell-stock)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Best Time to Buy and Sell Stock: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/)
+- **Practice**: [Mock interview for Best Time to Buy and Sell Stock](https://intervu.dev/setup2?problem=best-time-to-buy-and-sell-stock)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

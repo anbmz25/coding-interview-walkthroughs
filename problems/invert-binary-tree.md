@@ -5,8 +5,8 @@
 **Difficulty**: Easy
 **Patterns**: `trees`, `recursion`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=invert-binary-tree)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=invert-binary-tree)**
 
 ---
 
@@ -123,11 +123,11 @@ Key implementation notes:
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Invert Binary Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Invert Binary Tree](https://intervu.dev/setup2?problem=invert-binary-tree)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Invert Binary Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)
+- **Practice**: [Mock interview for Invert Binary Tree](https://intervu.dev/setup2?problem=invert-binary-tree)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

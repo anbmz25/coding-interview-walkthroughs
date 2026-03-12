@@ -5,8 +5,8 @@
 **Difficulty**: Medium
 **Patterns**: `trees`, `bfs`, `grind-75`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal)**
 
 ---
 
@@ -111,11 +111,11 @@ For a perfectly balanced binary tree, the last level contains n/2 nodes, all of 
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Binary Tree Level Order Traversal: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Binary Tree Level Order Traversal](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Binary Tree Level Order Traversal: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/)
+- **Practice**: [Mock interview for Binary Tree Level Order Traversal](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 

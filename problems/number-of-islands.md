@@ -5,8 +5,8 @@
 **Difficulty**: Medium
 **Patterns**: `graphs`, `dfs`, `bfs`, `grid`
 
-📖 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)**
-🎙️ **[Practice in a mock interview →](https://intervu.dev/setup2?problem=number-of-islands)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=number-of-islands)**
 
 ---
 
@@ -146,11 +146,11 @@ A common interviewer follow-up: *"Can you reduce space?"* The in-place marking a
 
 ## Resources
 
-- 📖 **Full Walkthrough**: [Number of Islands: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)
-- 🎙️ **Practice**: [Mock interview for Number of Islands](https://intervu.dev/setup2?problem=number-of-islands)
-- 📚 [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
-- 📚 [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
-- 📚 [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
+- **Full Walkthrough**: [Number of Islands: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/)
+- **Practice**: [Mock interview for Number of Islands](https://intervu.dev/setup2?problem=number-of-islands)
+- [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
+- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
+- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
 
 ---
 
