@@ -47,6 +47,7 @@ TOPIC_MAP = {
     "longest-substring-without-repeating-characters": "strings",
     "valid-parentheses": "stacks",
     "binary-search": "binary-search",
+    "implement-trie": "tries",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -58,6 +59,7 @@ TOPIC_DESCRIPTIONS = {
     "strings": "Sliding window, character frequency tracking, and substring problems.",
     "stacks": "LIFO-based pattern matching, bracket validation, and expression parsing.",
     "binary-search": "Divide-and-conquer search on sorted data.",
+    "tries": "Prefix trees for fast string lookup, autocomplete, and dictionary operations.",
 }
 
 # ---------------------------------------------------------------------------
@@ -82,6 +84,7 @@ DIFFICULTY_MAP = {
     "three-sum": "Medium",
     "course-schedule": "Medium",
     "lru-cache": "Medium",
+    "implement-trie": "Medium",
     "trapping-rain-water": "Hard",
 }
 

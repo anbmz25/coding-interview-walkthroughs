@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 19 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 20 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -64,6 +64,12 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
 | [Binary Search](problems/binary-search/binary-search.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-search) |
+
+### [Tries](problems/tries/)
+
+| Problem | Difficulty | Full Walkthrough | Practice |
+|---------|-----------|-----------------|----------|
+| [Implement Trie (Prefix Tree)](problems/tries/implement-trie.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/implement-trie-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=implement-trie) |
 
 ## What's in Each Walkthrough
 
