@@ -48,6 +48,7 @@ TOPIC_MAP = {
     "valid-parentheses": "stacks",
     "binary-search": "binary-search",
     "implement-trie": "tries",
+    "product-of-array-except-self": "arrays",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -85,6 +86,7 @@ DIFFICULTY_MAP = {
     "course-schedule": "Medium",
     "lru-cache": "Medium",
     "implement-trie": "Medium",
+    "product-of-array-except-self": "Medium",
     "trapping-rain-water": "Hard",
 }
 

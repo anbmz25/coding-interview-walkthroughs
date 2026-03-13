@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 20 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 21 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -16,6 +16,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Merge Intervals](problems/arrays/merge-intervals.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=merge-intervals) |
 | [3Sum](problems/arrays/three-sum.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=three-sum) |
 | [Trapping Rain Water](problems/arrays/trapping-rain-water.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=trapping-rain-water) |
+| [Product of Array Except Self](problems/arrays/product-of-array-except-self.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=product-of-array-except-self) |
 
 ### [Linked Lists](problems/linked-lists/)
 
