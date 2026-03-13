@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 22 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 23 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -66,6 +66,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
 | [Binary Search](problems/binary-search/binary-search.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-search) |
+| [Search in Rotated Sorted Array](problems/binary-search/search-in-rotated-sorted-array.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/search-in-rotated-sorted-array-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=search-in-rotated-sorted-array) |
 
 ### [Tries](problems/tries/)
 

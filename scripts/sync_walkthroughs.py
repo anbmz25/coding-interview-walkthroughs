@@ -50,6 +50,7 @@ TOPIC_MAP = {
     "implement-trie": "tries",
     "product-of-array-except-self": "arrays",
     "validate-binary-search-tree": "trees",
+    "search-in-rotated-sorted-array": "binary-search",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -89,6 +90,7 @@ DIFFICULTY_MAP = {
     "implement-trie": "Medium",
     "product-of-array-except-self": "Medium",
     "validate-binary-search-tree": "Medium",
+    "search-in-rotated-sorted-array": "Medium",
     "trapping-rain-water": "Hard",
 }
 
