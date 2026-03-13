@@ -124,6 +124,7 @@ For a perfectly balanced binary tree, the last level contains n/2 nodes, all of 
 ## Related Problems
 
 - [Invert Binary Tree](invert-binary-tree.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/)
+- [Validate Binary Search Tree](validate-binary-search-tree.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/validate-binary-search-tree-interview-walkthrough/)
 
 ---
 

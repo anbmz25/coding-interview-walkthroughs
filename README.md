@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 21 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 22 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -33,6 +33,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 |---------|-----------|-----------------|----------|
 | [Invert Binary Tree](problems/trees/invert-binary-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=invert-binary-tree) |
 | [Binary Tree Level Order Traversal](problems/trees/binary-tree-level-order-traversal.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal) |
+| [Validate Binary Search Tree](problems/trees/validate-binary-search-tree.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/validate-binary-search-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=validate-binary-search-tree) |
 
 ### [Graphs](problems/graphs/)
 

@@ -49,6 +49,7 @@ TOPIC_MAP = {
     "binary-search": "binary-search",
     "implement-trie": "tries",
     "product-of-array-except-self": "arrays",
+    "validate-binary-search-tree": "trees",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -87,6 +88,7 @@ DIFFICULTY_MAP = {
     "lru-cache": "Medium",
     "implement-trie": "Medium",
     "product-of-array-except-self": "Medium",
+    "validate-binary-search-tree": "Medium",
     "trapping-rain-water": "Hard",
 }
 
