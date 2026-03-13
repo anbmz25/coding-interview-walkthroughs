@@ -51,6 +51,7 @@ TOPIC_MAP = {
     "product-of-array-except-self": "arrays",
     "validate-binary-search-tree": "trees",
     "search-in-rotated-sorted-array": "binary-search",
+    "combination-sum": "backtracking",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -63,6 +64,7 @@ TOPIC_DESCRIPTIONS = {
     "stacks": "LIFO-based pattern matching, bracket validation, and expression parsing.",
     "binary-search": "Divide-and-conquer search on sorted data.",
     "tries": "Prefix trees for fast string lookup, autocomplete, and dictionary operations.",
+    "backtracking": "Recursive search with pruning, decision trees, and constraint satisfaction.",
 }
 
 # ---------------------------------------------------------------------------
@@ -91,6 +93,7 @@ DIFFICULTY_MAP = {
     "product-of-array-except-self": "Medium",
     "validate-binary-search-tree": "Medium",
     "search-in-rotated-sorted-array": "Medium",
+    "combination-sum": "Medium",
     "trapping-rain-water": "Hard",
 }
 
