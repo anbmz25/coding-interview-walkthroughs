@@ -6,6 +6,7 @@ Overlapping subproblems, memoization, and bottom-up tabulation.
 |---------|-----------|-----------------|----------|
 | [Climbing Stairs](climbing-stairs.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=climbing-stairs) |
 | [Coin Change](coin-change.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=coin-change) |
+| [Word Break](word-break.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/word-break-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=word-break) |
 
 ---
 

@@ -5,6 +5,7 @@ Array manipulation, hashing, sorting, and two-pointer techniques.
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
 | [Best Time to Buy and Sell Stock](best-time-to-buy-and-sell-stock.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/best-time-to-buy-and-sell-stock-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=best-time-to-buy-and-sell-stock) |
+| [Container With Most Water](container-with-most-water.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/container-with-most-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=container-with-most-water) |
 | [Maximum Subarray](maximum-subarray.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/maximum-subarray-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=maximum-subarray) |
 | [Merge Intervals](merge-intervals.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=merge-intervals) |
 | [Product of Array Except Self](product-of-array-except-self.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=product-of-array-except-self) |

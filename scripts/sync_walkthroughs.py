@@ -52,6 +52,13 @@ TOPIC_MAP = {
     "validate-binary-search-tree": "trees",
     "search-in-rotated-sorted-array": "binary-search",
     "combination-sum": "backtracking",
+    "permutations": "backtracking",
+    "lowest-common-ancestor": "trees",
+    "word-break": "dynamic-programming",
+    "longest-palindromic-substring": "strings",
+    "container-with-most-water": "arrays",
+    "merge-k-sorted-lists": "linked-lists",
+    "minimum-window-substring": "strings",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -94,7 +101,14 @@ DIFFICULTY_MAP = {
     "validate-binary-search-tree": "Medium",
     "search-in-rotated-sorted-array": "Medium",
     "combination-sum": "Medium",
+    "permutations": "Medium",
+    "lowest-common-ancestor": "Medium",
+    "word-break": "Medium",
+    "longest-palindromic-substring": "Medium",
+    "container-with-most-water": "Medium",
     "trapping-rain-water": "Hard",
+    "merge-k-sorted-lists": "Hard",
+    "minimum-window-substring": "Hard",
 }
 
 

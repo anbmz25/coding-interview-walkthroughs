@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 24 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 31 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -17,6 +17,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [3Sum](problems/arrays/three-sum.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=three-sum) |
 | [Trapping Rain Water](problems/arrays/trapping-rain-water.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=trapping-rain-water) |
 | [Product of Array Except Self](problems/arrays/product-of-array-except-self.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=product-of-array-except-self) |
+| [Container With Most Water](problems/arrays/container-with-most-water.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/container-with-most-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=container-with-most-water) |
 
 ### [Linked Lists](problems/linked-lists/)
 
@@ -26,6 +27,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Reverse Linked List](problems/linked-lists/reverse-linked-list.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/reverse-linked-list-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=reverse-linked-list) |
 | [Linked List Cycle](problems/linked-lists/linked-list-cycle.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/linked-list-cycle-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=linked-list-cycle) |
 | [LRU Cache](problems/linked-lists/lru-cache.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lru-cache) |
+| [Merge K Sorted Lists](problems/linked-lists/merge-k-sorted-lists.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/merge-k-sorted-lists-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=merge-k-sorted-lists) |
 
 ### [Trees](problems/trees/)
 
@@ -34,6 +36,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Invert Binary Tree](problems/trees/invert-binary-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/invert-binary-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=invert-binary-tree) |
 | [Binary Tree Level Order Traversal](problems/trees/binary-tree-level-order-traversal.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal) |
 | [Validate Binary Search Tree](problems/trees/validate-binary-search-tree.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/validate-binary-search-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=validate-binary-search-tree) |
+| [Lowest Common Ancestor](problems/trees/lowest-common-ancestor.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-tree) |
 
 ### [Graphs](problems/graphs/)
 
@@ -48,12 +51,15 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 |---------|-----------|-----------------|----------|
 | [Climbing Stairs](problems/dynamic-programming/climbing-stairs.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=climbing-stairs) |
 | [Coin Change](problems/dynamic-programming/coin-change.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=coin-change) |
+| [Word Break](problems/dynamic-programming/word-break.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/word-break-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=word-break) |
 
 ### [Strings](problems/strings/)
 
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
 | [Longest Substring Without Repeating Characters](problems/strings/longest-substring-without-repeating-characters.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/longest-substring-without-repeating-characters-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=longest-substring-without-repeating-characters) |
+| [Longest Palindromic Substring](problems/strings/longest-palindromic-substring.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/longest-palindromic-substring-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=longest-palindromic-substring) |
+| [Minimum Window Substring](problems/strings/minimum-window-substring.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/minimum-window-substring-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=minimum-window-substring) |
 
 ### [Stacks](problems/stacks/)
 
@@ -79,6 +85,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
 | [Combination Sum](problems/backtracking/combination-sum.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/combination-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=combination-sum) |
+| [Permutations](problems/backtracking/permutations.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=permutations) |
 
 ## What's in Each Walkthrough
 

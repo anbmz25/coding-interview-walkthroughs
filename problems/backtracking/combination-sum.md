@@ -138,4 +138,10 @@ Final output: `[[2, 2, 3], [7]]` ✓
 
 ---
 
+## Related Problems
+
+- [Permutations](permutations.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/)
+
+---
+
 *Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*
