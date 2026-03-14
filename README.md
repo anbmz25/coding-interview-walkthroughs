@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 31 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 36 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -37,6 +37,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Binary Tree Level Order Traversal](problems/trees/binary-tree-level-order-traversal.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/binary-tree-level-order-traversal-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal) |
 | [Validate Binary Search Tree](problems/trees/validate-binary-search-tree.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/validate-binary-search-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=validate-binary-search-tree) |
 | [Lowest Common Ancestor](problems/trees/lowest-common-ancestor.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-tree) |
+| [Balanced Binary Tree](problems/trees/balanced-binary-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/balanced-binary-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=balanced-binary-tree) |
 
 ### [Graphs](problems/graphs/)
 
@@ -44,6 +45,8 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 |---------|-----------|-----------------|----------|
 | [Number of Islands](problems/graphs/number-of-islands.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=number-of-islands) |
 | [Course Schedule](problems/graphs/course-schedule.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/course-schedule-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=course-schedule) |
+| [01 Matrix](problems/graphs/01-matrix.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/01-matrix-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=01-matrix) |
+| [Accounts Merge](problems/graphs/accounts-merge.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/accounts-merge-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=accounts-merge) |
 
 ### [Dynamic Programming](problems/dynamic-programming/)
 
@@ -60,12 +63,14 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Longest Substring Without Repeating Characters](problems/strings/longest-substring-without-repeating-characters.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/longest-substring-without-repeating-characters-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=longest-substring-without-repeating-characters) |
 | [Longest Palindromic Substring](problems/strings/longest-palindromic-substring.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/longest-palindromic-substring-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=longest-palindromic-substring) |
 | [Minimum Window Substring](problems/strings/minimum-window-substring.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/minimum-window-substring-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=minimum-window-substring) |
+| [Add Binary](problems/strings/add-binary.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/add-binary-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=add-binary) |
 
 ### [Stacks](problems/stacks/)
 
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
 | [Valid Parentheses](problems/stacks/valid-parentheses.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=valid-parentheses) |
+| [Basic Calculator](problems/stacks/basic-calculator.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=basic-calculator) |
 
 ### [Binary Search](problems/binary-search/)
 

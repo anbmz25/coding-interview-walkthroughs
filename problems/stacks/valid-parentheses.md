@@ -108,4 +108,10 @@ A common follow-up: *"Can you reduce space below O(n)?"* For the general case wi
 
 ---
 
+## Related Problems
+
+- [Basic Calculator](basic-calculator.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/)
+
+---
+
 *Part of the [Coding Interview Walkthroughs](https://github.com/anbmz25/coding-interview-walkthroughs) collection by [Intervu](https://intervu.dev), AI-powered mock interviews with instant feedback.*

@@ -59,6 +59,11 @@ TOPIC_MAP = {
     "container-with-most-water": "arrays",
     "merge-k-sorted-lists": "linked-lists",
     "minimum-window-substring": "strings",
+    "01-matrix": "graphs",
+    "accounts-merge": "graphs",
+    "add-binary": "strings",
+    "balanced-binary-tree": "trees",
+    "basic-calculator": "stacks",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -109,6 +114,11 @@ DIFFICULTY_MAP = {
     "trapping-rain-water": "Hard",
     "merge-k-sorted-lists": "Hard",
     "minimum-window-substring": "Hard",
+    "01-matrix": "Medium",
+    "accounts-merge": "Medium",
+    "add-binary": "Easy",
+    "balanced-binary-tree": "Easy",
+    "basic-calculator": "Hard",
 }
 
 

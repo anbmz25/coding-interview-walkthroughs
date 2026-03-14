@@ -4,6 +4,7 @@ LIFO-based pattern matching, bracket validation, and expression parsing.
 
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
+| [Basic Calculator](basic-calculator.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=basic-calculator) |
 | [Valid Parentheses](valid-parentheses.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=valid-parentheses) |
 
 ---

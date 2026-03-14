@@ -4,6 +4,8 @@ Graph traversal (BFS/DFS), cycle detection, and topological sorting.
 
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
+| [01 Matrix](01-matrix.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/01-matrix-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=01-matrix) |
+| [Accounts Merge](accounts-merge.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/accounts-merge-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=accounts-merge) |
 | [Course Schedule](course-schedule.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/course-schedule-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=course-schedule) |
 | [Number of Islands](number-of-islands.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/number-of-islands-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=number-of-islands) |
 
