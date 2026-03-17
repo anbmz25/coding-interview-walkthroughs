@@ -105,6 +105,7 @@ Style notes worth mentioning in an interview:
 
 ## Related Problems
 
+- [First Bad Version](first-bad-version.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/first-bad-version-interview-walkthrough/)
 - [Search in Rotated Sorted Array](search-in-rotated-sorted-array.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/search-in-rotated-sorted-array-interview-walkthrough/)
 
 ---

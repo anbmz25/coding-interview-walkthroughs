@@ -69,6 +69,11 @@ TOPIC_MAP = {
     "majority-element": "arrays",
     "partition-equal-subset-sum": "dynamic-programming",
     "valid-anagram": "strings",
+    "valid-palindrome": "strings",
+    "maximum-depth-of-binary-tree": "trees",
+    "diameter-of-binary-tree": "trees",
+    "lowest-common-ancestor-of-a-binary-search-tree": "trees",
+    "first-bad-version": "binary-search",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -129,6 +134,11 @@ DIFFICULTY_MAP = {
     "majority-element": "Easy",
     "partition-equal-subset-sum": "Medium",
     "valid-anagram": "Easy",
+    "valid-palindrome": "Easy",
+    "maximum-depth-of-binary-tree": "Easy",
+    "diameter-of-binary-tree": "Easy",
+    "lowest-common-ancestor-of-a-binary-search-tree": "Easy",
+    "first-bad-version": "Easy",
 }
 
 

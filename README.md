@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 41 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 46 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -41,6 +41,9 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Lowest Common Ancestor](problems/trees/lowest-common-ancestor.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-tree) |
 | [Balanced Binary Tree](problems/trees/balanced-binary-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/balanced-binary-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=balanced-binary-tree) |
 | [Binary Tree Right Side View](problems/trees/binary-tree-right-side-view.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/binary-tree-right-side-view-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-tree-right-side-view) |
+| [Maximum Depth of Binary Tree](problems/trees/maximum-depth-of-binary-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/maximum-depth-of-binary-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=maximum-depth-of-binary-tree) |
+| [Diameter of Binary Tree](problems/trees/diameter-of-binary-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/diameter-of-binary-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=diameter-of-binary-tree) |
+| [Lowest Common Ancestor of a BST](problems/trees/lowest-common-ancestor-of-a-binary-search-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-of-a-binary-search-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-search-tree) |
 
 ### [Graphs](problems/graphs/)
 
@@ -69,6 +72,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Minimum Window Substring](problems/strings/minimum-window-substring.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/minimum-window-substring-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=minimum-window-substring) |
 | [Add Binary](problems/strings/add-binary.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/add-binary-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=add-binary) |
 | [Valid Anagram](problems/strings/valid-anagram.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-anagram-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=valid-anagram) |
+| [Valid Palindrome](problems/strings/valid-palindrome.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-palindrome-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=valid-palindrome) |
 
 ### [Stacks](problems/stacks/)
 
@@ -83,6 +87,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 |---------|-----------|-----------------|----------|
 | [Binary Search](problems/binary-search/binary-search.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-search) |
 | [Search in Rotated Sorted Array](problems/binary-search/search-in-rotated-sorted-array.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/search-in-rotated-sorted-array-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=search-in-rotated-sorted-array) |
+| [First Bad Version](problems/binary-search/first-bad-version.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/first-bad-version-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=first-bad-version) |
 
 ### [Tries](problems/tries/)
 
