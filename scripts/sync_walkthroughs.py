@@ -64,6 +64,11 @@ TOPIC_MAP = {
     "add-binary": "strings",
     "balanced-binary-tree": "trees",
     "basic-calculator": "stacks",
+    "binary-tree-right-side-view": "trees",
+    "contains-duplicate": "arrays",
+    "majority-element": "arrays",
+    "partition-equal-subset-sum": "dynamic-programming",
+    "valid-anagram": "strings",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -119,6 +124,11 @@ DIFFICULTY_MAP = {
     "add-binary": "Easy",
     "balanced-binary-tree": "Easy",
     "basic-calculator": "Hard",
+    "binary-tree-right-side-view": "Medium",
+    "contains-duplicate": "Easy",
+    "majority-element": "Easy",
+    "partition-equal-subset-sum": "Medium",
+    "valid-anagram": "Easy",
 }
 
 

@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 36 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 41 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 
@@ -18,6 +18,8 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Trapping Rain Water](problems/arrays/trapping-rain-water.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=trapping-rain-water) |
 | [Product of Array Except Self](problems/arrays/product-of-array-except-self.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=product-of-array-except-self) |
 | [Container With Most Water](problems/arrays/container-with-most-water.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/container-with-most-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=container-with-most-water) |
+| [Contains Duplicate](problems/arrays/contains-duplicate.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/contains-duplicate-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=contains-duplicate) |
+| [Majority Element](problems/arrays/majority-element.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/majority-element-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=majority-element) |
 
 ### [Linked Lists](problems/linked-lists/)
 
@@ -38,6 +40,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Validate Binary Search Tree](problems/trees/validate-binary-search-tree.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/validate-binary-search-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=validate-binary-search-tree) |
 | [Lowest Common Ancestor](problems/trees/lowest-common-ancestor.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-tree) |
 | [Balanced Binary Tree](problems/trees/balanced-binary-tree.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/balanced-binary-tree-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=balanced-binary-tree) |
+| [Binary Tree Right Side View](problems/trees/binary-tree-right-side-view.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/binary-tree-right-side-view-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=binary-tree-right-side-view) |
 
 ### [Graphs](problems/graphs/)
 
@@ -55,6 +58,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Climbing Stairs](problems/dynamic-programming/climbing-stairs.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=climbing-stairs) |
 | [Coin Change](problems/dynamic-programming/coin-change.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=coin-change) |
 | [Word Break](problems/dynamic-programming/word-break.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/word-break-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=word-break) |
+| [Partition Equal Subset Sum](problems/dynamic-programming/partition-equal-subset-sum.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/partition-equal-subset-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=partition-equal-subset-sum) |
 
 ### [Strings](problems/strings/)
 
@@ -64,6 +68,7 @@ Each walkthrough is a condensed version of the [full interview walkthroughs on I
 | [Longest Palindromic Substring](problems/strings/longest-palindromic-substring.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/longest-palindromic-substring-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=longest-palindromic-substring) |
 | [Minimum Window Substring](problems/strings/minimum-window-substring.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/minimum-window-substring-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=minimum-window-substring) |
 | [Add Binary](problems/strings/add-binary.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/add-binary-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=add-binary) |
+| [Valid Anagram](problems/strings/valid-anagram.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-anagram-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=valid-anagram) |
 
 ### [Stacks](problems/stacks/)
 
