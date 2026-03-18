@@ -8,6 +8,7 @@ Pointer manipulation, cycle detection, and node-level operations.
 | [LRU Cache](lru-cache.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=lru-cache) |
 | [Merge K Sorted Lists](merge-k-sorted-lists.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/merge-k-sorted-lists-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=merge-k-sorted-lists) |
 | [Merge Two Sorted Lists](merge-two-sorted-lists.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=merge-two-sorted-lists) |
+| [Middle of the Linked List](middle-of-the-linked-list.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/middle-of-the-linked-list-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=middle-of-the-linked-list) |
 | [Reverse Linked List](reverse-linked-list.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/reverse-linked-list-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=reverse-linked-list) |
 
 ---

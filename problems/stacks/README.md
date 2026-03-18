@@ -5,6 +5,8 @@ LIFO-based pattern matching, bracket validation, and expression parsing.
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
 | [Basic Calculator](basic-calculator.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=basic-calculator) |
+| [Implement Queue using Stacks](implement-queue-using-stacks.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/implement-queue-using-stacks-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=implement-queue-using-stacks) |
+| [Min Stack](min-stack.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/min-stack-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=min-stack) |
 | [Valid Parentheses](valid-parentheses.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=valid-parentheses) |
 
 ---

@@ -129,6 +129,7 @@ Key implementation notes:
 - [LRU Cache](lru-cache.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/lru-cache-interview-walkthrough/)
 - [Merge K Sorted Lists](merge-k-sorted-lists.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-k-sorted-lists-interview-walkthrough/)
 - [Merge Two Sorted Lists](merge-two-sorted-lists.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)
+- [Middle of the Linked List](middle-of-the-linked-list.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/middle-of-the-linked-list-interview-walkthrough/)
 
 ---
 

@@ -74,6 +74,11 @@ TOPIC_MAP = {
     "diameter-of-binary-tree": "trees",
     "lowest-common-ancestor-of-a-binary-search-tree": "trees",
     "first-bad-version": "binary-search",
+    "min-stack": "stacks",
+    "meeting-rooms": "arrays",
+    "middle-of-the-linked-list": "linked-lists",
+    "flood-fill": "graphs",
+    "implement-queue-using-stacks": "stacks",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -139,6 +144,11 @@ DIFFICULTY_MAP = {
     "diameter-of-binary-tree": "Easy",
     "lowest-common-ancestor-of-a-binary-search-tree": "Easy",
     "first-bad-version": "Easy",
+    "min-stack": "Easy",
+    "meeting-rooms": "Easy",
+    "middle-of-the-linked-list": "Easy",
+    "flood-fill": "Easy",
+    "implement-queue-using-stacks": "Easy",
 }
 
 
