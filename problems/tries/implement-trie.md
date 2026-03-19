@@ -51,7 +51,6 @@ class TrieNode:
         # True if this node marks the end of a complete word
         self.is_end = False
 
-
 class Trie:
     def __init__(self):
         self.root = TrieNode()

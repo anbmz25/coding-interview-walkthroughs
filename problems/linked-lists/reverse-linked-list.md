@@ -40,7 +40,6 @@ class ListNode:
         self.val = val
         self.next = next
 
-
 def reverseList(head: ListNode) -> ListNode:
     prev = None       # Will become the new tail anchor
     current = head    # Start at the head

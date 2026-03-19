@@ -40,7 +40,6 @@ class ListNode:
         self.val = val
         self.next = next
 
-
 def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
     # Dummy sentinel node: avoids special-casing the first insertion
     dummy = ListNode(0)

@@ -12,6 +12,7 @@ Array manipulation, hashing, sorting, and two-pointer techniques.
 | [Meeting Rooms](meeting-rooms.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=meeting-rooms) |
 | [Merge Intervals](merge-intervals.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=merge-intervals) |
 | [Product of Array Except Self](product-of-array-except-self.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=product-of-array-except-self) |
+| [Ransom Note](ransom-note.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=ransom-note) |
 | [3Sum](three-sum.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=three-sum) |
 | [Trapping Rain Water](trapping-rain-water.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=trapping-rain-water) |
 | [Two Sum](two-sum.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=two-sum) |

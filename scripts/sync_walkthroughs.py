@@ -79,6 +79,11 @@ TOPIC_MAP = {
     "middle-of-the-linked-list": "linked-lists",
     "flood-fill": "graphs",
     "implement-queue-using-stacks": "stacks",
+    "ransom-note": "arrays",
+    "clone-graph": "graphs",
+    "rotting-oranges": "graphs",
+    "evaluate-reverse-polish-notation": "stacks",
+    "kth-smallest-element-in-a-bst": "trees",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -149,6 +154,11 @@ DIFFICULTY_MAP = {
     "middle-of-the-linked-list": "Easy",
     "flood-fill": "Easy",
     "implement-queue-using-stacks": "Easy",
+    "ransom-note": "Easy",
+    "clone-graph": "Medium",
+    "rotting-oranges": "Medium",
+    "evaluate-reverse-polish-notation": "Medium",
+    "kth-smallest-element-in-a-bst": "Medium",
 }
 
 
