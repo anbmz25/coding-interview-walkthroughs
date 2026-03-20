@@ -1,52 +1,47 @@
-# Meeting Rooms
+# Longest Palindrome
 
-*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)*
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)*
 
-> Master Meeting Rooms for your coding interview. Learn the sort-then-scan interval pattern, overlap detection, and what interviewers actually evaluate.
+> Master Longest Palindrome for your coding interview. Learn the pairs-plus-center greedy pattern, frequency counting, and what interviewers actually evaluate.
 
 **Difficulty**: Easy
-**Patterns**: `array`, `sorting`
+**Patterns**: `hash-map`, `string`
 
-**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=meeting-rooms)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=longest-palindrome)**
 
 ---
 
 ## Problem
 
-Given an array of meeting time intervals `intervals` where `intervals[i] = [start_i, end_i]`, determine if a person can attend all meetings (i.e., no two intervals overlap).
+Given a string `s`, return the length of the longest palindrome that can be built with its characters. Letters are case-sensitive.
 
-### Example 1
+### Example
 
-**Input:** `intervals = [[0,30],[5,10],[15,20]]`
-**Output:** `false`, `[0,30]` overlaps with both `[5,10]` and `[15,20]`.
+**Input:** `s = "abccccdd"`
+**Output:** `7`, one longest palindrome is `"dccaccd"` (2 d's, 4 c's, 1 a).
 
-### Example 2
-
-**Input:** `intervals = [[7,10],[2,4]]`
-**Output:** `true`, `[2,4]` ends before `[7,10]` starts.
-
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=meeting-rooms)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=longest-palindrome)*
 
 ---
 
 ## Solution
 
 ```python
-def canAttendMeetings(intervals: list[list[int]]) -> bool:
-    intervals.sort(key=lambda x: x[0])  # Sort by start time
+from collections import Counter
 
-    for i in range(1, len(intervals)):
-        if intervals[i][0] < intervals[i - 1][1]:
-            return False  # Current meeting starts before previous ends
+def longestPalindrome(s: str) -> int:
+    freq = Counter(s)
+    length = 0
+    has_odd = False
 
-    return True
+    for count in freq.values():
+        length += count // 2 * 2
+        if count % 2 == 1:
+            has_odd = True
+
+    return length + (1 if has_odd else 0)
 ```
-
-**Edge cases handled:**
-- Empty array: `range(1, 0)` is empty, returns `True`.
-- Single meeting: same, `range(1, 1)` is empty, returns `True`.
-- Touching intervals `[1,3],[3,5]`: `3 < 3` is False → no overlap. Adjust to `<=` if touching counts as overlap.
 
 ---
 
@@ -54,27 +49,23 @@ def canAttendMeetings(intervals: list[list[int]]) -> bool:
 
 | Aspect | Complexity |
 |---|---|
-| Time | O(n log n), dominated by sort |
-| Space | O(1) extra (in-place sort) |
+| Time | O(n) |
+| Space | O(k), k unique characters |
 
 ---
 
 ## Common Interview Mistakes
 
-1. **Using `<=` vs `<` without clarifying touching intervals.** `[1,3]` and `[3,5]`, is this an overlap? Always clarify and be consistent.
-
-2. **Not sorting first.** Without sorting, you'd need to check all pairs: O(n²).
-
-3. **Comparing wrong fields.** Compare `intervals[i][0]` (start) with `intervals[i-1][1]` (end), not start with start.
-
-4. **Not connecting to Meeting Rooms II.** Interviewers often follow up with "how many rooms do you need?", knowing this uses a min-heap on end times shows depth.
+1. **Confusing with Longest Palindromic Substring.** This builds a palindrome from characters; that finds one within a string.
+2. **Forgetting case sensitivity.** `'A'` and `'a'` are separate entries.
+3. **Not adding the center +1.** Forgetting the optional center gives `length - 1`.
 
 ---
 
 ## Resources
 
-- **Full Walkthrough**: [Meeting Rooms: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)
-- **Practice**: [Mock interview for Meeting Rooms](https://intervu.dev/setup2?problem=meeting-rooms)
+- **Full Walkthrough**: [Longest Palindrome: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)
+- **Practice**: [Mock interview for Longest Palindrome](https://intervu.dev/setup2?problem=longest-palindrome)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
@@ -87,9 +78,9 @@ def canAttendMeetings(intervals: list[list[int]]) -> bool:
 - [Container With Most Water](container-with-most-water.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/container-with-most-water-interview-walkthrough/)
 - [Contains Duplicate](contains-duplicate.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/contains-duplicate-interview-walkthrough/)
 - [Insert Interval](insert-interval.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/insert-interval-interview-walkthrough/)
-- [Longest Palindrome](longest-palindrome.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)
 - [Majority Element](majority-element.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/majority-element-interview-walkthrough/)
 - [Maximum Subarray](maximum-subarray.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/maximum-subarray-interview-walkthrough/)
+- [Meeting Rooms](meeting-rooms.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)
 - [Merge Intervals](merge-intervals.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
 - [Product of Array Except Self](product-of-array-except-self.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/)
 - [Ransom Note](ransom-note.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/)

@@ -141,6 +141,8 @@ Final output: `[[2, 2, 3], [7]]` ✓
 ## Related Problems
 
 - [Permutations](permutations.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/)
+- [Subsets](subsets.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/subsets-interview-walkthrough/)
+- [Word Search](word-search.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/word-search-interview-walkthrough/)
 
 ---
 

@@ -1,52 +1,48 @@
-# Meeting Rooms
+# Sort Colors
 
-*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)*
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)*
 
-> Master Meeting Rooms for your coding interview. Learn the sort-then-scan interval pattern, overlap detection, and what interviewers actually evaluate.
+> Master Sort Colors for your coding interview. Learn the Dutch National Flag algorithm, three-pointer invariants, and what interviewers actually evaluate.
 
-**Difficulty**: Easy
-**Patterns**: `array`, `sorting`
+**Difficulty**: Medium
+**Patterns**: `arrays`, `two-pointers`
 
-**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=meeting-rooms)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)**
 
 ---
 
 ## Problem
 
-Given an array of meeting time intervals `intervals` where `intervals[i] = [start_i, end_i]`, determine if a person can attend all meetings (i.e., no two intervals overlap).
+Given an array `nums` with objects colored red (0), white (1), or blue (2), sort them in place so same-colored objects are adjacent, in order 0, 1, 2.
 
-### Example 1
+### Example
 
-**Input:** `intervals = [[0,30],[5,10],[15,20]]`
-**Output:** `false`, `[0,30]` overlaps with both `[5,10]` and `[15,20]`.
+**Input:** `nums = [2, 0, 2, 1, 1, 0]`
+**Output:** `[0, 0, 1, 1, 2, 2]`
 
-### Example 2
-
-**Input:** `intervals = [[7,10],[2,4]]`
-**Output:** `true`, `[2,4]` ends before `[7,10]` starts.
-
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=meeting-rooms)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)*
 
 ---
 
 ## Solution
 
 ```python
-def canAttendMeetings(intervals: list[list[int]]) -> bool:
-    intervals.sort(key=lambda x: x[0])  # Sort by start time
+def sortColors(nums: list[int]) -> None:
+    low, mid, high = 0, 0, len(nums) - 1
 
-    for i in range(1, len(intervals)):
-        if intervals[i][0] < intervals[i - 1][1]:
-            return False  # Current meeting starts before previous ends
-
-    return True
+    while mid <= high:
+        if nums[mid] == 0:
+            nums[low], nums[mid] = nums[mid], nums[low]
+            low += 1
+            mid += 1
+        elif nums[mid] == 1:
+            mid += 1
+        else:
+            nums[mid], nums[high] = nums[high], nums[mid]
+            high -= 1
+            # Don't increment mid: swapped value needs examination
 ```
-
-**Edge cases handled:**
-- Empty array: `range(1, 0)` is empty, returns `True`.
-- Single meeting: same, `range(1, 1)` is empty, returns `True`.
-- Touching intervals `[1,3],[3,5]`: `3 < 3` is False → no overlap. Adjust to `<=` if touching counts as overlap.
 
 ---
 
@@ -54,27 +50,23 @@ def canAttendMeetings(intervals: list[list[int]]) -> bool:
 
 | Aspect | Complexity |
 |---|---|
-| Time | O(n log n), dominated by sort |
-| Space | O(1) extra (in-place sort) |
+| Time | O(n), single pass |
+| Space | O(1), in place |
 
 ---
 
 ## Common Interview Mistakes
 
-1. **Using `<=` vs `<` without clarifying touching intervals.** `[1,3]` and `[3,5]`, is this an overlap? Always clarify and be consistent.
-
-2. **Not sorting first.** Without sorting, you'd need to check all pairs: O(n²).
-
-3. **Comparing wrong fields.** Compare `intervals[i][0]` (start) with `intervals[i-1][1]` (end), not start with start.
-
-4. **Not connecting to Meeting Rooms II.** Interviewers often follow up with "how many rooms do you need?", knowing this uses a min-heap on end times shows depth.
+1. **Incrementing `mid` after swapping with `high`.** The value from `high` is unseen, don't skip it.
+2. **Using `mid < high` instead of `mid <= high`.** When equal, `nums[mid]` is still unsorted.
+3. **Proposing a general sort.** Use the constrained value set, that's the point.
 
 ---
 
 ## Resources
 
-- **Full Walkthrough**: [Meeting Rooms: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)
-- **Practice**: [Mock interview for Meeting Rooms](https://intervu.dev/setup2?problem=meeting-rooms)
+- **Full Walkthrough**: [Sort Colors: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
+- **Practice**: [Mock interview for Sort Colors](https://intervu.dev/setup2?problem=sort-colors)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
@@ -90,10 +82,10 @@ def canAttendMeetings(intervals: list[list[int]]) -> bool:
 - [Longest Palindrome](longest-palindrome.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)
 - [Majority Element](majority-element.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/majority-element-interview-walkthrough/)
 - [Maximum Subarray](maximum-subarray.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/maximum-subarray-interview-walkthrough/)
+- [Meeting Rooms](meeting-rooms.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/meeting-rooms-interview-walkthrough/)
 - [Merge Intervals](merge-intervals.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
 - [Product of Array Except Self](product-of-array-except-self.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/)
 - [Ransom Note](ransom-note.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/)
-- [Sort Colors](sort-colors.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
 - [3Sum](three-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)
 - [Trapping Rain Water](trapping-rain-water.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)
 - [Two Sum](two-sum.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)

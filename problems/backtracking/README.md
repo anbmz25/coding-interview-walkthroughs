@@ -6,6 +6,8 @@ Recursive search with pruning, decision trees, and constraint satisfaction.
 |---------|-----------|-----------------|----------|
 | [Combination Sum](combination-sum.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/combination-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=combination-sum) |
 | [Permutations](permutations.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=permutations) |
+| [Subsets](subsets.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/subsets-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=subsets) |
+| [Word Search](word-search.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/word-search-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=word-search) |
 
 ---
 

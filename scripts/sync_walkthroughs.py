@@ -84,6 +84,11 @@ TOPIC_MAP = {
     "rotting-oranges": "graphs",
     "evaluate-reverse-polish-notation": "stacks",
     "kth-smallest-element-in-a-bst": "trees",
+    "longest-palindrome": "arrays",
+    "insert-interval": "arrays",
+    "subsets": "backtracking",
+    "sort-colors": "arrays",
+    "word-search": "backtracking",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -159,6 +164,11 @@ DIFFICULTY_MAP = {
     "rotting-oranges": "Medium",
     "evaluate-reverse-polish-notation": "Medium",
     "kth-smallest-element-in-a-bst": "Medium",
+    "longest-palindrome": "Easy",
+    "insert-interval": "Medium",
+    "subsets": "Medium",
+    "sort-colors": "Medium",
+    "word-search": "Medium",
 }
 
 
