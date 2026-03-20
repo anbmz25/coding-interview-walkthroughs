@@ -167,6 +167,7 @@ This approach treats `nums` itself as the "current permutation" by swapping elem
 ## Related Problems
 
 - [Combination Sum](combination-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/combination-sum-interview-walkthrough/)
+- [Letter Combinations of a Phone Number](letter-combinations-of-a-phone-number.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/letter-combinations-of-a-phone-number-interview-walkthrough/)
 - [Subsets](subsets.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/subsets-interview-walkthrough/)
 - [Word Search](word-search.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/word-search-interview-walkthrough/)
 

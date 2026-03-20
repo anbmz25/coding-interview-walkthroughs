@@ -1,47 +1,58 @@
-# Sort Colors
+# Spiral Matrix
 
-*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)*
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)*
 
-> Master Sort Colors for your coding interview. Learn the Dutch National Flag algorithm, three-pointer invariants, and what interviewers actually evaluate.
+> Master Spiral Matrix for your coding interview. Learn boundary-shrinking traversal, edge cases for non-square matrices, and what interviewers actually evaluate.
 
 **Difficulty**: Medium
-**Patterns**: `arrays`, `two-pointers`
+**Patterns**: `arrays`, `matrix`
 
-**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=spiral-matrix)**
 
 ---
 
 ## Problem
 
-Given an array `nums` with objects colored red (0), white (1), or blue (2), sort them in place so same-colored objects are adjacent, in order 0, 1, 2.
+Given an `m x n` matrix, return all elements in spiral order.
 
 ### Example
 
-**Input:** `nums = [2, 0, 2, 1, 1, 0]`
-**Output:** `[0, 0, 1, 1, 2, 2]`
+**Input:** `matrix = [[1,2,3],[4,5,6],[7,8,9]]`
+**Output:** `[1, 2, 3, 6, 9, 8, 7, 4, 5]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=spiral-matrix)*
 
 ---
 
 ## Solution
 
 ```python
-def sortColors(nums: list[int]) -> None:
-    low, mid, high = 0, 0, len(nums) - 1
+def spiralOrder(matrix: list[list[int]]) -> list[int]:
+    result = []
+    top, bottom = 0, len(matrix) - 1
+    left, right = 0, len(matrix[0]) - 1
 
-    while mid <= high:
-        if nums[mid] == 0:
-            nums[low], nums[mid] = nums[mid], nums[low]
-            low += 1
-            mid += 1
-        elif nums[mid] == 1:
-            mid += 1
-        else:
-            nums[mid], nums[high] = nums[high], nums[mid]
-            high -= 1
-            # Don't increment mid: swapped value needs examination
+    while top <= bottom and left <= right:
+        for c in range(left, right + 1):
+            result.append(matrix[top][c])
+        top += 1
+
+        for r in range(top, bottom + 1):
+            result.append(matrix[r][right])
+        right -= 1
+
+        if top <= bottom:
+            for c in range(right, left - 1, -1):
+                result.append(matrix[bottom][c])
+            bottom -= 1
+
+        if left <= right:
+            for r in range(bottom, top - 1, -1):
+                result.append(matrix[r][left])
+            left += 1
+
+    return result
 ```
 
 ---
@@ -50,23 +61,23 @@ def sortColors(nums: list[int]) -> None:
 
 | Aspect | Complexity |
 |---|---|
-| Time | O(n), single pass |
-| Space | O(1), in place |
+| Time | O(m × n), every cell visited once |
+| Space | O(1) extra (not counting output) |
 
 ---
 
 ## Common Interview Mistakes
 
-1. **Incrementing `mid` after swapping with `high`.** The value from `high` is unseen, don't skip it.
-2. **Using `mid < high` instead of `mid <= high`.** When equal, `nums[mid]` is still unsorted.
-3. **Proposing a general sort.** Use the constrained value set, that's the point.
+1. **Not checking boundaries before left/up passes.** If only one row remains after the right pass, the left pass duplicates cells.
+2. **Off-by-one in ranges.** `range(left, right + 1)` for right, `range(right, left - 1, -1)` for left.
+3. **Hardcoding for square matrices.** Must handle m ≠ n. Test with 1×4 and 4×1.
 
 ---
 
 ## Resources
 
-- **Full Walkthrough**: [Sort Colors: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
-- **Practice**: [Mock interview for Sort Colors](https://intervu.dev/setup2?problem=sort-colors)
+- **Full Walkthrough**: [Spiral Matrix: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)
+- **Practice**: [Mock interview for Spiral Matrix](https://intervu.dev/setup2?problem=spiral-matrix)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
@@ -88,7 +99,7 @@ def sortColors(nums: list[int]) -> None:
 - [Merge Intervals](merge-intervals.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
 - [Product of Array Except Self](product-of-array-except-self.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/)
 - [Ransom Note](ransom-note.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/)
-- [Spiral Matrix](spiral-matrix.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)
+- [Sort Colors](sort-colors.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
 - [3Sum](three-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)
 - [Trapping Rain Water](trapping-rain-water.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)
 - [Two Sum](two-sum.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)

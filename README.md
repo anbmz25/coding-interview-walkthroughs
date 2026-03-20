@@ -1,6 +1,6 @@
 # Coding Interview Walkthroughs
 
-Step-by-step solutions to 61 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
+Step-by-step solutions to 66 popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.
 
 Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.
 

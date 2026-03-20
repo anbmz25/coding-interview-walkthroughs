@@ -1,72 +1,70 @@
-# Sort Colors
+# K Closest Points to Origin
 
-*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)*
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/k-closest-points-to-origin-interview-walkthrough/)*
 
-> Master Sort Colors for your coding interview. Learn the Dutch National Flag algorithm, three-pointer invariants, and what interviewers actually evaluate.
+> Master K Closest Points to Origin for your coding interview. Learn the max-heap approach, Quickselect, why sqrt is unnecessary, and what interviewers actually evaluate.
 
 **Difficulty**: Medium
-**Patterns**: `arrays`, `two-pointers`
+**Patterns**: `heap`, `sorting`
 
-**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/k-closest-points-to-origin-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=k-closest-points-to-origin)**
 
 ---
 
 ## Problem
 
-Given an array `nums` with objects colored red (0), white (1), or blue (2), sort them in place so same-colored objects are adjacent, in order 0, 1, 2.
+Given an array of `points` where `points[i] = [xi, yi]`, return the `k` closest to the origin `(0, 0)`. Return the answer in any order.
 
 ### Example
 
-**Input:** `nums = [2, 0, 2, 1, 1, 0]`
-**Output:** `[0, 0, 1, 1, 2, 2]`
+**Input:** `points = [[3,3],[5,-1],[-2,4]]`, `k = 2`
+**Output:** `[[3,3],[-2,4]]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=k-closest-points-to-origin)*
 
 ---
 
 ## Solution
 
+**Max-heap of size k:**
 ```python
-def sortColors(nums: list[int]) -> None:
-    low, mid, high = 0, 0, len(nums) - 1
+import heapq
 
-    while mid <= high:
-        if nums[mid] == 0:
-            nums[low], nums[mid] = nums[mid], nums[low]
-            low += 1
-            mid += 1
-        elif nums[mid] == 1:
-            mid += 1
-        else:
-            nums[mid], nums[high] = nums[high], nums[mid]
-            high -= 1
-            # Don't increment mid: swapped value needs examination
+def kClosest(points: list[list[int]], k: int) -> list[list[int]]:
+    max_heap = []
+    for x, y in points:
+        dist = x**2 + y**2
+        heapq.heappush(max_heap, (-dist, x, y))
+        if len(max_heap) > k:
+            heapq.heappop(max_heap)
+    return [[x, y] for _, x, y in max_heap]
 ```
 
 ---
 
 ## Complexity
 
-| Aspect | Complexity |
-|---|---|
-| Time | O(n), single pass |
-| Space | O(1), in place |
+| Approach | Time | Space |
+|---|---|---|
+| Sort | O(n log n) | O(1) |
+| Max-heap of k | O(n log k) | O(k) |
+| Quickselect | O(n) expected | O(1) |
 
 ---
 
 ## Common Interview Mistakes
 
-1. **Incrementing `mid` after swapping with `high`.** The value from `high` is unseen, don't skip it.
-2. **Using `mid < high` instead of `mid <= high`.** When equal, `nums[mid]` is still unsorted.
-3. **Proposing a general sort.** Use the constrained value set, that's the point.
+1. **Using `sqrt`.** Unnecessary, compare `x² + y²` directly.
+2. **Not knowing `heapq` is min-heap.** Negate the key for max-heap behavior.
+3. **Proposing Quickselect without O(n²) caveat.** Mention randomized pivoting mitigates worst case.
 
 ---
 
 ## Resources
 
-- **Full Walkthrough**: [Sort Colors: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
-- **Practice**: [Mock interview for Sort Colors](https://intervu.dev/setup2?problem=sort-colors)
+- **Full Walkthrough**: [K Closest Points to Origin: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/k-closest-points-to-origin-interview-walkthrough/)
+- **Practice**: [Mock interview for K Closest Points to Origin](https://intervu.dev/setup2?problem=k-closest-points-to-origin)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
@@ -80,7 +78,6 @@ def sortColors(nums: list[int]) -> None:
 - [Contains Duplicate](contains-duplicate.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/contains-duplicate-interview-walkthrough/)
 - [Find All Anagrams in a String](find-all-anagrams-in-a-string.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/find-all-anagrams-in-a-string-interview-walkthrough/)
 - [Insert Interval](insert-interval.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/insert-interval-interview-walkthrough/)
-- [K Closest Points to Origin](k-closest-points-to-origin.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/k-closest-points-to-origin-interview-walkthrough/)
 - [Longest Palindrome](longest-palindrome.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)
 - [Majority Element](majority-element.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/majority-element-interview-walkthrough/)
 - [Maximum Subarray](maximum-subarray.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/maximum-subarray-interview-walkthrough/)
@@ -88,6 +85,7 @@ def sortColors(nums: list[int]) -> None:
 - [Merge Intervals](merge-intervals.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
 - [Product of Array Except Self](product-of-array-except-self.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/)
 - [Ransom Note](ransom-note.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/)
+- [Sort Colors](sort-colors.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
 - [Spiral Matrix](spiral-matrix.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)
 - [3Sum](three-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)
 - [Trapping Rain Water](trapping-rain-water.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)

@@ -90,6 +90,7 @@ def exist(board: list[list[str]], word: str) -> bool:
 ## Related Problems
 
 - [Combination Sum](combination-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/combination-sum-interview-walkthrough/)
+- [Letter Combinations of a Phone Number](letter-combinations-of-a-phone-number.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/letter-combinations-of-a-phone-number-interview-walkthrough/)
 - [Permutations](permutations.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/)
 - [Subsets](subsets.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/subsets-interview-walkthrough/)
 

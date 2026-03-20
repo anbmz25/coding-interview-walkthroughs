@@ -85,6 +85,7 @@ def subsets_iterative(nums: list[int]) -> list[list[int]]:
 ## Related Problems
 
 - [Combination Sum](combination-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/combination-sum-interview-walkthrough/)
+- [Letter Combinations of a Phone Number](letter-combinations-of-a-phone-number.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/letter-combinations-of-a-phone-number-interview-walkthrough/)
 - [Permutations](permutations.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/)
 - [Word Search](word-search.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/word-search-interview-walkthrough/)
 

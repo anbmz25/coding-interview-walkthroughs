@@ -89,6 +89,11 @@ TOPIC_MAP = {
     "subsets": "backtracking",
     "sort-colors": "arrays",
     "word-search": "backtracking",
+    "spiral-matrix": "arrays",
+    "unique-paths": "dynamic-programming",
+    "k-closest-points-to-origin": "arrays",
+    "find-all-anagrams-in-a-string": "arrays",
+    "letter-combinations-of-a-phone-number": "backtracking",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -169,6 +174,11 @@ DIFFICULTY_MAP = {
     "subsets": "Medium",
     "sort-colors": "Medium",
     "word-search": "Medium",
+    "spiral-matrix": "Medium",
+    "unique-paths": "Medium",
+    "k-closest-points-to-origin": "Medium",
+    "find-all-anagrams-in-a-string": "Medium",
+    "letter-combinations-of-a-phone-number": "Medium",
 }
 
 

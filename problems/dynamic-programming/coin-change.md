@@ -125,6 +125,7 @@ A common follow-up: *"Can you do better than O(amount × len(coins))?"* The hone
 
 - [Climbing Stairs](climbing-stairs.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)
 - [Partition Equal Subset Sum](partition-equal-subset-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/partition-equal-subset-sum-interview-walkthrough/)
+- [Unique Paths](unique-paths.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/unique-paths-interview-walkthrough/)
 - [Word Break](word-break.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/word-break-interview-walkthrough/)
 
 ---
