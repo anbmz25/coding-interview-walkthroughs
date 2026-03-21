@@ -78,6 +78,7 @@ def uniquePaths(m: int, n: int) -> int:
 
 - [Climbing Stairs](climbing-stairs.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)
 - [Coin Change](coin-change.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/)
+- [Maximum Profit in Job Scheduling](maximum-profit-in-job-scheduling.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/maximum-profit-in-job-scheduling-interview-walkthrough/)
 - [Partition Equal Subset Sum](partition-equal-subset-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/partition-equal-subset-sum-interview-walkthrough/)
 - [Word Break](word-break.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/word-break-interview-walkthrough/)
 

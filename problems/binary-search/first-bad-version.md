@@ -80,6 +80,7 @@ def firstBadVersion(n: int) -> int:
 
 - [Binary Search](binary-search.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/)
 - [Search in Rotated Sorted Array](search-in-rotated-sorted-array.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/search-in-rotated-sorted-array-interview-walkthrough/)
+- [Time Based Key-Value Store](time-based-key-value-store.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/time-based-key-value-store-interview-walkthrough/)
 
 ---
 

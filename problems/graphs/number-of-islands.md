@@ -163,7 +163,9 @@ A common interviewer follow-up: *"Can you reduce space?"* The in-place marking a
 - [Clone Graph](clone-graph.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/clone-graph-interview-walkthrough/)
 - [Course Schedule](course-schedule.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/course-schedule-interview-walkthrough/)
 - [Flood Fill](flood-fill.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/flood-fill-interview-walkthrough/)
+- [Minimum Height Trees](minimum-height-trees.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/minimum-height-trees-interview-walkthrough/)
 - [Rotting Oranges](rotting-oranges.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/rotting-oranges-interview-walkthrough/)
+- [Word Ladder](word-ladder.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/word-ladder-interview-walkthrough/)
 
 ---
 

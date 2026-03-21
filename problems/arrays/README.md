@@ -8,6 +8,7 @@ Array manipulation, hashing, sorting, and two-pointer techniques.
 | [Container With Most Water](container-with-most-water.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/container-with-most-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=container-with-most-water) |
 | [Contains Duplicate](contains-duplicate.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/contains-duplicate-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=contains-duplicate) |
 | [Find All Anagrams in a String](find-all-anagrams-in-a-string.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/find-all-anagrams-in-a-string-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=find-all-anagrams-in-a-string) |
+| [Find Median from Data Stream](find-median-from-data-stream.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/find-median-from-data-stream-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=find-median-from-data-stream) |
 | [Insert Interval](insert-interval.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/insert-interval-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=insert-interval) |
 | [K Closest Points to Origin](k-closest-points-to-origin.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/k-closest-points-to-origin-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=k-closest-points-to-origin) |
 | [Longest Palindrome](longest-palindrome.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=longest-palindrome) |
@@ -19,6 +20,7 @@ Array manipulation, hashing, sorting, and two-pointer techniques.
 | [Ransom Note](ransom-note.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=ransom-note) |
 | [Sort Colors](sort-colors.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=sort-colors) |
 | [Spiral Matrix](spiral-matrix.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=spiral-matrix) |
+| [Task Scheduler](task-scheduler.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/task-scheduler-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=task-scheduler) |
 | [3Sum](three-sum.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=three-sum) |
 | [Trapping Rain Water](trapping-rain-water.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=trapping-rain-water) |
 | [Two Sum](two-sum.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=two-sum) |

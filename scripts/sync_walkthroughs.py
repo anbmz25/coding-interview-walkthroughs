@@ -94,6 +94,16 @@ TOPIC_MAP = {
     "k-closest-points-to-origin": "arrays",
     "find-all-anagrams-in-a-string": "arrays",
     "letter-combinations-of-a-phone-number": "backtracking",
+    "time-based-key-value-store": "binary-search",
+    "string-to-integer-atoi": "strings",
+    "task-scheduler": "arrays",
+    "minimum-height-trees": "graphs",
+    "construct-binary-tree-from-preorder-and-inorder-traversal": "trees",
+    "serialize-and-deserialize-binary-tree": "trees",
+    "find-median-from-data-stream": "arrays",
+    "word-ladder": "graphs",
+    "largest-rectangle-in-histogram": "stacks",
+    "maximum-profit-in-job-scheduling": "dynamic-programming",
 }
 
 TOPIC_DESCRIPTIONS = {
@@ -179,6 +189,16 @@ DIFFICULTY_MAP = {
     "k-closest-points-to-origin": "Medium",
     "find-all-anagrams-in-a-string": "Medium",
     "letter-combinations-of-a-phone-number": "Medium",
+    "time-based-key-value-store": "Medium",
+    "string-to-integer-atoi": "Medium",
+    "task-scheduler": "Medium",
+    "minimum-height-trees": "Medium",
+    "construct-binary-tree-from-preorder-and-inorder-traversal": "Medium",
+    "serialize-and-deserialize-binary-tree": "Hard",
+    "find-median-from-data-stream": "Hard",
+    "word-ladder": "Hard",
+    "largest-rectangle-in-histogram": "Hard",
+    "maximum-profit-in-job-scheduling": "Hard",
 }
 
 

@@ -123,6 +123,7 @@ def canPartition(nums: list[int]) -> bool:
 
 - [Climbing Stairs](climbing-stairs.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/climbing-stairs-interview-walkthrough/)
 - [Coin Change](coin-change.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/)
+- [Maximum Profit in Job Scheduling](maximum-profit-in-job-scheduling.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/maximum-profit-in-job-scheduling-interview-walkthrough/)
 - [Unique Paths](unique-paths.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/unique-paths-interview-walkthrough/)
 - [Word Break](word-break.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/word-break-interview-walkthrough/)
 

@@ -112,6 +112,7 @@ def calculate(s: str) -> int:
 
 - [Evaluate Reverse Polish Notation](evaluate-reverse-polish-notation.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/evaluate-reverse-polish-notation-interview-walkthrough/)
 - [Implement Queue using Stacks](implement-queue-using-stacks.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/implement-queue-using-stacks-interview-walkthrough/)
+- [Largest Rectangle in Histogram](largest-rectangle-in-histogram.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/largest-rectangle-in-histogram-interview-walkthrough/)
 - [Min Stack](min-stack.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/min-stack-interview-walkthrough/)
 - [Valid Parentheses](valid-parentheses.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/)
 

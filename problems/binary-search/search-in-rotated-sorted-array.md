@@ -132,6 +132,7 @@ Let's trace through Example 1: `nums = [4, 5, 6, 7, 0, 1, 2], target = 0`
 
 - [Binary Search](binary-search.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/)
 - [First Bad Version](first-bad-version.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/first-bad-version-interview-walkthrough/)
+- [Time Based Key-Value Store](time-based-key-value-store.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/time-based-key-value-store-interview-walkthrough/)
 
 ---
 

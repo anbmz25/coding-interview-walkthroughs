@@ -1,72 +1,92 @@
-# Sort Colors
+# Task Scheduler
 
-*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)*
+*Originally published at [intervu.dev](https://intervu.dev/blog/walkthroughs/task-scheduler-interview-walkthrough/)*
 
-> Master Sort Colors for your coding interview. Learn the Dutch National Flag algorithm, three-pointer invariants, and what interviewers actually evaluate.
+> A step-by-step walkthrough of the Task Scheduler problem as it unfolds in a real coding interview. Learn the greedy formula approach, the heap-based simulation alternative, and how strong candidates derive the scheduling formula from first principles.
 
 **Difficulty**: Medium
-**Patterns**: `arrays`, `two-pointers`
+**Patterns**: `greedy`, `heap`, `task-scheduler`
 
-**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)**
+**[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/task-scheduler-interview-walkthrough/)**
+**[Practice in a mock interview →](https://intervu.dev/setup2?problem=task-scheduler)**
 
 ---
 
 ## Problem
 
-Given an array `nums` with objects colored red (0), white (1), or blue (2), sort them in place so same-colored objects are adjacent, in order 0, 1, 2.
+You are given an array `tasks` of CPU tasks, each labeled `A` to `Z`. Between two tasks of the same type, there must be at least `n` intervals of cooldown (idle or other tasks). Return the minimum number of intervals needed to finish all tasks. ([LeetCode #621](https://leetcode.com/problems/task-scheduler/))
 
-### Example
+### Example 1
 
-**Input:** `nums = [2, 0, 2, 1, 1, 0]`
-**Output:** `[0, 0, 1, 1, 2, 2]`
+**Input**
+`tasks = ["A","A","A","B","B","B"]`, `n = 2`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)*
+**Output**
+`8`
+
+Schedule: `A -> B -> idle -> A -> B -> idle -> A -> B`
+
+### Example 2
+
+**Input**
+`tasks = ["A","A","A","A","A","A","B","C","D","E","F","G"]`, `n = 2`
+
+**Output**
+`16`
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=task-scheduler)*
 
 ---
 
 ## Solution
 
 ```python
-def sortColors(nums: list[int]) -> None:
-    low, mid, high = 0, 0, len(nums) - 1
+from collections import Counter
 
-    while mid <= high:
-        if nums[mid] == 0:
-            nums[low], nums[mid] = nums[mid], nums[low]
-            low += 1
-            mid += 1
-        elif nums[mid] == 1:
-            mid += 1
-        else:
-            nums[mid], nums[high] = nums[high], nums[mid]
-            high -= 1
-            # Don't increment mid: swapped value needs examination
+def leastInterval(tasks: list[str], n: int) -> int:
+    counts = Counter(tasks)
+    max_count = max(counts.values())
+    max_count_tasks = sum(1 for c in counts.values() if c == max_count)
+
+    formula = (max_count - 1) * (n + 1) + max_count_tasks
+    return max(formula, len(tasks))
 ```
+
+Why this is interview-friendly:
+
+- **Four lines of logic.** Count frequencies, find the max, count how many tasks share that max, apply the formula. Clean and auditable.
+- **No simulation needed.** The formula captures the entire scheduling structure without stepping through time units.
+- **The `max()` at the end handles the dense case.** When there are so many distinct tasks that all idle slots get filled, the answer is just `len(tasks)`.
 
 ---
 
 ## Complexity
 
-| Aspect | Complexity |
-|---|---|
-| Time | O(n), single pass |
-| Space | O(1), in place |
+| | Time | Space |
+|---|---|---|
+| Formula | O(n) | O(26) = O(1) |
+| Heap simulation | O(total_intervals * log 26) = O(n) | O(26) = O(1) |
+
+Both are effectively O(n) with O(1) space since the alphabet is fixed at 26 characters.
 
 ---
 
 ## Common Interview Mistakes
 
-1. **Incrementing `mid` after swapping with `high`.** The value from `high` is unseen, don't skip it.
-2. **Using `mid < high` instead of `mid <= high`.** When equal, `nums[mid]` is still unsorted.
-3. **Proposing a general sort.** Use the constrained value set, that's the point.
+1. **Forgetting `max(formula, len(tasks))`.** When there are many diverse tasks, idle slots disappear entirely. The formula can undercount. Always cap it at `len(tasks)`.
+
+2. **Not counting tasks with `max_count` correctly.** If both A and B appear 3 times and `n = 2`, the last frame has both A and B, not just one. `max_count_tasks` must count how many task types share the maximum frequency.
+
+3. **Simulating per-step without a heap.** Greedy simulation without a priority queue runs in O(n * 26) per time unit, is harder to implement, and more error-prone.
+
+4. **Confusing `n` with `n+1`.** The frame size is `n + 1` (the task itself plus `n` cooldown slots), not `n`. This off-by-one changes the entire formula.
 
 ---
 
 ## Resources
 
-- **Full Walkthrough**: [Sort Colors: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
-- **Practice**: [Mock interview for Sort Colors](https://intervu.dev/setup2?problem=sort-colors)
+- **Full Walkthrough**: [Task Scheduler: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/task-scheduler-interview-walkthrough/)
+- **Practice**: [Mock interview for Task Scheduler](https://intervu.dev/setup2?problem=task-scheduler)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
@@ -89,8 +109,8 @@ def sortColors(nums: list[int]) -> None:
 - [Merge Intervals](merge-intervals.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/merge-intervals-interview-walkthrough/)
 - [Product of Array Except Self](product-of-array-except-self.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/)
 - [Ransom Note](ransom-note.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/)
+- [Sort Colors](sort-colors.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
 - [Spiral Matrix](spiral-matrix.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)
-- [Task Scheduler](task-scheduler.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/task-scheduler-interview-walkthrough/)
 - [3Sum](three-sum.md) (Medium) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)
 - [Trapping Rain Water](trapping-rain-water.md) (Hard) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/trapping-rain-water-interview-walkthrough/)
 - [Two Sum](two-sum.md) (Easy) · [Full walkthrough →](https://intervu.dev/blog/walkthroughs/two-sum-interview-walkthrough/)
