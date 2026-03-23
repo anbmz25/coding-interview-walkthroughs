@@ -23,7 +23,7 @@ You are given an array of non-overlapping intervals `intervals` sorted in ascend
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=insert-interval)*
 
-<img src="/blog/images/insert-interval-viz.png" alt="Interval timeline with before row showing [1,2],[3,5],[6,7],[8,10],[12,16] plus pink insert→ bar [4,8], and after row showing merged result [1,2],[3,10],[12,16]." style="max-width: 680px; width: 100%; height: auto; margin: 2.5rem auto; display: block; border-radius: 8px;" />
+<img src="https://intervu.dev/blog/images/insert-interval-viz.png" alt="Interval timeline with before row showing [1,2],[3,5],[6,7],[8,10],[12,16] plus pink insert→ bar [4,8], and after row showing merged result [1,2],[3,10],[12,16]." style="max-width: 680px; width: 100%; height: auto; margin: 2.5rem auto; display: block; border-radius: 8px;" />
 
 ---
 

@@ -257,6 +257,9 @@ def cleanup_ai_patterns(text: str) -> str:
     for pattern in filler_patterns:
         text = re.sub(pattern, '', text, flags=re.IGNORECASE)
 
+    # Rule 3: Convert relative image paths to absolute intervu.dev URLs
+    text = re.sub(r'src="(/blog/images/)', r'src="https://intervu.dev\1', text)
+
     return text
 
 

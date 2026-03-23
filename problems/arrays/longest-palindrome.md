@@ -23,7 +23,7 @@ Given a string `s`, return the length of the longest palindrome that can be buil
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=longest-palindrome)*
 
-<img src="/blog/images/longest-palindrome-viz.png" alt="String 'abccccdd' with paired characters (c×4, d×2) highlighted in teal. Pairs form the palindrome body, one unpaired char goes in the center." style="max-width: 540px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/longest-palindrome-viz.png" alt="String 'abccccdd' with paired characters (c×4, d×2) highlighted in teal. Pairs form the palindrome body, one unpaired char goes in the center." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

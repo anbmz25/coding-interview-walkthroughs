@@ -39,7 +39,7 @@ After inserting `"apple"`, searching for `"apple"` returns `true` and searching 
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev)*
 
-<img src="/blog/images/implement-trie-viz.png" alt="Trie with root→a→p→p→l→e. Node 'p' marked as end (for 'app'), node 'e' marked as end (for 'apple')." style="max-width: 300px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/implement-trie-viz.png" alt="Trie with root→a→p→p→l→e. Node 'p' marked as end (for 'app'), node 'e' marked as end (for 'apple')." style="max-width: 300px; width: 100%; height: auto;" />
 
 ---
 

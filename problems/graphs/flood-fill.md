@@ -23,7 +23,7 @@ Given a 2D grid `image`, a starting pixel `(sr, sc)`, and a new color, perform a
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=flood-fill)*
 
-<img src="/blog/images/flood-fill-viz.png" alt="Before: 3×3 grid with original color 1 in blue. After: 6 connected cells painted to color 2 in green, non-connected cells unchanged." style="max-width: 540px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/flood-fill-viz.png" alt="Before: 3×3 grid with original color 1 in blue. After: 6 connected cells painted to color 2 in green, non-connected cells unchanged." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

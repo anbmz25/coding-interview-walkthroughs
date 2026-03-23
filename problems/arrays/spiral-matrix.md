@@ -23,7 +23,7 @@ Given an `m x n` matrix, return all elements in spiral order.
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=spiral-matrix)*
 
-<img src="/blog/images/spiral-matrix-viz.png" alt="3×3 matrix with spiral traversal numbered 1-9: right across top, down right column, left across bottom, up left column, center last." style="max-width: 380px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/spiral-matrix-viz.png" alt="3×3 matrix with spiral traversal numbered 1-9: right across top, down right column, left across bottom, up left column, center last." style="max-width: 380px; width: 100%; height: auto;" />
 
 ---
 

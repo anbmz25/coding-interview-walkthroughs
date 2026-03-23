@@ -32,7 +32,7 @@ Design a data structure that implements a **Least Recently Used (LRU) cache** wi
 
 The cache has capacity 2. After inserting keys 1 and 2, a `get(1)` returns `1` and marks key 1 as most recently used. Inserting key 3 evicts key 2 (now least recently used). A subsequent `get(2)` returns `-1` because it was evicted. Inserting key 4 evicts key 1. The final `get(3)` and `get(4)` return `3` and `4` respectively.
 
-<img src="/blog/images/lru-cache-viz.png" alt="Doubly linked list after put(1,1), put(3,3), put(4,4) with bidirectional arrows between sentinel head (LRU) and tail (MRU), nodes 1, 3, 4." style="max-width: 440px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/lru-cache-viz.png" alt="Doubly linked list after put(1,1), put(3,3), put(4,4) with bidirectional arrows between sentinel head (LRU) and tail (MRU), nodes 1, 3, 4." style="max-width: 440px; width: 100%; height: auto;" />
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=lru-cache)*
 

@@ -32,7 +32,7 @@ Given the root of a binary tree, return the length of the diameter of the tree. 
 
 The longest path is `4 → 2 → 1 → 3` or `5 → 2 → 1 → 3`, both with 3 edges.
 
-<img src="/blog/images/diameter-of-binary-tree-viz.png" alt="Binary tree [1,2,3,4,5] with the diameter path 4→2→1→3 (3 edges) highlighted in teal." style="max-width: 380px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/diameter-of-binary-tree-viz.png" alt="Binary tree [1,2,3,4,5] with the diameter path 4→2→1→3 (3 edges) highlighted in teal." style="max-width: 380px; width: 100%; height: auto;" />
 
 ### Example 2
 

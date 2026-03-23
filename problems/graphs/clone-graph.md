@@ -23,7 +23,7 @@ Given a reference to a node in a connected undirected graph, return a deep copy 
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=clone-graph)*
 
-<img src="/blog/images/clone-graph-viz.png" alt="4-node diamond graph: original (left, blue) with clone map arrow pointing to deep copy (right, amber/teal) showing identical adjacency structure." style="max-width: 540px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/clone-graph-viz.png" alt="4-node diamond graph: original (left, blue) with clone map arrow pointing to deep copy (right, amber/teal) showing identical adjacency structure." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 
