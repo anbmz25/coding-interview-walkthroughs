@@ -53,7 +53,7 @@ A valid BST is defined as follows:
 
 In Example 1, node `1` is to the left of `2` (less than) and node `3` is to the right (greater than), valid. In Example 2, the tree looks perfectly healthy at first glance. Every parent-child relationship checks out. Yet the tree is invalid: node `6` sits in the right subtree of `10`, which means it must be greater than `10`, but `6 < 10`. This is exactly the violation that trips most candidates up.
 
-<img src="https://intervu.dev/blog/images/validate-bst-viz.png" alt="Valid BST [2,1,3] marked as valid (✓) versus invalid BST [10,5,15,3,7,6,20] marked as invalid (✗) with node 6 violating the root bound." style="max-width: 680px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/validate-bst-viz.png" alt="Valid BST [2,1,3] marked as valid (✓) versus invalid BST [10,5,15,3,7,6,20] marked as invalid (✗) with node 6 violating the root bound."  width="680" />
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=validate-binary-search-tree)*
 

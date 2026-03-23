@@ -26,7 +26,7 @@ Tree with structure: root=3, left=9, right subtree rooted at 20 with children 15
 
 The preorder tells us 3 is the root. In the inorder array, 3 sits at index 1, so everything left of index 1 (`[9]`) is the left subtree and everything right (`[15,20,7]`) is the right subtree. Recurse on each half.
 
-<img src="https://intervu.dev/blog/images/construct-binary-tree-viz.png" alt="Binary tree [3,9,20,null,null,15,7] reconstructed from preorder=[3,9,20,15,7] and inorder=[9,3,15,20,7]. Root node 3 is highlighted." style="max-width: 380px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/construct-binary-tree-viz.png" alt="Binary tree [3,9,20,null,null,15,7] reconstructed from preorder=[3,9,20,15,7] and inorder=[9,3,15,20,7]. Root node 3 is highlighted."  width="380" />
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=construct-binary-tree-from-preorder-and-inorder-traversal)*
 

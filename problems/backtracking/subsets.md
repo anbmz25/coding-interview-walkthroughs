@@ -23,7 +23,7 @@ Given an integer array `nums` of unique elements, return all possible subsets (t
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=subsets)*
 
-<img src="https://intervu.dev/blog/images/subsets-viz.png" alt="Decision tree for subsets of [1,2,3]: at each element choose include or skip, producing all 8 subsets at the leaf level." style="max-width: 540px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/subsets-viz.png" alt="Decision tree for subsets of [1,2,3]: at each element choose include or skip, producing all 8 subsets at the leaf level."  width="540" />
 
 ---
 

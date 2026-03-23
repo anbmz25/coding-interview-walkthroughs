@@ -30,7 +30,7 @@ Given a string `s`, return the longest substring of `s` that is a palindrome. A 
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=longest-palindromic-substring)*
 
-<img src="https://intervu.dev/blog/images/longest-palindromic-substring-viz.png" alt="String 'babad' with indices 0-2 highlighted, bracket showing 'bab' as the longest palindromic substring found via expand-around-center." style="max-width: 440px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/longest-palindromic-substring-viz.png" alt="String 'babad' with indices 0-2 highlighted, bracket showing 'bab' as the longest palindromic substring found via expand-around-center."  width="440" />
 
 ---
 

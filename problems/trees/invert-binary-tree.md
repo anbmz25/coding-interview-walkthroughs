@@ -26,7 +26,7 @@ Given the root of a binary tree, invert the tree (mirror it around its vertical 
 
 The tree rooted at `4` has left child `2` (with children `1`, `3`) and right child `7` (with children `6`, `9`). After inversion, `4`'s children become `7` (left) and `2` (right). Recursively, every parent-child relationship is mirrored. A `None` input returns `None`.
 
-<img src="https://intervu.dev/blog/images/invert-binary-tree-viz.png" alt="Before: binary tree with root 4, left subtree 2→(1,3), right subtree 7→(6,9). After: mirrored tree with root 4, left subtree 7→(9,6), right subtree 2→(3,1)." style="max-width: 680px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/invert-binary-tree-viz.png" alt="Before: binary tree with root 4, left subtree 2→(1,3), right subtree 7→(6,9). After: mirrored tree with root 4, left subtree 7→(9,6), right subtree 2→(3,1)."  width="680" />
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=invert-binary-tree)*
 

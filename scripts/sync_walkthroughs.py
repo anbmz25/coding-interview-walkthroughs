@@ -260,6 +260,20 @@ def cleanup_ai_patterns(text: str) -> str:
     # Rule 3: Convert relative image paths to absolute intervu.dev URLs
     text = re.sub(r'src="(/blog/images/)', r'src="https://intervu.dev\1', text)
 
+    # Rule 4: GitHub strips style attributes — extract max-width and use width attr
+    def _fix_img(m: re.Match) -> str:
+        tag = m.group(0)
+        # Extract max-width value from style
+        mw = re.search(r'max-width:\s*(\d+)px', tag)
+        width = mw.group(1) if mw else "500"
+        # Strip the style attribute entirely
+        tag = re.sub(r'\s*style="[^"]*"', '', tag)
+        # Add width attribute if not already present
+        if 'width=' not in tag:
+            tag = tag.replace('/>', f' width="{width}" />')
+        return tag
+    text = re.sub(r'<img [^>]+/>', _fix_img, text)
+
     return text
 
 

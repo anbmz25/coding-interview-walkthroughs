@@ -38,7 +38,7 @@ In Example 1, there are 3! = 6 permutations of three distinct elements: every po
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=permutations)*
 
-<img src="https://intervu.dev/blog/images/permutations-viz.png" alt="Decision tree for permutations of [1,2,3]: choose one element at each level, producing all 6 permutations at leaf level." style="max-width: 540px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/permutations-viz.png" alt="Decision tree for permutations of [1,2,3]: choose one element at each level, producing all 6 permutations at leaf level."  width="540" />
 
 ---
 

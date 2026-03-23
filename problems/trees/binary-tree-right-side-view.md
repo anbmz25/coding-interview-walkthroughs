@@ -26,7 +26,7 @@ Given the `root` of a binary tree, imagine yourself standing on the right side o
 **Output**
 `[1, 3, 4]`
 
-<img src="https://intervu.dev/blog/images/binary-tree-right-side-view-viz.png" alt="Binary tree [1,2,3,null,5,null,4] with nodes 1, 3, and 4 highlighted as the right side view." style="max-width: 380px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/binary-tree-right-side-view-viz.png" alt="Binary tree [1,2,3,null,5,null,4] with nodes 1, 3, and 4 highlighted as the right side view."  width="380" />
 
 ### Example 2
 

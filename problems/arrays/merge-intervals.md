@@ -32,7 +32,7 @@ intervals = [[1,3],[2,6],[8,10],[15,18], "medium"]
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=merge-intervals)*
 
-<img src="https://intervu.dev/blog/images/merge-intervals-viz.png" alt="Interval timeline with before row showing [1,3] and [2,6] overlapping plus [8,10] and [15,18] separate, and after row showing merged result [1,6], [8,10], [15,18]." style="max-width: 680px; width: 100%; height: auto; margin: 2.5rem auto; display: block; border-radius: 8px;" />
+<img src="https://intervu.dev/blog/images/merge-intervals-viz.png" alt="Interval timeline with before row showing [1,3] and [2,6] overlapping plus [8,10] and [15,18] separate, and after row showing merged result [1,6], [8,10], [15,18]."  width="680" />
 
 ---
 

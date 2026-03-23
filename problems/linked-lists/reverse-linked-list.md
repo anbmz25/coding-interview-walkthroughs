@@ -26,7 +26,7 @@ Given the `head` of a singly linked list, reverse the list and return the new he
 
 The original list `1 → 2 → 3 → 4 → 5 → None` becomes `5 → 4 → 3 → 2 → 1 → None`. Each node's `next` pointer is redirected to point backward. Node `1` becomes the tail, node `5` becomes the new head. No new nodes are created.
 
-<img src="https://intervu.dev/blog/images/reverse-linked-list-viz.png" alt="Before: linked list 1→2→3→4→5→∅. After: linked list 5→4→3→2→1→∅. Each node's next pointer is redirected backward." style="max-width: 440px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/reverse-linked-list-viz.png" alt="Before: linked list 1→2→3→4→5→∅. After: linked list 5→4→3→2→1→∅. Each node's next pointer is redirected backward."  width="440" />
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=reverse-linked-list)*
 

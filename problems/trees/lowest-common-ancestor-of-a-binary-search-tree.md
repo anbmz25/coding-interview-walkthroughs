@@ -26,7 +26,7 @@ Given a binary search tree and two nodes `p` and `q`, find their lowest common a
 
 Node 2 is the ancestor of both itself and node 4.
 
-<img src="https://intervu.dev/blog/images/lowest-common-ancestor-bst-viz.png" alt="BST [6,2,8,0,4,7,9] with node 6 highlighted as the split point LCA of p=2 and q=8. Edges from root to both children highlighted in teal." style="max-width: 380px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/lowest-common-ancestor-bst-viz.png" alt="BST [6,2,8,0,4,7,9] with node 6 highlighted as the split point LCA of p=2 and q=8. Edges from root to both children highlighted in teal."  width="380" />
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=lowest-common-ancestor-of-a-binary-search-tree)*
 

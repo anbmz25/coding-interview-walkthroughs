@@ -23,7 +23,7 @@ Given a string containing digits from `2-9`, return all possible letter combinat
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=letter-combinations-of-a-phone-number)*
 
-<img src="https://intervu.dev/blog/images/letter-combinations-viz.png" alt="Decision tree for phone digits '23': digit 2 maps to a,b,c; digit 3 maps to d,e,f. All 9 combinations shown at leaf level." style="max-width: 540px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/letter-combinations-viz.png" alt="Decision tree for phone digits '23': digit 2 maps to a,b,c; digit 3 maps to d,e,f. All 9 combinations shown at leaf level."  width="540" />
 
 ---
 

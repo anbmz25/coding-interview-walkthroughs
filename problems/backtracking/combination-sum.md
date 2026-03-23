@@ -38,7 +38,7 @@ In Example 1, there are exactly two ways to sum to `7` using elements from the a
 
 *Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=combination-sum)*
 
-<img src="https://intervu.dev/blog/images/combination-sum-viz.png" alt="Decision tree for combination sum with candidates [2,3,6,7] and target 7. Three valid paths highlighted: [7], [2,2,3], [2,2,3]." style="max-width: 540px; width: 100%; height: auto;" />
+<img src="https://intervu.dev/blog/images/combination-sum-viz.png" alt="Decision tree for combination sum with candidates [2,3,6,7] and target 7. Three valid paths highlighted: [7], [2,2,3], [2,2,3]."  width="540" />
 
 ---
 
