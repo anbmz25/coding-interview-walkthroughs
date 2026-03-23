@@ -29,7 +29,7 @@ minStack.top();      // → 0
 minStack.getMin();   // → -2
 ```
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=min-stack)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=min-stack)*
 
 ---
 

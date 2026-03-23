@@ -26,7 +26,9 @@ You are given the heads of two sorted linked lists, `list1` and `list2`. Merge t
 
 Both input lists are sorted in non-decreasing order. The merge compares front nodes, appends the smaller one, and advances that pointer. When one list is exhausted, the remaining nodes of the other are appended directly. No new nodes are created.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=merge-two-sorted-lists)*
+<img src="/blog/images/merge-two-sorted-lists-viz.png" alt="List 1: 1→2→4. List 2: 1→3→4. Merged result: 1→1→2→3→4→4." style="max-width: 440px; width: 100%; height: auto;" />
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=merge-two-sorted-lists)*
 
 ---
 

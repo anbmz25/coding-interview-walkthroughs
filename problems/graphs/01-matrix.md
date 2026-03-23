@@ -48,7 +48,7 @@ Given an `m x n` binary matrix `mat`, return a matrix where each cell contains t
  [1,2,1]]
 ```
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=01-matrix)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=01-matrix)*
 
 ---
 

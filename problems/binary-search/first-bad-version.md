@@ -22,7 +22,7 @@ You have `n` versions `[1, 2, ..., n]`. After some version, all subsequent versi
 **API calls:** isBadVersion(3) → false, isBadVersion(4) → true
 **Output:** 4
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=first-bad-version)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=first-bad-version)*
 
 ---
 

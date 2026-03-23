@@ -33,7 +33,7 @@ Given the root of a binary tree, return the node values grouped by level, from t
 
 At depth 0, we have just `3`. At depth 1, `9` and `20`. At depth 2, `4`, `15`, and `7`. ([LeetCode #102](https://leetcode.com/problems/binary-tree-level-order-traversal/))
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=binary-tree-level-order-traversal)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=binary-tree-level-order-traversal)*
 
 ---
 

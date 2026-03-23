@@ -30,7 +30,7 @@ n = 5
 
 For `n = 3`, there are 3 ways: `{1,1,1}`, `{1,2}`, `{2,1}`. For `n = 5`, there are 8 ways. The pattern here is not coincidental: the answers follow the Fibonacci sequence (1, 1, 2, 3, 5, 8, 13...), a connection worth recognizing and mentioning in your interview.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=climbing-stairs)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=climbing-stairs)*
 
 ---
 

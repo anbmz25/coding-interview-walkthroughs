@@ -26,7 +26,7 @@ Given two binary strings `a` and `b`, return their sum as a binary string. ([Lee
 **Input:** `a = "1010"`, `b = "1011"`
 **Output:** `"10101"`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=add-binary)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=add-binary)*
 
 ---
 

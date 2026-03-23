@@ -26,7 +26,7 @@ Given an integer array `nums`, return all unique triplets `[nums[i], nums[j], nu
 
 After sorting, the array becomes `[-4, -1, -1, 0, 1, 2]`. Fixing `-1` at index 1 and using two pointers on the rest finds `[-1, 0, 1]` and `[-1, -1, 2]`. The triplet `[-1, 0, 1]` appears only once in the output even though `-1` appears twice in the input. The problem requires **unique** triplets, which is the detail that makes this problem significantly harder than it first appears.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=3sum)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=3sum)*
 
 ---
 

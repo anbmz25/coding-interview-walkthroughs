@@ -34,7 +34,7 @@ Given an integer array `nums`, return `true` if you can partition the array into
 **Output**
 `false`, no valid partition
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=partition-equal-subset-sum)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=partition-equal-subset-sum)*
 
 ---
 

@@ -26,6 +26,8 @@ Given the `root` of a binary tree, imagine yourself standing on the right side o
 **Output**
 `[1, 3, 4]`
 
+<img src="/blog/images/binary-tree-right-side-view-viz.png" alt="Binary tree [1,2,3,null,5,null,4] with nodes 1, 3, and 4 highlighted as the right side view." style="max-width: 380px; width: 100%; height: auto;" />
+
 ### Example 2
 
 **Input**
@@ -42,7 +44,7 @@ Given the `root` of a binary tree, imagine yourself standing on the right side o
 **Output**
 `[]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=binary-tree-right-side-view)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=binary-tree-right-side-view)*
 
 ---
 

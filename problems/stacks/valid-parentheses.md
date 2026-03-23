@@ -31,7 +31,7 @@ A string is valid if:
 
 Each opening bracket is matched by its correct closing bracket, and they are properly nested. A second example: `s = "(]"` returns `false` because the `(` is closed by `]`, which is the wrong type. And `s = "([)]"` returns `false` because the brackets are interleaved, `(` is not closed before `[` closes. Order matters as much as type.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=valid-parentheses)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=valid-parentheses)*
 
 ---
 

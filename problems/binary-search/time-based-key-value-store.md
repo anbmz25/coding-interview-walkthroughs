@@ -33,7 +33,7 @@ timeMap.get("foo", 5)   # returns "bar2"
 
 The key observation: `get("foo", 3)` doesn't find an exact match at timestamp 3, so it returns the value from the most recent timestamp before 3, which is timestamp 1. This "floor query" behavior is the core challenge.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=time-based-key-value-store)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=time-based-key-value-store)*
 
 ---
 

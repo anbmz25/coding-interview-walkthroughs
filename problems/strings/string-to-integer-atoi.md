@@ -55,7 +55,7 @@ Implement `myAtoi(s: str) -> int` which converts a string to a 32-bit signed int
 **Output**
 `0`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=string-to-integer-atoi)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=string-to-integer-atoi)*
 
 ---
 

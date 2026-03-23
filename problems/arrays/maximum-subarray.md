@@ -26,7 +26,7 @@ Given an integer array `nums`, find the **subarray** with the largest sum, and r
 
 The subarray `[4,-1,2,1]` has the largest sum of `6`. The array contains both positive and negative numbers; the challenge is knowing when to extend the current subarray and when to start fresh. The subarray must be contiguous: you can't skip the `-1` and combine `[4]` and `[2,1]` separately.
 
-*Already comfortable with Kadane's algorithm? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=maximum-subarray)*
+*Already comfortable with Kadane's algorithm? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=maximum-subarray)*
 
 ---
 

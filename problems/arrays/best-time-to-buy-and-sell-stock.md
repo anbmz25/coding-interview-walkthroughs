@@ -30,7 +30,7 @@ prices = [7, 1, 5, 3, 6, 4, "easy"]
 
 **Explanation:** On day 2 the price is `1` (buy), and on day 5 the price is `6` (sell), yielding a profit of `6 - 1 = 5`. Note that buying on day 2 and selling on day 1 is not allowed. You must buy *before* you sell. The maximum single-transaction profit is `5`, not `7` (which would require selling before buying).
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=best-time-to-buy-and-sell-stock)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=best-time-to-buy-and-sell-stock)*
 
 ---
 

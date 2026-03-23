@@ -36,7 +36,7 @@ Schedule jobs 1 and 4 (times [1,3] and [3,6], profits 50 + 70 = 120).
 
 Schedule jobs 1, 4, 5 (times [1,3], [4,6], [6,9], profits 20 + 70 + 60 = 150).
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=maximum-profit-in-job-scheduling)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=maximum-profit-in-job-scheduling)*
 
 ---
 

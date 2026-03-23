@@ -36,7 +36,9 @@ Node 1 is the center. Rooting the tree at node 1 gives height 1. Rooting at any 
 
 Both nodes 3 and 4 are centers. They're adjacent, each giving a tree of height 2.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=minimum-height-trees)*
+<img src="/blog/images/minimum-height-trees-viz.png" alt="Tree with center node highlighted as MHT root after leaf trimming." style="max-width: 380px; width: 100%; height: auto;" />
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=minimum-height-trees)*
 
 ---
 

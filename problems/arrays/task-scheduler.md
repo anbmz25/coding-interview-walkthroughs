@@ -34,7 +34,7 @@ Schedule: `A -> B -> idle -> A -> B -> idle -> A -> B`
 **Output**
 `16`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=task-scheduler)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=task-scheduler)*
 
 ---
 

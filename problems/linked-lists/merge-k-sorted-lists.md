@@ -34,7 +34,9 @@ lists = [
 
 Pick the smallest node from the heads of all lists at each step, producing a single sorted list.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=merge-k-sorted-lists)*
+<img src="/blog/images/merge-k-sorted-lists-viz.png" alt="Three sorted linked lists L1=[1,4,5], L2=[1,3,4], L3=[2,6] merging into a single sorted list [1,1,2,3,4,4,5,6]." style="max-width: 440px; width: 100%; height: auto;" />
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=merge-k-sorted-lists)*
 
 ---
 

@@ -37,7 +37,9 @@ accounts = [
 ]
 ```
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=accounts-merge)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=accounts-merge)*
+
+<img src="/blog/images/accounts-merge-viz.png" alt="Before: 4 separate accounts. After: 2 John accounts merged via shared email 'johnsmith', Mary and the other John remain separate." style="max-width: 680px; width: 100%; height: auto;" />
 
 ---
 

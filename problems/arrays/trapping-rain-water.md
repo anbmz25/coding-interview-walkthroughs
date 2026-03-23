@@ -26,7 +26,7 @@ Given an array `height` of non-negative integers representing an elevation map w
 
 Visualize the height array as vertical bars. Water pools between taller bars: a low bar is covered by water up to the height of the shorter of the two tallest bars on its left and right sides. For the bar at index 5 (height `0`), the tallest bar to its left is `2` and to its right is `3`, so it holds `min(2, 3) - 0 = 2` units of water. Summing across all positions gives `6` total units. The first and last bars never hold water because there's nothing to contain it on their outer sides.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=trapping-rain-water)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=trapping-rain-water)*
 
 ---
 

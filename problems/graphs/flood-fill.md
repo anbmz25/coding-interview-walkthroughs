@@ -21,7 +21,9 @@ Given a 2D grid `image`, a starting pixel `(sr, sc)`, and a new color, perform a
 **Input:** `image = [[1,1,1],[1,1,0],[1,0,1]]`, sr=1, sc=1, color=2
 **Output:** `[[2,2,2],[2,2,0],[2,0,1]]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=flood-fill)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=flood-fill)*
+
+<img src="/blog/images/flood-fill-viz.png" alt="Before: 3×3 grid with original color 1 in blue. After: 6 connected cells painted to color 2 in green, non-connected cells unchanged." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

@@ -373,6 +373,10 @@ def generate_topic_readme(topic: str, problems: list[dict]) -> str:
     title = topic.replace("-", " ").title()
     desc = TOPIC_DESCRIPTIONS.get(topic, "")
 
+    # Sort by difficulty (Easy → Medium → Hard), then alphabetically
+    diff_order = {"Easy": 0, "Medium": 1, "Hard": 2}
+    problems = sorted(problems, key=lambda p: (diff_order.get(p["difficulty"], 1), p["name"]))
+
     lines = [
         f"# {title}",
         "",

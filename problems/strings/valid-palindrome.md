@@ -36,7 +36,7 @@ After cleaning: `"amanaplanacanalpanama"` reads the same forwards and backwards.
 
 After cleaning: `"raceacar"` does not read the same in reverse.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=valid-palindrome)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=valid-palindrome)*
 
 ---
 

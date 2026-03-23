@@ -36,7 +36,9 @@ Here, course `1` requires course `0`. You can take `0` first, then `1`. There's 
 
 Now course `1` requires `0` and course `0` requires `1`. They're mutually dependent, so you return `false`. ([LeetCode #207](https://leetcode.com/problems/course-schedule/))
 
-*Already comfortable with the solution? [Practice it in a mock interview ->](https://intervu.dev/setup2?problem=course-schedule)*
+*Already comfortable with the solution? [Practice it in a mock interview ->](https://intervu.dev/start-mock-interview?problem=course-schedule)*
+
+<img src="/blog/images/course-schedule-viz.png" alt="Two directed graphs side by side: Left shows 1→0 (no cycle, returns True). Right shows 0↔1 mutual dependency (cycle, returns False)." style="max-width: 440px; width: 100%; height: auto;" />
 
 ---
 

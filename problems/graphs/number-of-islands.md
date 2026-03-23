@@ -33,7 +33,9 @@ grid = [
 
 The first island is the 2x2 block of `'1'`s in the top-left. The second is the single `'1'` in the middle. The third is the two connected `'1'`s in the bottom-right. Cells are only considered connected if they share an edge, diagonal adjacency doesn't count. Counting islands correctly requires both finding unvisited land cells and fully exploring (and marking) each connected component before moving on.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=number-of-islands)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=number-of-islands)*
+
+<img src="/blog/images/number-of-islands-viz.png" alt="4×5 grid with three color-coded islands: green 2×2 block (top-left), amber single cell (center), and blue pair (bottom-right)." style="max-width: 380px; width: 100%; height: auto;" />
 
 ---
 

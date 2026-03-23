@@ -26,7 +26,9 @@ Given the `head` of a singly linked list, return the middle node. If there are t
 **Input:** `[1,2,3,4,5,6]`
 **Output:** Node 4 (second of two middles)
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=middle-of-the-linked-list)*
+When `fast` reaches the last node, `slow` is exactly at the middle. For even-length lists, `slow` lands on the second middle.
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=middle-of-the-linked-list)*
 
 ---
 

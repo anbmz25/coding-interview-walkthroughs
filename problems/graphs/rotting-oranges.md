@@ -26,7 +26,7 @@ Every minute, any fresh orange adjacent (4-directionally) to a rotten orange bec
 **Input:** `[[2,1,1],[1,1,0],[0,1,1]]`
 **Output:** `4`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=rotting-oranges)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=rotting-oranges)*
 
 ---
 

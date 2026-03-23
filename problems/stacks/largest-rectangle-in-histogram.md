@@ -34,7 +34,7 @@ The largest rectangle spans bars at indices 2 and 3 (heights 5 and 6), limited b
 **Output**
 `4`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=largest-rectangle-in-histogram)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=largest-rectangle-in-histogram)*
 
 ---
 

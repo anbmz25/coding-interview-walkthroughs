@@ -34,7 +34,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `f
 **Output**
 `false`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=valid-anagram)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=valid-anagram)*
 
 ---
 

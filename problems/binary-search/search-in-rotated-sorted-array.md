@@ -38,7 +38,7 @@ Given `nums` and an integer `target`, return the index of `target` if it exists 
 
 In Example 1, the array was originally `[0, 1, 2, 4, 5, 6, 7]` and was rotated so that `4` is now at index `0`. Target `0` is found at index `4`. In Example 2, `3` simply doesn't exist in the array. The key structural observation is that even after rotation, at least one half of the array, when you pick a midpoint, is always guaranteed to be sorted. That guarantee is what makes O(log n) possible.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=search-in-rotated-sorted-array)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=search-in-rotated-sorted-array)*
 
 ---
 

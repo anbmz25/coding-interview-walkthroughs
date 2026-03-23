@@ -44,7 +44,7 @@ Given two strings `s` and `t`, return the minimum window substring of `s` such t
 
 In Example 1, the shortest window containing A, B, and C is `"BANC"` (length 4). The key challenge: `t` can contain duplicate characters. `t = "AA"` requires the window to contain at least two `A`s.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=minimum-window-substring)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=minimum-window-substring)*
 
 ---
 

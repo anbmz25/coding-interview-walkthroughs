@@ -38,7 +38,7 @@ Find two lines that together with the x-axis form a container that holds the mos
 
 In Example 1, the best pair is indices `1` and `8` (heights `8` and `7`). Width = 7, height = min(8, 7) = 7, area = 49. The water level is limited by the *shorter* wall.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=container-with-most-water)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=container-with-most-water)*
 
 ---
 

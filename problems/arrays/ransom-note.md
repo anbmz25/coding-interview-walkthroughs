@@ -21,7 +21,7 @@ Given two strings `ransomNote` and `magazine`, return `true` if `ransomNote` can
 **Input:** `ransomNote = "aa"`, `magazine = "aab"`
 **Output:** `true`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=ransom-note)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=ransom-note)*
 
 ---
 

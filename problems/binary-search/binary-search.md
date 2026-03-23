@@ -30,7 +30,7 @@ nums = [-1, 0, 3, 5, 9, 12], target = 9
 
 The value `9` appears at index `4` in the sorted array. The O(log n) constraint rules out a simple linear scan, and the interviewer is explicitly asking for the binary search approach. A second example: if `target = 2`, the output is `-1` because `2` does not exist in the array.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=binary-search)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=binary-search)*
 
 ---
 

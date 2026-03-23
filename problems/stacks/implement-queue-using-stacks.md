@@ -26,7 +26,7 @@ q.pop();   // → 1
 q.empty(); // → false
 ```
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=implement-queue-using-stacks)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=implement-queue-using-stacks)*
 
 ---
 

@@ -21,7 +21,7 @@ Given an array of `points` where `points[i] = [xi, yi]`, return the `k` closest 
 **Input:** `points = [[3,3],[5,-1],[-2,4]]`, `k = 2`
 **Output:** `[[3,3],[-2,4]]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=k-closest-points-to-origin)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=k-closest-points-to-origin)*
 
 ---
 

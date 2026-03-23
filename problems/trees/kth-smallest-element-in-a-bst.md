@@ -21,7 +21,7 @@ Given the `root` of a binary search tree and an integer `k`, return the `k`th sm
 **Input:** `root = [5,3,6,2,4,null,null,1]`, `k = 3`
 **Output:** `3`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=kth-smallest-element-in-a-bst)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=kth-smallest-element-in-a-bst)*
 
 ---
 

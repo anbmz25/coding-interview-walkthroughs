@@ -40,7 +40,9 @@ Given a string `s` representing a valid mathematical expression with integers, `
 **Output**
 `23`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=basic-calculator)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=basic-calculator)*
+
+<img src="/blog/images/basic-calculator-viz.png" alt="Expression '(1+(4+5))' with stack processing. Inner parenthesized subexpression highlighted, pop pointer at closing paren." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

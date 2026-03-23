@@ -31,7 +31,9 @@ The encoding format is your choice. There's no right answer as long as serializa
 **Deserialized**
 Original tree reconstructed correctly.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=serialize-and-deserialize-binary-tree)*
+<img src="/blog/images/serialize-deserialize-tree-viz.png" alt="Binary tree [1,2,3,null,null,4,5] with DFS preorder serialization showing null markers." style="max-width: 380px; width: 100%; height: auto;" />
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=serialize-and-deserialize-binary-tree)*
 
 ---
 

@@ -21,7 +21,7 @@ Given an array `nums` with objects colored red (0), white (1), or blue (2), sort
 **Input:** `nums = [2, 0, 2, 1, 1, 0]`
 **Output:** `[0, 0, 1, 1, 2, 2]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=sort-colors)*
 
 ---
 

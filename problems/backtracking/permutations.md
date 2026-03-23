@@ -36,7 +36,9 @@ Given an array `nums` of **distinct** integers, return all possible permutations
 
 In Example 1, there are 3! = 6 permutations of three distinct elements: every possible ordering appears exactly once. Unlike combinations, **order matters** here: `[1, 2, 3]` and `[2, 1, 3]` are different permutations. Every element must appear in every permutation exactly once.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=permutations)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=permutations)*
+
+<img src="/blog/images/permutations-viz.png" alt="Decision tree for permutations of [1,2,3]: choose one element at each level, producing all 6 permutations at leaf level." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

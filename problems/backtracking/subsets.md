@@ -21,7 +21,9 @@ Given an integer array `nums` of unique elements, return all possible subsets (t
 **Input:** `nums = [1, 2, 3]`
 **Output:** `[[], [1], [2], [1,2], [3], [1,3], [2,3], [1,2,3]]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=subsets)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=subsets)*
+
+<img src="/blog/images/subsets-viz.png" alt="Decision tree for subsets of [1,2,3]: at each element choose include or skip, producing all 8 subsets at the leaf level." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

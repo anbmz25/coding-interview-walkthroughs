@@ -21,7 +21,9 @@ Given a reference to a node in a connected undirected graph, return a deep copy 
 **Input:** `adjList = [[2,4],[1,3],[2,4],[1,3]]`
 **Output:** A deep copy of the graph with the same adjacency structure.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=clone-graph)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=clone-graph)*
+
+<img src="/blog/images/clone-graph-viz.png" alt="4-node diamond graph: original (left, blue) with clone map arrow pointing to deep copy (right, amber/teal) showing identical adjacency structure." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

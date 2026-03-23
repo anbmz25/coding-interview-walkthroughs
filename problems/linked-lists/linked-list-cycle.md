@@ -24,9 +24,13 @@ Given the `head` of a linked list, determine if the list contains a **cycle**. A
 **Output**
 `true`
 
-The tail node (`-4`) points back to index `1` (value `2`), creating a cycle: `3 → 2 → 0 → -4 → 2 → ...`. Note that `pos` is not a parameter to your function. A second example: `head = [1,2], pos = -1` returns `false` because the list terminates at `None`.
+The tail node (`-4`) points back to index `1` (value `2`), creating a cycle: `3 → 2 → 0 → -4 → 2 → ...`. Note that `pos` is not a parameter to your function.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=linked-list-cycle)*
+<img src="/blog/images/linked-list-cycle-viz.png" alt="Linked list with nodes 3→2→0→-4 where the tail node -4 points back to node 2, forming a cycle. Head is at node 3, cycle entry is at node 2." style="max-width: 440px; width: 100%; height: auto;" />
+
+The teal arrow shows the cycle: after reaching `-4`, the `next` pointer loops back to `2` instead of terminating. A second example: `head = [1,2], pos = -1` returns `false` because the list terminates at `None`.
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=linked-list-cycle)*
 
 ---
 

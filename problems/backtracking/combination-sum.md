@@ -36,7 +36,9 @@ Given an array of **distinct** positive integers `candidates` and a target integ
 
 In Example 1, there are exactly two ways to sum to `7` using elements from the array: picking `2` twice and `3` once, or picking `7` once. In Example 2, `2` can be reused four times, or combined with two `3`s, or paired with `5`. The order within each combination doesn't matter: `[2, 3, 3]` and `[3, 2, 3]` are the same combination and should only appear once in the output.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=combination-sum)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=combination-sum)*
+
+<img src="/blog/images/combination-sum-viz.png" alt="Decision tree for combination sum with candidates [2,3,6,7] and target 7. Three valid paths highlighted: [7], [2,2,3], [2,2,3]." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

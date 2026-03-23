@@ -30,7 +30,7 @@ medianFinder.addNum(3)    # stream: [1, 2, 3]
 medianFinder.findMedian() # returns 2.0
 ```
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=find-median-from-data-stream)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=find-median-from-data-stream)*
 
 ---
 

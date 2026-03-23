@@ -21,7 +21,7 @@ Evaluate an expression in Reverse Polish Notation (postfix notation). Valid oper
 **Input:** `tokens = ["2","1","+","3","*"]`
 **Output:** `9`, `((2 + 1) * 3) = 9`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=evaluate-reverse-polish-notation)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=evaluate-reverse-polish-notation)*
 
 ---
 

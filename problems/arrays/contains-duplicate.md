@@ -42,7 +42,7 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 **Output**
 `true`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=contains-duplicate)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=contains-duplicate)*
 
 ---
 

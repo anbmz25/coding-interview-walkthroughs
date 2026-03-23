@@ -34,7 +34,7 @@ Given an array `nums` of size `n`, return the majority element. The majority ele
 **Output**
 `2`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=majority-element)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=majority-element)*
 
 ---
 

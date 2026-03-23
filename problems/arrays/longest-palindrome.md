@@ -21,7 +21,9 @@ Given a string `s`, return the length of the longest palindrome that can be buil
 **Input:** `s = "abccccdd"`
 **Output:** `7`, one longest palindrome is `"dccaccd"` (2 d's, 4 c's, 1 a).
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=longest-palindrome)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=longest-palindrome)*
+
+<img src="/blog/images/longest-palindrome-viz.png" alt="String 'abccccdd' with paired characters (c×4, d×2) highlighted in teal. Pairs form the palindrome body, one unpaired char goes in the center." style="max-width: 540px; width: 100%; height: auto;" />
 
 ---
 

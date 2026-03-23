@@ -30,7 +30,7 @@ nums = [2, 7, 11, 15], target = 9
 
 **Explanation:** Because `nums[0] + nums[1] = 2 + 7 = 9`, the answer is indices `0` and `1`. The problem asks for *indices*, not the values themselves. This detail trips up more candidates than you'd expect.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=two-sum)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=two-sum)*
 
 ---
 

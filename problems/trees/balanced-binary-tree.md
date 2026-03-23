@@ -42,7 +42,9 @@ Given a binary tree, determine if it is height-balanced. A binary tree is height
 ```
 **Output:** `false`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=balanced-binary-tree)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=balanced-binary-tree)*
+
+<img src="/blog/images/balanced-binary-tree-viz.png" alt="Balanced tree [3,9,20,null,null,15,7] marked as balanced (✓) versus unbalanced tree [1,2,2,3,3,null,null,4,4] marked as unbalanced (✗) with the deep left branch highlighted." style="max-width: 680px; width: 100%; height: auto; margin: 2.5rem auto; display: block; border-radius: 8px;" />
 
 ---
 

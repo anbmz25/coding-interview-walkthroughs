@@ -30,7 +30,7 @@ s = "abcabcbb"
 
 The longest substring without repeating characters is `"abc"`, which has length `3`. Note that `"abcabc"` doesn't qualify because `'a'`, `'b'`, and `'c'` each repeat. A second example: for `s = "bbbbb"`, every character is a repeat, so the answer is `1` (any single character). For `s = "pwwkew"`, the answer is `3`, the substring `"wke"`.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=longest-substring-without-repeating-characters)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=longest-substring-without-repeating-characters)*
 
 ---
 

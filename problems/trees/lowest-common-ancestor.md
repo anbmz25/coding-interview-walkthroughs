@@ -41,7 +41,9 @@ p = 5, q = 4
 
 **Explanation:** Node `5` is the LCA of nodes `5` and `4` because `5` is an ancestor of `4`, and `5` is a descendant of itself by definition. Another example: if `p = 5` and `q = 1`, the LCA would be `3` (the root).
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-tree)*
+<img src="/blog/images/lowest-common-ancestor-viz.png" alt="Binary tree [3,5,1,6,2,0,8,null,null,7,4] with node 5 highlighted as LCA of p=5 and q=4. The path from node 5 down to node 4 through node 2 is highlighted in teal." style="max-width: 440px; width: 100%; height: auto;" />
+
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=lowest-common-ancestor-of-a-binary-tree)*
 
 ---
 

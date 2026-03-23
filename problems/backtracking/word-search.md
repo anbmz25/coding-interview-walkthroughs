@@ -21,7 +21,9 @@ Given an `m x n` grid of characters `board` and a string `word`, return `true` i
 **Input:** `board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]`, `word = "ABCCED"`
 **Output:** `true`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=word-search)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=word-search)*
+
+<img src="/blog/images/word-search-viz.png" alt="3×4 character grid with DFS path A→B→C→C→E→D highlighted in teal, showing the backtracking search path for 'ABCCED'." style="max-width: 380px; width: 100%; height: auto;" />
 
 ---
 

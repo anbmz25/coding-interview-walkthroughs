@@ -26,7 +26,9 @@ Given an array of meeting time intervals `intervals` where `intervals[i] = [star
 **Input:** `intervals = [[7,10],[2,4]]`
 **Output:** `true`, `[2,4]` ends before `[7,10]` starts.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=meeting-rooms)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=meeting-rooms)*
+
+<img src="/blog/images/meeting-rooms-viz.png" alt="Interval timeline showing meetings [0,30], [5,10], [15,20] on a shared time axis, [5,10] and [15,20] both fall inside [0,30], showing the overlap that prevents attending all meetings." style="max-width: 680px; width: 100%; height: auto; margin: 2.5rem auto; display: block; border-radius: 8px;" />
 
 ---
 

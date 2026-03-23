@@ -34,7 +34,7 @@ Transformation: `hit -> hot -> dot -> dog -> cog`
 **Output**
 `0` (`"cog"` is not in the word list)
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=word-ladder)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=word-ladder)*
 
 ---
 

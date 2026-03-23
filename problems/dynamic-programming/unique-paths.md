@@ -21,7 +21,7 @@ There is a robot on an `m x n` grid. It can only move right or down. Return the 
 **Input:** `m = 3, n = 7`
 **Output:** `28`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=unique-paths)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=unique-paths)*
 
 ---
 

@@ -44,7 +44,7 @@ Given a string `s` and a list of strings `wordDict`, return `true` if `s` can be
 
 In Example 1, `"leetcode"` splits into `"leet"` + `"code"`. In Example 2, `"applepenapple"` splits into `"apple"` + `"pen"` + `"apple"`, reusing the same word. Example 3 is the instructive one: many partial matches lead deep into the string before hitting dead ends.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=word-break)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=word-break)*
 
 ---
 

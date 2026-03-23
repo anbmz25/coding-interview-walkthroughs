@@ -26,7 +26,7 @@ You are given an integer array `coins` representing coin denominations and an in
 
 The optimal combination is three coins of denomination `5` (5 + 5 + 5 = 15). Note that a greedy approach, always picking the largest coin that fits, would choose `11` first, then need four `1`s to reach 15, giving a total of five coins. Greedy fails here, which is exactly why this problem requires dynamic programming. A second example: `coins = [2]`, `amount = 3` returns `-1` because no combination of `2`s can sum to `3`.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=coin-change)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=coin-change)*
 
 ---
 

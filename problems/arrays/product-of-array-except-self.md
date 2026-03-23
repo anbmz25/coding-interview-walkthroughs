@@ -30,7 +30,7 @@ You must write an algorithm that runs in **O(n)** time and does **not use the di
 
 For index `0`, the product of all other elements is `2 * 3 * 4 = 24`. For index `1`, it's `1 * 3 * 4 = 12`. For index `2`, it's `1 * 2 * 4 = 8`. And for index `3`, it's `1 * 2 * 3 = 6`. Every element in the output represents the product of the entire array with that one position excluded.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=product-of-array-except-self)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=product-of-array-except-self)*
 
 ---
 

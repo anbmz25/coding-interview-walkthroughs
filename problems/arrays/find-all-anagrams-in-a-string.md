@@ -21,7 +21,7 @@ Given two strings `s` and `p`, return a list of all start indices of `p`'s anagr
 **Input:** `s = "cbaebabacd"`, `p = "abc"`
 **Output:** `[0, 6]`
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=find-all-anagrams-in-a-string)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=find-all-anagrams-in-a-string)*
 
 ---
 

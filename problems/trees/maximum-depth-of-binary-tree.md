@@ -32,7 +32,7 @@ Given the root of a binary tree, return its maximum depth. The maximum depth is 
 
 The longest path is `3 → 20 → 15` (or `3 → 20 → 7`), which has 3 nodes.
 
-*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/setup2?problem=maximum-depth-of-binary-tree)*
+*Already comfortable with the solution? [Practice it in a mock interview →](https://intervu.dev/start-mock-interview?problem=maximum-depth-of-binary-tree)*
 
 ---
 
