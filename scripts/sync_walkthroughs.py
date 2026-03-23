@@ -405,6 +405,102 @@ def generate_topic_readme(topic: str, problems: list[dict]) -> str:
     return "\n".join(lines)
 
 
+# Ordered topic list for root README rendering
+ROOT_TOPIC_ORDER = [
+    "arrays", "linked-lists", "trees", "graphs",
+    "dynamic-programming", "strings", "stacks",
+    "binary-search", "tries", "backtracking",
+]
+
+
+def generate_root_readme(topic_problems: dict[str, list[dict]], total_count: int) -> None:
+    """Generate the root README.md with all problems grouped by topic, sorted by difficulty."""
+    diff_order = {"Easy": 0, "Medium": 1, "Hard": 2}
+
+    # Order topics
+    ordered_topics = [t for t in ROOT_TOPIC_ORDER if t in topic_problems]
+    for t in topic_problems:
+        if t not in ordered_topics:
+            ordered_topics.append(t)
+
+    lines = [
+        "# Coding Interview Walkthroughs",
+        "",
+        f"Step-by-step solutions to {total_count} popular coding interview problems, written from the interviewer's perspective. Each covers what interviewers actually test, common mistakes, and what strong candidates sound like.",
+        "",
+        "Each walkthrough is a condensed version of the [full interview walkthroughs on Intervu](https://intervu.dev/blog/walkthroughs/). The full versions include example dialogues, detailed explanations, and mock interview practice links.",
+        "",
+        "## Problems",
+        "",
+    ]
+
+    for topic in ordered_topics:
+        problems = topic_problems[topic]
+        # Sort by difficulty, then alphabetically
+        problems = sorted(problems, key=lambda p: (diff_order.get(p["difficulty"], 1), p["name"]))
+
+        title = topic.replace("-", " ").title()
+        lines += [
+            f"### [{title}](problems/{topic}/)",
+            "",
+            "| Problem | Difficulty | Full Walkthrough | Practice |",
+            "|---------|-----------|-----------------|----------|",
+        ]
+        for p in problems:
+            slug = p["slug"]
+            name = p["name"]
+            diff = p["difficulty"]
+            blog = f"https://intervu.dev/blog/walkthroughs/{slug}-interview-walkthrough/"
+            practice = f"https://intervu.dev/setup2?problem={slug}"
+            lines.append(
+                f"| [{name}](problems/{topic}/{slug}.md) | {diff} "
+                f"| [Read →]({blog}) | [Practice →]({practice}) |"
+            )
+        lines.append("")
+
+    lines += [
+        "## What's in Each Walkthrough",
+        "",
+        "Every problem file includes:",
+        "",
+        "- **Problem statement** with examples",
+        "- **Optimal solution** in Python with implementation notes",
+        "- **Time & space complexity** analysis",
+        "- **Common interview mistakes**, the specific errors that cost candidates offers",
+        "- **Links to the full walkthrough** with interviewer dialogues, clarifying question strategies, and step-by-step derivations",
+        "",
+        "## How to Use This Repo",
+        "",
+        "**Studying for interviews?** Read the condensed versions here for quick review, then click through to the [full walkthroughs](https://intervu.dev/blog/walkthroughs/) for the complete interviewer perspective.",
+        "",
+        "**Want to practice live?** Each problem links to an [AI mock interview on Intervu](https://intervu.dev) where you solve the problem in a realistic interview environment with real-time feedback.",
+        "",
+        "## Further Reading",
+        "",
+        "- [How to Prepare for a Coding Interview in 2026](https://intervu.dev/blog/how-to-prepare-for-coding-interview/), the complete roadmap",
+        "- [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/), a structured plan with practice links",
+        "- [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/), and what to practice instead",
+        "- [Practice Any LeetCode Problem](https://intervu.dev/blog/practice-any-leetcode-problem/) as a live mock interview",
+        "",
+        "## Contributing",
+        "",
+        "Found an error or want to suggest an improvement? Open an issue or PR.",
+        "",
+        "## License",
+        "",
+        "CC BY-NC 4.0. See [LICENSE](LICENSE).",
+        "",
+        "---",
+        "",
+        "Built by [Intervu](https://intervu.dev), AI-powered mock coding interviews with instant feedback.",
+        "",
+    ]
+
+    readme_path = os.path.join(REPO_ROOT, "README.md")
+    with open(readme_path, "w") as f:
+        f.write("\n".join(lines))
+    print(f"📄 README.md (root)")
+
 MIN_CONTENT_LENGTH = 500  # minimum chars for a generated problem file
 
 REQUIRED_SECTIONS = ["## Problem", "## Solution", "## Complexity", "## Common Interview Mistakes"]
@@ -556,6 +652,9 @@ def main():
         with open(readme_path, "w") as f:
             f.write(readme_content)
         print(f"📄 {topic}/README.md")
+
+    # Generate root README.md
+    generate_root_readme(topic_problems, count)
 
     print(f"\nSynced {count} walkthrough(s) to {OUT_DIR}")
 
