@@ -8,7 +8,7 @@
 **Patterns**: `trie`, `data-structure-design`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/implement-trie-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=implement-trie)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=implement-trie)**
 
 ---
 
@@ -128,7 +128,7 @@ This is a common interview follow-up: *"Can you reduce space further?"* For lowe
 ## Resources
 
 - **Full Walkthrough**: [Implement Trie (Prefix Tree): Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/implement-trie-interview-walkthrough/)
-- **Practice**: [Mock interview for Implement Trie (Prefix Tree)](https://intervu.dev/setup2?problem=implement-trie)
+- **Practice**: [Mock interview for Implement Trie (Prefix Tree)](https://intervu.dev/start-mock-interview?problem=implement-trie)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

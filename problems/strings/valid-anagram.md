@@ -8,7 +8,7 @@
 **Patterns**: `strings`, `hash-map`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/valid-anagram-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=valid-anagram)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=valid-anagram)**
 
 ---
 
@@ -94,7 +94,7 @@ The `Counter` approach is cleaner and handles Unicode naturally. The array appro
 ## Resources
 
 - **Full Walkthrough**: [Valid Anagram: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/valid-anagram-interview-walkthrough/)
-- **Practice**: [Mock interview for Valid Anagram](https://intervu.dev/setup2?problem=valid-anagram)
+- **Practice**: [Mock interview for Valid Anagram](https://intervu.dev/start-mock-interview?problem=valid-anagram)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

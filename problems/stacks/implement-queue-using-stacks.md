@@ -8,7 +8,7 @@
 **Patterns**: `stack`, `design`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/implement-queue-using-stacks-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=implement-queue-using-stacks)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=implement-queue-using-stacks)**
 
 ---
 
@@ -89,7 +89,7 @@ class MyQueue:
 ## Resources
 
 - **Full Walkthrough**: [Implement Queue using Stacks: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/implement-queue-using-stacks-interview-walkthrough/)
-- **Practice**: [Mock interview for Implement Queue using Stacks](https://intervu.dev/setup2?problem=implement-queue-using-stacks)
+- **Practice**: [Mock interview for Implement Queue using Stacks](https://intervu.dev/start-mock-interview?problem=implement-queue-using-stacks)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

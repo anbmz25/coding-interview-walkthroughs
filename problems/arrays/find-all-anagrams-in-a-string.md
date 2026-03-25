@@ -8,7 +8,7 @@
 **Patterns**: `sliding-window`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/find-all-anagrams-in-a-string-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=find-all-anagrams-in-a-string)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=find-all-anagrams-in-a-string)**
 
 ---
 
@@ -87,7 +87,7 @@ def findAnagrams(s: str, p: str) -> list[int]:
 ## Resources
 
 - **Full Walkthrough**: [Find All Anagrams in a String: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/find-all-anagrams-in-a-string-interview-walkthrough/)
-- **Practice**: [Mock interview for Find All Anagrams in a String](https://intervu.dev/setup2?problem=find-all-anagrams-in-a-string)
+- **Practice**: [Mock interview for Find All Anagrams in a String](https://intervu.dev/start-mock-interview?problem=find-all-anagrams-in-a-string)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

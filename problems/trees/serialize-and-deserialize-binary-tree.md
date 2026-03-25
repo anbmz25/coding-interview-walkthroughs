@@ -8,7 +8,7 @@
 **Patterns**: `tree`, `design`, `serialize-and-deserialize-binary-tree`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/serialize-and-deserialize-binary-tree-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=serialize-and-deserialize-binary-tree)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=serialize-and-deserialize-binary-tree)**
 
 ---
 
@@ -70,7 +70,7 @@ Every node is visited once. The serialized string and recursion stack (or queue)
 ## Resources
 
 - **Full Walkthrough**: [Serialize and Deserialize Binary Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/serialize-and-deserialize-binary-tree-interview-walkthrough/)
-- **Practice**: [Mock interview for Serialize and Deserialize Binary Tree](https://intervu.dev/setup2?problem=serialize-and-deserialize-binary-tree)
+- **Practice**: [Mock interview for Serialize and Deserialize Binary Tree](https://intervu.dev/start-mock-interview?problem=serialize-and-deserialize-binary-tree)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

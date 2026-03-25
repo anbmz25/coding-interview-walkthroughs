@@ -8,7 +8,7 @@
 **Patterns**: `string`, `math`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/add-binary-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=add-binary)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=add-binary)**
 
 ---
 
@@ -84,7 +84,7 @@ def addBinary(a: str, b: str) -> str:
 ## Resources
 
 - **Full Walkthrough**: [Add Binary: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/add-binary-interview-walkthrough/)
-- **Practice**: [Mock interview for Add Binary](https://intervu.dev/setup2?problem=add-binary)
+- **Practice**: [Mock interview for Add Binary](https://intervu.dev/start-mock-interview?problem=add-binary)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

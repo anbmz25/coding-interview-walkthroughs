@@ -8,7 +8,7 @@
 **Patterns**: `heap`, `design`, `find-median-from-data-stream`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/find-median-from-data-stream-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=find-median-from-data-stream)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=find-median-from-data-stream)**
 
 ---
 
@@ -97,7 +97,7 @@ A common follow-up: "Can you do better?" For arbitrary streaming data, O(log n) 
 ## Resources
 
 - **Full Walkthrough**: [Find Median from Data Stream: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/find-median-from-data-stream-interview-walkthrough/)
-- **Practice**: [Mock interview for Find Median from Data Stream](https://intervu.dev/setup2?problem=find-median-from-data-stream)
+- **Practice**: [Mock interview for Find Median from Data Stream](https://intervu.dev/start-mock-interview?problem=find-median-from-data-stream)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

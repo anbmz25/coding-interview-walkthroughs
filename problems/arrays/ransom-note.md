@@ -8,7 +8,7 @@
 **Patterns**: `hash-map`, `string`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=ransom-note)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=ransom-note)**
 
 ---
 
@@ -83,7 +83,7 @@ def canConstruct(ransomNote: str, magazine: str) -> bool:
 ## Resources
 
 - **Full Walkthrough**: [Ransom Note: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/ransom-note-interview-walkthrough/)
-- **Practice**: [Mock interview for Ransom Note](https://intervu.dev/setup2?problem=ransom-note)
+- **Practice**: [Mock interview for Ransom Note](https://intervu.dev/start-mock-interview?problem=ransom-note)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

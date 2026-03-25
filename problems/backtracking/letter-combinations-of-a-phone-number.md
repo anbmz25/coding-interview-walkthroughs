@@ -8,7 +8,7 @@
 **Patterns**: `backtracking`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/letter-combinations-of-a-phone-number-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=letter-combinations-of-a-phone-number)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=letter-combinations-of-a-phone-number)**
 
 ---
 
@@ -77,7 +77,7 @@ def letterCombinations(digits: str) -> list[str]:
 ## Resources
 
 - **Full Walkthrough**: [Letter Combinations of a Phone Number: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/letter-combinations-of-a-phone-number-interview-walkthrough/)
-- **Practice**: [Mock interview for Letter Combinations of a Phone Number](https://intervu.dev/setup2?problem=letter-combinations-of-a-phone-number)
+- **Practice**: [Mock interview for Letter Combinations of a Phone Number](https://intervu.dev/start-mock-interview?problem=letter-combinations-of-a-phone-number)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

@@ -8,7 +8,7 @@
 **Patterns**: `binary-search`, `arrays`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/search-in-rotated-sorted-array-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=search-in-rotated-sorted-array)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=search-in-rotated-sorted-array)**
 
 ---
 
@@ -121,7 +121,7 @@ Let's trace through Example 1: `nums = [4, 5, 6, 7, 0, 1, 2], target = 0`
 ## Resources
 
 - **Full Walkthrough**: [Search in Rotated Sorted Array: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/search-in-rotated-sorted-array-interview-walkthrough/)
-- **Practice**: [Mock interview for Search in Rotated Sorted Array](https://intervu.dev/setup2?problem=search-in-rotated-sorted-array)
+- **Practice**: [Mock interview for Search in Rotated Sorted Array](https://intervu.dev/start-mock-interview?problem=search-in-rotated-sorted-array)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

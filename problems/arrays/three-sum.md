@@ -8,7 +8,7 @@
 **Patterns**: `arrays`, `two-pointers`, `sorting`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=three-sum)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=three-sum)**
 
 ---
 
@@ -120,7 +120,7 @@ Key implementation notes worth calling out in an interview:
 ## Resources
 
 - **Full Walkthrough**: [3Sum: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/three-sum-interview-walkthrough/)
-- **Practice**: [Mock interview for 3Sum](https://intervu.dev/setup2?problem=three-sum)
+- **Practice**: [Mock interview for 3Sum](https://intervu.dev/start-mock-interview?problem=three-sum)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

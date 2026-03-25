@@ -8,7 +8,7 @@
 **Patterns**: `arrays`, `hash-set`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/contains-duplicate-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=contains-duplicate)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=contains-duplicate)**
 
 ---
 
@@ -107,7 +107,7 @@ Note: this modifies the input array, worth flagging in an interview.
 ## Resources
 
 - **Full Walkthrough**: [Contains Duplicate: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/contains-duplicate-interview-walkthrough/)
-- **Practice**: [Mock interview for Contains Duplicate](https://intervu.dev/setup2?problem=contains-duplicate)
+- **Practice**: [Mock interview for Contains Duplicate](https://intervu.dev/start-mock-interview?problem=contains-duplicate)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

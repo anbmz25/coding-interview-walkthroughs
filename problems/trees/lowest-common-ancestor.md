@@ -8,7 +8,7 @@
 **Patterns**: `trees`, `recursion`, `dfs`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=lowest-common-ancestor)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=lowest-common-ancestor)**
 
 ---
 
@@ -116,7 +116,7 @@ class Solution:
 ## Resources
 
 - **Full Walkthrough**: [Lowest Common Ancestor of a Binary Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-interview-walkthrough/)
-- **Practice**: [Mock interview for Lowest Common Ancestor of a Binary Tree](https://intervu.dev/setup2?problem=lowest-common-ancestor)
+- **Practice**: [Mock interview for Lowest Common Ancestor of a Binary Tree](https://intervu.dev/start-mock-interview?problem=lowest-common-ancestor)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

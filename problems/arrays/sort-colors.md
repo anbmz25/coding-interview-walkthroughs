@@ -8,7 +8,7 @@
 **Patterns**: `arrays`, `two-pointers`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=sort-colors)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=sort-colors)**
 
 ---
 
@@ -66,7 +66,7 @@ def sortColors(nums: list[int]) -> None:
 ## Resources
 
 - **Full Walkthrough**: [Sort Colors: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/sort-colors-interview-walkthrough/)
-- **Practice**: [Mock interview for Sort Colors](https://intervu.dev/setup2?problem=sort-colors)
+- **Practice**: [Mock interview for Sort Colors](https://intervu.dev/start-mock-interview?problem=sort-colors)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

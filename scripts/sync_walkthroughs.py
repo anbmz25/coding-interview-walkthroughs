@@ -285,7 +285,7 @@ def generate_condensed(fm: dict, body: str, slug: str, related: Optional[list] =
     problem_name = title.replace(" — Coding Interview Walkthrough", "")
 
     blog_url = f"https://intervu.dev/blog/walkthroughs/{slug}-interview-walkthrough/"
-    practice_url = f"https://intervu.dev/setup2?problem={slug}"
+    practice_url = f"https://intervu.dev/start-mock-interview?problem={slug}"
 
     difficulty = extract_difficulty(slug, tags)
     patterns = extract_patterns(tags)
@@ -407,7 +407,7 @@ def generate_topic_readme(topic: str, problems: list[dict]) -> str:
         name = p["name"]
         diff = p["difficulty"]
         blog = f"https://intervu.dev/blog/walkthroughs/{slug}-interview-walkthrough/"
-        practice = f"https://intervu.dev/setup2?problem={slug}"
+        practice = f"https://intervu.dev/start-mock-interview?problem={slug}"
         lines.append(
             f"| [{name}]({slug}.md) | {diff} "
             f"| [Read →]({blog}) | [Practice →]({practice}) |"
@@ -468,7 +468,7 @@ def generate_root_readme(topic_problems: dict[str, list[dict]], total_count: int
             name = p["name"]
             diff = p["difficulty"]
             blog = f"https://intervu.dev/blog/walkthroughs/{slug}-interview-walkthrough/"
-            practice = f"https://intervu.dev/setup2?problem={slug}"
+            practice = f"https://intervu.dev/start-mock-interview?problem={slug}"
             lines.append(
                 f"| [{name}](problems/{topic}/{slug}.md) | {diff} "
                 f"| [Read →]({blog}) | [Practice →]({practice}) |"
@@ -524,7 +524,7 @@ REQUIRED_SECTIONS = ["## Problem", "## Solution", "## Complexity", "## Common In
 
 EXPECTED_LINK_PATTERNS = [
     r"https://intervu\.dev/blog/walkthroughs/[\w-]+-interview-walkthrough/",
-    r"https://intervu\.dev/setup2\?problem=[\w-]+",
+    r"https://intervu\.dev/start-mock-interview\?problem=[\w-]+",
     r"https://intervu\.dev/blog/how-to-prepare-for-coding-interview/",
     r"https://intervu\.dev/blog/grind-75-practice-pathway/",
     r"https://intervu\.dev/blog/why-leetcode-is-not-enough/",

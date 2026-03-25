@@ -8,7 +8,7 @@
 **Patterns**: `tree`, `recursion`, `construct-binary-tree-from-preorder-and-inorder-traversal`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/construct-binary-tree-from-preorder-and-inorder-traversal-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=construct-binary-tree-from-preorder-and-inorder-traversal)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=construct-binary-tree-from-preorder-and-inorder-traversal)**
 
 ---
 
@@ -98,7 +98,7 @@ Hash map gives O(1) lookup. Each node is created exactly once. Recursion depth i
 ## Resources
 
 - **Full Walkthrough**: [Construct Binary Tree from Preorder and Inorder Traversal: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/construct-binary-tree-from-preorder-and-inorder-traversal-interview-walkthrough/)
-- **Practice**: [Mock interview for Construct Binary Tree from Preorder and Inorder Traversal](https://intervu.dev/setup2?problem=construct-binary-tree-from-preorder-and-inorder-traversal)
+- **Practice**: [Mock interview for Construct Binary Tree from Preorder and Inorder Traversal](https://intervu.dev/start-mock-interview?problem=construct-binary-tree-from-preorder-and-inorder-traversal)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

@@ -8,7 +8,7 @@
 **Patterns**: `backtracking`, `dfs`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/word-search-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=word-search)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=word-search)**
 
 ---
 
@@ -82,7 +82,7 @@ def exist(board: list[list[str]], word: str) -> bool:
 ## Resources
 
 - **Full Walkthrough**: [Word Search: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/word-search-interview-walkthrough/)
-- **Practice**: [Mock interview for Word Search](https://intervu.dev/setup2?problem=word-search)
+- **Practice**: [Mock interview for Word Search](https://intervu.dev/start-mock-interview?problem=word-search)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

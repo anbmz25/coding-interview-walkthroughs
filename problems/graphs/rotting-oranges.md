@@ -8,7 +8,7 @@
 **Patterns**: `graph`, `bfs`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/rotting-oranges-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=rotting-oranges)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=rotting-oranges)**
 
 ---
 
@@ -90,7 +90,7 @@ def orangesRotting(grid: list[list[int]]) -> int:
 ## Resources
 
 - **Full Walkthrough**: [Rotting Oranges: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/rotting-oranges-interview-walkthrough/)
-- **Practice**: [Mock interview for Rotting Oranges](https://intervu.dev/setup2?problem=rotting-oranges)
+- **Practice**: [Mock interview for Rotting Oranges](https://intervu.dev/start-mock-interview?problem=rotting-oranges)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

@@ -8,7 +8,7 @@
 **Patterns**: `arrays`, `intervals`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/insert-interval-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=insert-interval)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=insert-interval)**
 
 ---
 
@@ -75,7 +75,7 @@ def insert(intervals: list[list[int]], newInterval: list[int]) -> list[list[int]
 ## Resources
 
 - **Full Walkthrough**: [Insert Interval: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/insert-interval-interview-walkthrough/)
-- **Practice**: [Mock interview for Insert Interval](https://intervu.dev/setup2?problem=insert-interval)
+- **Practice**: [Mock interview for Insert Interval](https://intervu.dev/start-mock-interview?problem=insert-interval)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

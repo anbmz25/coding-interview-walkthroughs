@@ -8,7 +8,7 @@
 **Patterns**: `union-find`, `graph`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/accounts-merge-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=accounts-merge)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=accounts-merge)**
 
 ---
 
@@ -143,7 +143,7 @@ def accountsMerge_dfs(accounts: list[list[str]]) -> list[list[str]]:
 ## Resources
 
 - **Full Walkthrough**: [Accounts Merge: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/accounts-merge-interview-walkthrough/)
-- **Practice**: [Mock interview for Accounts Merge](https://intervu.dev/setup2?problem=accounts-merge)
+- **Practice**: [Mock interview for Accounts Merge](https://intervu.dev/start-mock-interview?problem=accounts-merge)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

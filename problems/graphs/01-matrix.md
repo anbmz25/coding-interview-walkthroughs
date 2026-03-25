@@ -8,7 +8,7 @@
 **Patterns**: `bfs`, `matrix`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/01-matrix-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=01-matrix)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=01-matrix)**
 
 ---
 
@@ -103,7 +103,7 @@ def updateMatrix(mat: list[list[int]]) -> list[list[int]]:
 ## Resources
 
 - **Full Walkthrough**: [01 Matrix: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/01-matrix-interview-walkthrough/)
-- **Practice**: [Mock interview for 01 Matrix](https://intervu.dev/setup2?problem=01-matrix)
+- **Practice**: [Mock interview for 01 Matrix](https://intervu.dev/start-mock-interview?problem=01-matrix)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

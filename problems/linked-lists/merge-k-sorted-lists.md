@@ -8,7 +8,7 @@
 **Patterns**: `heaps`, `linked-lists`, `divide-and-conquer`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/merge-k-sorted-lists-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=merge-k-sorted-lists)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=merge-k-sorted-lists)**
 
 ---
 
@@ -139,7 +139,7 @@ Same O(N log k) time, but O(1) extra space.
 ## Resources
 
 - **Full Walkthrough**: [Merge K Sorted Lists: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-k-sorted-lists-interview-walkthrough/)
-- **Practice**: [Mock interview for Merge K Sorted Lists](https://intervu.dev/setup2?problem=merge-k-sorted-lists)
+- **Practice**: [Mock interview for Merge K Sorted Lists](https://intervu.dev/start-mock-interview?problem=merge-k-sorted-lists)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

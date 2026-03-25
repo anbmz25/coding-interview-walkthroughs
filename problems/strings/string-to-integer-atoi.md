@@ -8,7 +8,7 @@
 **Patterns**: `string`, `string-to-integer-atoi`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/string-to-integer-atoi-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=string-to-integer-atoi)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=string-to-integer-atoi)**
 
 ---
 
@@ -126,7 +126,7 @@ Single pass through the string. No additional data structures.
 ## Resources
 
 - **Full Walkthrough**: [String to Integer (atoi): Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/string-to-integer-atoi-interview-walkthrough/)
-- **Practice**: [Mock interview for String to Integer (atoi)](https://intervu.dev/setup2?problem=string-to-integer-atoi)
+- **Practice**: [Mock interview for String to Integer (atoi)](https://intervu.dev/start-mock-interview?problem=string-to-integer-atoi)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

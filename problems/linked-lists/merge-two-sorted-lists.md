@@ -8,7 +8,7 @@
 **Patterns**: `linked-lists`, `two-pointers`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=merge-two-sorted-lists)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=merge-two-sorted-lists)**
 
 ---
 
@@ -124,7 +124,7 @@ For interviews, the iterative approach is generally preferred for production-gra
 ## Resources
 
 - **Full Walkthrough**: [Merge Two Sorted Lists: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/merge-two-sorted-lists-interview-walkthrough/)
-- **Practice**: [Mock interview for Merge Two Sorted Lists](https://intervu.dev/setup2?problem=merge-two-sorted-lists)
+- **Practice**: [Mock interview for Merge Two Sorted Lists](https://intervu.dev/start-mock-interview?problem=merge-two-sorted-lists)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

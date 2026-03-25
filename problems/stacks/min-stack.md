@@ -8,7 +8,7 @@
 **Patterns**: `stack`, `design`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/min-stack-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=min-stack)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=min-stack)**
 
 ---
 
@@ -109,7 +109,7 @@ Both are O(1) per operation and O(n) space total.
 ## Resources
 
 - **Full Walkthrough**: [Min Stack: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/min-stack-interview-walkthrough/)
-- **Practice**: [Mock interview for Min Stack](https://intervu.dev/setup2?problem=min-stack)
+- **Practice**: [Mock interview for Min Stack](https://intervu.dev/start-mock-interview?problem=min-stack)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

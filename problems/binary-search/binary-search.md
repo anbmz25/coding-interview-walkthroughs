@@ -8,7 +8,7 @@
 **Patterns**: `binary-search`, `arrays`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=binary-search)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=binary-search)**
 
 ---
 
@@ -96,7 +96,7 @@ Style notes worth mentioning in an interview:
 ## Resources
 
 - **Full Walkthrough**: [Binary Search: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/binary-search-interview-walkthrough/)
-- **Practice**: [Mock interview for Binary Search](https://intervu.dev/setup2?problem=binary-search)
+- **Practice**: [Mock interview for Binary Search](https://intervu.dev/start-mock-interview?problem=binary-search)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

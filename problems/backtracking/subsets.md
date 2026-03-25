@@ -8,7 +8,7 @@
 **Patterns**: `backtracking`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/subsets-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=subsets)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=subsets)**
 
 ---
 
@@ -77,7 +77,7 @@ def subsets_iterative(nums: list[int]) -> list[list[int]]:
 ## Resources
 
 - **Full Walkthrough**: [Subsets: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/subsets-interview-walkthrough/)
-- **Practice**: [Mock interview for Subsets](https://intervu.dev/setup2?problem=subsets)
+- **Practice**: [Mock interview for Subsets](https://intervu.dev/start-mock-interview?problem=subsets)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

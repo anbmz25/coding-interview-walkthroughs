@@ -8,7 +8,7 @@
 **Patterns**: `linked-list`, `two-pointers`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/middle-of-the-linked-list-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=middle-of-the-linked-list)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=middle-of-the-linked-list)**
 
 ---
 
@@ -76,7 +76,7 @@ def middleNode(head: Optional[ListNode]) -> Optional[ListNode]:
 ## Resources
 
 - **Full Walkthrough**: [Middle of the Linked List: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/middle-of-the-linked-list-interview-walkthrough/)
-- **Practice**: [Mock interview for Middle of the Linked List](https://intervu.dev/setup2?problem=middle-of-the-linked-list)
+- **Practice**: [Mock interview for Middle of the Linked List](https://intervu.dev/start-mock-interview?problem=middle-of-the-linked-list)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

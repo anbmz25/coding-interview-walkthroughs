@@ -8,7 +8,7 @@
 **Patterns**: `two-pointers`, `greedy`, `arrays`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/container-with-most-water-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=container-with-most-water)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=container-with-most-water)**
 
 ---
 
@@ -108,7 +108,7 @@ Trace for `height = [1, 8, 6, 2, 5, 4, 8, 3, 7]`:
 ## Resources
 
 - **Full Walkthrough**: [Container With Most Water: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/container-with-most-water-interview-walkthrough/)
-- **Practice**: [Mock interview for Container With Most Water](https://intervu.dev/setup2?problem=container-with-most-water)
+- **Practice**: [Mock interview for Container With Most Water](https://intervu.dev/start-mock-interview?problem=container-with-most-water)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

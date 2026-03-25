@@ -8,7 +8,7 @@
 **Patterns**: `dynamic-programming`, `dp`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=coin-change)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=coin-change)**
 
 ---
 
@@ -114,7 +114,7 @@ A common follow-up: *"Can you do better than O(amount × len(coins))?"* The hone
 ## Resources
 
 - **Full Walkthrough**: [Coin Change: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/coin-change-interview-walkthrough/)
-- **Practice**: [Mock interview for Coin Change](https://intervu.dev/setup2?problem=coin-change)
+- **Practice**: [Mock interview for Coin Change](https://intervu.dev/start-mock-interview?problem=coin-change)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

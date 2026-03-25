@@ -8,7 +8,7 @@
 **Patterns**: `stack`, `string`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=basic-calculator)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=basic-calculator)**
 
 ---
 
@@ -103,7 +103,7 @@ def calculate(s: str) -> int:
 ## Resources
 
 - **Full Walkthrough**: [Basic Calculator: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/)
-- **Practice**: [Mock interview for Basic Calculator](https://intervu.dev/setup2?problem=basic-calculator)
+- **Practice**: [Mock interview for Basic Calculator](https://intervu.dev/start-mock-interview?problem=basic-calculator)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

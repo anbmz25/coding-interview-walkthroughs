@@ -4,7 +4,7 @@ Prefix trees for fast string lookup, autocomplete, and dictionary operations.
 
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
-| [Implement Trie (Prefix Tree)](implement-trie.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/implement-trie-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=implement-trie) |
+| [Implement Trie (Prefix Tree)](implement-trie.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/implement-trie-interview-walkthrough/) | [Practice →](https://intervu.dev/start-mock-interview?problem=implement-trie) |
 
 ---
 

@@ -8,7 +8,7 @@
 **Patterns**: `graph`, `bfs`, `word-ladder`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/word-ladder-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=word-ladder)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=word-ladder)**
 
 ---
 
@@ -101,7 +101,7 @@ Why this is interview-friendly:
 ## Resources
 
 - **Full Walkthrough**: [Word Ladder: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/word-ladder-interview-walkthrough/)
-- **Practice**: [Mock interview for Word Ladder](https://intervu.dev/setup2?problem=word-ladder)
+- **Practice**: [Mock interview for Word Ladder](https://intervu.dev/start-mock-interview?problem=word-ladder)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

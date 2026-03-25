@@ -8,7 +8,7 @@
 **Patterns**: `tree`, `depth-first-search`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/diameter-of-binary-tree-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=diameter-of-binary-tree)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=diameter-of-binary-tree)**
 
 ---
 
@@ -104,7 +104,7 @@ class Solution:
 ## Resources
 
 - **Full Walkthrough**: [Diameter of Binary Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/diameter-of-binary-tree-interview-walkthrough/)
-- **Practice**: [Mock interview for Diameter of Binary Tree](https://intervu.dev/setup2?problem=diameter-of-binary-tree)
+- **Practice**: [Mock interview for Diameter of Binary Tree](https://intervu.dev/start-mock-interview?problem=diameter-of-binary-tree)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

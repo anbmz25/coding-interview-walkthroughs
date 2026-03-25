@@ -4,12 +4,12 @@ LIFO-based pattern matching, bracket validation, and expression parsing.
 
 | Problem | Difficulty | Full Walkthrough | Practice |
 |---------|-----------|-----------------|----------|
-| [Implement Queue using Stacks](implement-queue-using-stacks.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/implement-queue-using-stacks-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=implement-queue-using-stacks) |
-| [Min Stack](min-stack.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/min-stack-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=min-stack) |
-| [Valid Parentheses](valid-parentheses.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=valid-parentheses) |
-| [Evaluate Reverse Polish Notation](evaluate-reverse-polish-notation.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/evaluate-reverse-polish-notation-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=evaluate-reverse-polish-notation) |
-| [Basic Calculator](basic-calculator.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=basic-calculator) |
-| [Largest Rectangle in Histogram](largest-rectangle-in-histogram.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/largest-rectangle-in-histogram-interview-walkthrough/) | [Practice →](https://intervu.dev/setup2?problem=largest-rectangle-in-histogram) |
+| [Implement Queue using Stacks](implement-queue-using-stacks.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/implement-queue-using-stacks-interview-walkthrough/) | [Practice →](https://intervu.dev/start-mock-interview?problem=implement-queue-using-stacks) |
+| [Min Stack](min-stack.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/min-stack-interview-walkthrough/) | [Practice →](https://intervu.dev/start-mock-interview?problem=min-stack) |
+| [Valid Parentheses](valid-parentheses.md) | Easy | [Read →](https://intervu.dev/blog/walkthroughs/valid-parentheses-interview-walkthrough/) | [Practice →](https://intervu.dev/start-mock-interview?problem=valid-parentheses) |
+| [Evaluate Reverse Polish Notation](evaluate-reverse-polish-notation.md) | Medium | [Read →](https://intervu.dev/blog/walkthroughs/evaluate-reverse-polish-notation-interview-walkthrough/) | [Practice →](https://intervu.dev/start-mock-interview?problem=evaluate-reverse-polish-notation) |
+| [Basic Calculator](basic-calculator.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/basic-calculator-interview-walkthrough/) | [Practice →](https://intervu.dev/start-mock-interview?problem=basic-calculator) |
+| [Largest Rectangle in Histogram](largest-rectangle-in-histogram.md) | Hard | [Read →](https://intervu.dev/blog/walkthroughs/largest-rectangle-in-histogram-interview-walkthrough/) | [Practice →](https://intervu.dev/start-mock-interview?problem=largest-rectangle-in-histogram) |
 
 ---
 

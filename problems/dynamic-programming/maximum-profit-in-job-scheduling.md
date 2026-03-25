@@ -8,7 +8,7 @@
 **Patterns**: `dynamic-programming`, `binary-search`, `maximum-profit-in-job-scheduling`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/maximum-profit-in-job-scheduling-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=maximum-profit-in-job-scheduling)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=maximum-profit-in-job-scheduling)**
 
 ---
 
@@ -95,7 +95,7 @@ Sorting is O(n log n). Each binary search is O(log n). The `dp` array has at mos
 ## Resources
 
 - **Full Walkthrough**: [Maximum Profit in Job Scheduling: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/maximum-profit-in-job-scheduling-interview-walkthrough/)
-- **Practice**: [Mock interview for Maximum Profit in Job Scheduling](https://intervu.dev/setup2?problem=maximum-profit-in-job-scheduling)
+- **Practice**: [Mock interview for Maximum Profit in Job Scheduling](https://intervu.dev/start-mock-interview?problem=maximum-profit-in-job-scheduling)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

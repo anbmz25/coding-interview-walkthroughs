@@ -8,7 +8,7 @@
 **Patterns**: `arrays`, `matrix`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=spiral-matrix)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=spiral-matrix)**
 
 ---
 
@@ -79,7 +79,7 @@ def spiralOrder(matrix: list[list[int]]) -> list[int]:
 ## Resources
 
 - **Full Walkthrough**: [Spiral Matrix: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/spiral-matrix-interview-walkthrough/)
-- **Practice**: [Mock interview for Spiral Matrix](https://intervu.dev/setup2?problem=spiral-matrix)
+- **Practice**: [Mock interview for Spiral Matrix](https://intervu.dev/start-mock-interview?problem=spiral-matrix)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

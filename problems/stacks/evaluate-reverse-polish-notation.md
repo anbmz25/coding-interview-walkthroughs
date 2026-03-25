@@ -8,7 +8,7 @@
 **Patterns**: `stack`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/evaluate-reverse-polish-notation-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=evaluate-reverse-polish-notation)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=evaluate-reverse-polish-notation)**
 
 ---
 
@@ -76,7 +76,7 @@ def evalRPN(tokens: list[str]) -> int:
 ## Resources
 
 - **Full Walkthrough**: [Evaluate Reverse Polish Notation: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/evaluate-reverse-polish-notation-interview-walkthrough/)
-- **Practice**: [Mock interview for Evaluate Reverse Polish Notation](https://intervu.dev/setup2?problem=evaluate-reverse-polish-notation)
+- **Practice**: [Mock interview for Evaluate Reverse Polish Notation](https://intervu.dev/start-mock-interview?problem=evaluate-reverse-polish-notation)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

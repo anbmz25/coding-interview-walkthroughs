@@ -8,7 +8,7 @@
 **Patterns**: `backtracking`, `recursion`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/combination-sum-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=combination-sum)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=combination-sum)**
 
 ---
 
@@ -133,7 +133,7 @@ Final output: `[[2, 2, 3], [7]]` ✓
 ## Resources
 
 - **Full Walkthrough**: [Combination Sum: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/combination-sum-interview-walkthrough/)
-- **Practice**: [Mock interview for Combination Sum](https://intervu.dev/setup2?problem=combination-sum)
+- **Practice**: [Mock interview for Combination Sum](https://intervu.dev/start-mock-interview?problem=combination-sum)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

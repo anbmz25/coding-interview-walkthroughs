@@ -8,7 +8,7 @@
 **Patterns**: `hash-map`, `string`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=longest-palindrome)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=longest-palindrome)**
 
 ---
 
@@ -67,7 +67,7 @@ def longestPalindrome(s: str) -> int:
 ## Resources
 
 - **Full Walkthrough**: [Longest Palindrome: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/longest-palindrome-interview-walkthrough/)
-- **Practice**: [Mock interview for Longest Palindrome](https://intervu.dev/setup2?problem=longest-palindrome)
+- **Practice**: [Mock interview for Longest Palindrome](https://intervu.dev/start-mock-interview?problem=longest-palindrome)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

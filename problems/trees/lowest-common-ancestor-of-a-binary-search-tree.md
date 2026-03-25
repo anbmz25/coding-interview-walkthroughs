@@ -8,7 +8,7 @@
 **Patterns**: `tree`, `depth-first-search`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-of-a-binary-search-tree-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-search-tree)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=lowest-common-ancestor-of-a-binary-search-tree)**
 
 ---
 
@@ -85,7 +85,7 @@ For a balanced BST, h = O(log n). For a skewed BST, h = O(n).
 ## Resources
 
 - **Full Walkthrough**: [Lowest Common Ancestor of a Binary Search Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/lowest-common-ancestor-of-a-binary-search-tree-interview-walkthrough/)
-- **Practice**: [Mock interview for Lowest Common Ancestor of a Binary Search Tree](https://intervu.dev/setup2?problem=lowest-common-ancestor-of-a-binary-search-tree)
+- **Practice**: [Mock interview for Lowest Common Ancestor of a Binary Search Tree](https://intervu.dev/start-mock-interview?problem=lowest-common-ancestor-of-a-binary-search-tree)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

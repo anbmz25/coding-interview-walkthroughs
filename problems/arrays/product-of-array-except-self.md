@@ -8,7 +8,7 @@
 **Patterns**: `arrays`, `prefix-product`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=product-of-array-except-self)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=product-of-array-except-self)**
 
 ---
 
@@ -109,7 +109,7 @@ Clean, correct, and no division anywhere.
 ## Resources
 
 - **Full Walkthrough**: [Product of Array Except Self: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/product-of-array-except-self-interview-walkthrough/)
-- **Practice**: [Mock interview for Product of Array Except Self](https://intervu.dev/setup2?problem=product-of-array-except-self)
+- **Practice**: [Mock interview for Product of Array Except Self](https://intervu.dev/start-mock-interview?problem=product-of-array-except-self)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

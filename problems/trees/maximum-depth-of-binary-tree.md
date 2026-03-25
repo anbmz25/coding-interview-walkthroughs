@@ -8,7 +8,7 @@
 **Patterns**: `tree`, `depth-first-search`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/maximum-depth-of-binary-tree-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=maximum-depth-of-binary-tree)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=maximum-depth-of-binary-tree)**
 
 ---
 
@@ -113,7 +113,7 @@ For a balanced tree, h = O(log n). For a skewed tree, h = O(n). BFS space is O(n
 ## Resources
 
 - **Full Walkthrough**: [Maximum Depth of Binary Tree: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/maximum-depth-of-binary-tree-interview-walkthrough/)
-- **Practice**: [Mock interview for Maximum Depth of Binary Tree](https://intervu.dev/setup2?problem=maximum-depth-of-binary-tree)
+- **Practice**: [Mock interview for Maximum Depth of Binary Tree](https://intervu.dev/start-mock-interview?problem=maximum-depth-of-binary-tree)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

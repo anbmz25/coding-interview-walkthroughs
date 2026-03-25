@@ -8,7 +8,7 @@
 **Patterns**: `binary-search`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/first-bad-version-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=first-bad-version)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=first-bad-version)**
 
 ---
 
@@ -69,7 +69,7 @@ def firstBadVersion(n: int) -> int:
 ## Resources
 
 - **Full Walkthrough**: [First Bad Version: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/first-bad-version-interview-walkthrough/)
-- **Practice**: [Mock interview for First Bad Version](https://intervu.dev/setup2?problem=first-bad-version)
+- **Practice**: [Mock interview for First Bad Version](https://intervu.dev/start-mock-interview?problem=first-bad-version)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

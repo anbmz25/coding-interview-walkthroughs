@@ -8,7 +8,7 @@
 **Patterns**: `binary-search`, `design`, `time-based-key-value-store`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/time-based-key-value-store-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=time-based-key-value-store)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=time-based-key-value-store)**
 
 ---
 
@@ -105,7 +105,7 @@ A common follow-up: "What if we needed to support `delete`?" Removing from the m
 ## Resources
 
 - **Full Walkthrough**: [Time Based Key-Value Store: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/time-based-key-value-store-interview-walkthrough/)
-- **Practice**: [Mock interview for Time Based Key-Value Store](https://intervu.dev/setup2?problem=time-based-key-value-store)
+- **Practice**: [Mock interview for Time Based Key-Value Store](https://intervu.dev/start-mock-interview?problem=time-based-key-value-store)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

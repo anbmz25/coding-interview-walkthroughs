@@ -8,7 +8,7 @@
 **Patterns**: `string`, `two-pointers`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/valid-palindrome-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=valid-palindrome)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=valid-palindrome)**
 
 ---
 
@@ -101,7 +101,7 @@ Each character is visited at most once by either pointer. No extra data structur
 ## Resources
 
 - **Full Walkthrough**: [Valid Palindrome: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/valid-palindrome-interview-walkthrough/)
-- **Practice**: [Mock interview for Valid Palindrome](https://intervu.dev/setup2?problem=valid-palindrome)
+- **Practice**: [Mock interview for Valid Palindrome](https://intervu.dev/start-mock-interview?problem=valid-palindrome)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

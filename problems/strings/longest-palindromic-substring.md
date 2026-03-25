@@ -8,7 +8,7 @@
 **Patterns**: `strings`, `two-pointers`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/longest-palindromic-substring-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=longest-palindromic-substring)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=longest-palindromic-substring)**
 
 ---
 
@@ -97,7 +97,7 @@ class Solution:
 ## Resources
 
 - **Full Walkthrough**: [Longest Palindromic Substring: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/longest-palindromic-substring-interview-walkthrough/)
-- **Practice**: [Mock interview for Longest Palindromic Substring](https://intervu.dev/setup2?problem=longest-palindromic-substring)
+- **Practice**: [Mock interview for Longest Palindromic Substring](https://intervu.dev/start-mock-interview?problem=longest-palindromic-substring)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

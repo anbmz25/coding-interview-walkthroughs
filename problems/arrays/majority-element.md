@@ -8,7 +8,7 @@
 **Patterns**: `arrays`, `boyer-moore`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/majority-element-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=majority-element)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=majority-element)**
 
 ---
 
@@ -103,7 +103,7 @@ Boyer-Moore is the asymptotically optimal solution on both dimensions.
 ## Resources
 
 - **Full Walkthrough**: [Majority Element: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/majority-element-interview-walkthrough/)
-- **Practice**: [Mock interview for Majority Element](https://intervu.dev/setup2?problem=majority-element)
+- **Practice**: [Mock interview for Majority Element](https://intervu.dev/start-mock-interview?problem=majority-element)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

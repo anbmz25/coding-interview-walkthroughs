@@ -8,7 +8,7 @@
 **Patterns**: `tree`, `binary-search-tree`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/kth-smallest-element-in-a-bst-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=kth-smallest-element-in-a-bst)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=kth-smallest-element-in-a-bst)**
 
 ---
 
@@ -70,7 +70,7 @@ def kthSmallest(root, k: int) -> int:
 ## Resources
 
 - **Full Walkthrough**: [Kth Smallest Element in a BST: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/kth-smallest-element-in-a-bst-interview-walkthrough/)
-- **Practice**: [Mock interview for Kth Smallest Element in a BST](https://intervu.dev/setup2?problem=kth-smallest-element-in-a-bst)
+- **Practice**: [Mock interview for Kth Smallest Element in a BST](https://intervu.dev/start-mock-interview?problem=kth-smallest-element-in-a-bst)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

@@ -8,7 +8,7 @@
 **Patterns**: `graph`, `bfs`, `minimum-height-trees`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/minimum-height-trees-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=minimum-height-trees)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=minimum-height-trees)**
 
 ---
 
@@ -108,7 +108,7 @@ Each node is removed as a leaf exactly once. Building the adjacency sets is O(n)
 ## Resources
 
 - **Full Walkthrough**: [Minimum Height Trees: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/minimum-height-trees-interview-walkthrough/)
-- **Practice**: [Mock interview for Minimum Height Trees](https://intervu.dev/setup2?problem=minimum-height-trees)
+- **Practice**: [Mock interview for Minimum Height Trees](https://intervu.dev/start-mock-interview?problem=minimum-height-trees)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

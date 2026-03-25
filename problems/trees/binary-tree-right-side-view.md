@@ -8,7 +8,7 @@
 **Patterns**: `binary-tree`, `bfs`, `dfs`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/binary-tree-right-side-view-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=binary-tree-right-side-view)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=binary-tree-right-side-view)**
 
 ---
 
@@ -116,7 +116,7 @@ def rightSideView_dfs(root) -> list[int]:
 ## Resources
 
 - **Full Walkthrough**: [Binary Tree Right Side View: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/binary-tree-right-side-view-interview-walkthrough/)
-- **Practice**: [Mock interview for Binary Tree Right Side View](https://intervu.dev/setup2?problem=binary-tree-right-side-view)
+- **Practice**: [Mock interview for Binary Tree Right Side View](https://intervu.dev/start-mock-interview?problem=binary-tree-right-side-view)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

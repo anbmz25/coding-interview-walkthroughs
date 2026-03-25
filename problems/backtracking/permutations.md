@@ -8,7 +8,7 @@
 **Patterns**: `backtracking`, `recursion`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=permutations)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=permutations)**
 
 ---
 
@@ -159,7 +159,7 @@ This approach treats `nums` itself as the "current permutation" by swapping elem
 ## Resources
 
 - **Full Walkthrough**: [Permutations: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/permutations-interview-walkthrough/)
-- **Practice**: [Mock interview for Permutations](https://intervu.dev/setup2?problem=permutations)
+- **Practice**: [Mock interview for Permutations](https://intervu.dev/start-mock-interview?problem=permutations)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

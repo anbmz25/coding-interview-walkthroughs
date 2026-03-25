@@ -8,7 +8,7 @@
 **Patterns**: `dynamic-programming`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/unique-paths-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=unique-paths)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=unique-paths)**
 
 ---
 
@@ -67,7 +67,7 @@ def uniquePaths(m: int, n: int) -> int:
 ## Resources
 
 - **Full Walkthrough**: [Unique Paths: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/unique-paths-interview-walkthrough/)
-- **Practice**: [Mock interview for Unique Paths](https://intervu.dev/setup2?problem=unique-paths)
+- **Practice**: [Mock interview for Unique Paths](https://intervu.dev/start-mock-interview?problem=unique-paths)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)

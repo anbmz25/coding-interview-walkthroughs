@@ -8,7 +8,7 @@
 **Patterns**: `stack`, `monotonic-stack`, `largest-rectangle-in-histogram`
 
 **[Read the full interview walkthrough →](https://intervu.dev/blog/walkthroughs/largest-rectangle-in-histogram-interview-walkthrough/)**
-**[Practice in a mock interview →](https://intervu.dev/setup2?problem=largest-rectangle-in-histogram)**
+**[Practice in a mock interview →](https://intervu.dev/start-mock-interview?problem=largest-rectangle-in-histogram)**
 
 ---
 
@@ -90,7 +90,7 @@ Each bar is pushed onto and popped from the stack at most once. The stack holds 
 ## Resources
 
 - **Full Walkthrough**: [Largest Rectangle in Histogram: Coding Interview Walkthrough](https://intervu.dev/blog/walkthroughs/largest-rectangle-in-histogram-interview-walkthrough/)
-- **Practice**: [Mock interview for Largest Rectangle in Histogram](https://intervu.dev/setup2?problem=largest-rectangle-in-histogram)
+- **Practice**: [Mock interview for Largest Rectangle in Histogram](https://intervu.dev/start-mock-interview?problem=largest-rectangle-in-histogram)
 - [How to Prepare for a Coding Interview](https://intervu.dev/blog/how-to-prepare-for-coding-interview/)
 - [The Grind 75 Study Pathway](https://intervu.dev/blog/grind-75-practice-pathway/)
 - [Why LeetCode Alone Isn't Enough](https://intervu.dev/blog/why-leetcode-is-not-enough/)
